@@ -1,0 +1,2241 @@
+{
+  "items": [
+    {
+      "description": "",
+      "items": [],
+      "title": "NDSS"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "FirmAgent: Leveraging Fuzzing to Assist LLM Agents with IoT Firmware Vulnerability Discovery, 2026",
+          "description": "针对 IoT 固件的混合方案 FirmAgent，先用 Fuzz 收集运行时输入点（污点源）并重建潜在漏洞路径，再由大模型智能体辅助推理发现漏洞，作者团队为清华大学张超组（vul337），FirmAgent 已开源，看雪解读。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-03-18T14:39:18Z",
+            "owner": "vul337",
+            "repo": "FirmAgent",
+            "stars": 63
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SYSYPHUZZ: the Pressure of More Coverage, 2026",
+          "description": "一个内核 Fuzz 工具，通过施加\"覆盖率压力\"有针对性地探索传统 Fuzzer 难以触达的欠测试代码区域，提升内核漏洞挖掘效果，来自 EPFL HexHive 团队，Sysyphuzz 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-11-12T03:40:21Z",
+            "owner": "HexHive",
+            "repo": "Sysyphuzz",
+            "stars": 26
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ADGFUZZ: Assignment Dependency-Guided Fuzzing for Robotic Vehicles, 2026",
+          "description": "针对机器车辆（Robotic Vehicle）控制软件的 Fuzz 框架，通过分析源码中赋值语句之间的依赖关系，专门挖掘赋值语句相关漏洞，作者已报告 16 个确认修复的 bug，ADGFuzz 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-01-04T08:57:02Z",
+            "owner": "wyunc",
+            "repo": "ADGFuzz",
+            "stars": 8
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "HyperMirage: Direct State Manipulation in Hybrid Virtual CPU Fuzzing, 2026",
+          "description": "针对虚拟机监视器（hypervisor）CPU 仿真接口的 Fuzz 工具，提出\"直接状态操纵\"自动变异 fuzzing 所消费的 VM 状态，免去手工构造种子的繁琐，在 Xen/KVM 中发现 11 个已确认 bug，HyperMirage 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-04-19T11:44:27Z",
+            "owner": "tum-itsec",
+            "repo": "hypermirage",
+            "stars": 8
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "RTCON: Context-Adaptive Function-Level Fuzzing for RTOS Kernels, 2026",
+          "description": "针对实时操作系统（RTOS）内核的函数级 Fuzz 工具，在 Fuzz 过程中自适应地生成函数上下文，可对内核中任意目标函数进行测试，发现 27 个 bug（25 个新漏洞），崩溃分类精度达 92.7%，RTCON 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-05-13T03:29:01Z",
+            "owner": "kaist-hacking",
+            "repo": "RTCON",
+            "stars": 7
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "BSFuzzer: Context-Aware Semantic Fuzzing for BLE Logic Flaw Detection, 2026",
+          "description": "针对蓝牙低功耗（BLE）逻辑缺陷的 Fuzz 工具，利用 LLM 智能体从蓝牙规范中解析出状态机与报文语义，实现上下文感知的语义级变异，超越传统字节级变异，BSFuzz 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-11-05T01:02:03Z",
+            "owner": "yangting111",
+            "repo": "BSFuzz",
+            "stars": 4
+          }
+        }
+      ],
+      "title": "2026"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "MALintent: Coverage Guided Intent Fuzzing Framework for Android, 2025",
+          "description": "MALintent 是第一个对已编译的闭源 Android 应用程序应用灰盒 Fuzz 测试的 Intent Fuzz 工具，已开源。MALintent 首先使用静态分析找到应用 Intent 相关组件，然后使用 Java Virtual Machine Tools Interface (JVMTI) 实现二进制插桩。实际上我们也有开发过类似的 Intent Fuzz，但是并没有使用覆盖反馈技术。因此，这里的插桩技术值得学习。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-06-05T06:14:26Z",
+            "owner": "sslab-gatech",
+            "repo": "MALintent",
+            "stars": 37
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DUMPLING: Fine-grained Differential JavaScript Engine Fuzzing, 2025",
+          "description": "一个针对 V8 引擎的 JS Fuzzer。传统 JS Fuzzer 是对输入进行插桩，而 DUMPLING 直接对 JS 引擎插桩，粒度精细，已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-11-30T11:16:47Z",
+            "owner": "two-heart",
+            "repo": "dumpling-artifact-evaluation",
+            "stars": 34
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "QMSan: Efficiently Detecting Uninitialized Memory Errors During Fuzzing, 2025",
+          "description": "使用 QEMU 实现的专门针对未初始化内存漏洞的 Fuzzer，QMSan 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-11-19T16:46:05Z",
+            "owner": "Heinzeen",
+            "repo": "QMSan",
+            "stars": 23
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ICSQuartz: Scan Cycle-Aware and Vendor-Agnostic Fuzzing for Industrial Control Systems, 2025",
+          "description": "首个原生支持IEC 61131-3结构化文本（ST，一种标准化可编程逻辑控制器编程语言）的 Fuzz 测试工具，ISCQuartz 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Smalltalk",
+            "last_commit": "2024-12-01T10:18:32Z",
+            "owner": "momalab",
+            "repo": "ICSQuartz",
+            "stars": 20
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Blackbox Fuzzing of Distributed Systems with Multi-Dimensional Inputs and Symmetry-Based Feedback Pruning, 2025",
+          "description": "第一个用于分布式系统的覆盖引导 Fuzzer，DistFuzz 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-03-07T06:16:48Z",
+            "owner": "zouyonghao",
+            "repo": "DistFuzz",
+            "stars": 13
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "TWINFuzz: Differential Testing of Video Hardware Acceleration Stacks, 2025",
+          "description": "一种基于通过间接代理目标对硬件加速视频解码堆栈进行差异化测试的线束设计和测试技术。工具原型 twinFuzz 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-12-02T16:02:31Z",
+            "owner": "CISPA-SysSec",
+            "repo": "twinfuzz",
+            "stars": 11
+          }
+        }
+      ],
+      "title": "2025"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Large Language Model guided Protocol Fuzzing, 2024",
+          "description": "研究人员开发了一款以大模型为指导的协议 Fuzz，通过 AI 训练 RFC 文档包含的协议规范，ChatAFL 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-06-30T12:32:33Z",
+            "owner": "ChatAFLndss",
+            "repo": "ChatAFL",
+            "stars": 392
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Predictive Context-sensitive Fuzzing, 2024",
+          "description": "一种新颖的统计覆盖率的思路。目前大多数 Fuzz 工具都是通过边（edge）作为覆盖引导，edge coverage 是函数的控制流，只考虑代码执行而忽略内部程序状态。本文使用程序分析领域的上下文敏感（context-sensitivity）作为覆盖率统计，结合 calling-context 和 edge coverage，已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2024-02-29T01:02:02Z",
+            "owner": "eurecom-s3",
+            "repo": "predictive-cs-fuzzing",
+            "stars": 30
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "EnclaveFuzz: Finding Vulnerabilities in SGX Applications, 2024",
+          "description": "Fuzz 对象是使用了因特尔 SGX 技术的软件，已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-01-01T16:50:39Z",
+            "owner": "vul337",
+            "repo": "EnclaveFuzz",
+            "stars": 25
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ReqsMiner: Automated Discovery of CDN Forwarding Request Inconsistencies and DoS Attacks with Grammar-based Fuzzing, 2024",
+          "description": "针对 CDN 请求不一致的 Fuzz 工具，已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-06-27T15:16:58Z",
+            "owner": "Konano",
+            "repo": "ReqsMiner",
+            "stars": 25
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MOCK: Optimizing Kernel Fuzzing Mutation with Context-aware Dependency, 2024",
+          "description": "通过捕获系统调用的状态关系，优化 Linux syscall Fuzz 测试效率。针对 Linux 内核的 Fuzz 工具，待开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2024-12-21T06:34:57Z",
+            "owner": "m0ck1ng",
+            "repo": "mock",
+            "stars": 24
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ShapFuzz: Efficient Fuzzing via Shapley-Guided Byte Selection, 2024",
+          "description": "一种指导字节变异的新颖方案，优化变异算法，已开源，在 AFL++ 基础之上增加了一个新的 命令选项。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-02-26T14:14:54Z",
+            "owner": "ShapFuzz",
+            "repo": "ShapFuzz",
+            "stars": 20
+          }
+        }
+      ],
+      "title": "2024"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "FuzzILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities, 2023",
+          "description": "谷歌Project Zero安全团队开发的针对 Javascript JIT 引擎进行 Fuzzing 的工具。已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Swift",
+            "last_commit": "2026-08-10T10:50:34Z",
+            "owner": "googleprojectzero",
+            "repo": "fuzzilli",
+            "stars": 2332
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Assessing the Impact of Interface Vulnerabilities in Compartmentalized Software, 2023",
+          "description": "针对上下文隔离的 API 接口（CIV，这是作者定义的一个概念，主要是指沙箱等隔离环境，应用划分、隔离后，应用的不同部分之间在交互时的控制和数据依赖关系，会在 interface 引入新的漏洞）进行 Fuzzing 的方案。Github 文档描述非常详细，已开源，当前作者已针对 Okular/ImageMagick/Apache/exif 等诸多软件进行了 Fuzz 测试。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2023-05-01T10:07:40Z",
+            "owner": "conffuzz",
+            "repo": "conffuzz",
+            "stars": 48
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "No Grammar, No Problem: Towards Fuzzing the Linux Kernel without System-Call Descriptions, 2023",
+          "description": "不用像 Syzkaller 那样编写复杂的系统调用描述，即可对内核进行 Fuzzing 的工具。FuzzNG 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2023-06-05T13:29:01Z",
+            "owner": "BUseclab",
+            "repo": "FuzzNG",
+            "stars": 36
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DARWIN: Survival of the Fittest Fuzzing Mutators, 2023",
+          "description": "改进优化 AFL 变异算法，通过实验证明比原生 AFL 多出 66% 的安全漏洞，已开源，很好奇为啥叫 DARWIN 的软件或者工具这么多🐶。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2023-02-28T04:26:46Z",
+            "owner": "TUDA-SSL",
+            "repo": "DARWIN",
+            "stars": 33
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OBSan: An Out-Of-Bound Sanitizer to Harden DNN Executables, 2023",
+          "description": "针对深度神经网络相关程序的 Fuzz 测试，请注意，并不是将神经网络应用在 Fuzzing 中，而是针对神经网络相关应用进行 Fuzzing，已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-02-28T20:08:56Z",
+            "owner": "yanzuochen",
+            "repo": "obsan",
+            "stars": 17
+          }
+        }
+      ],
+      "title": "2023"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "WINNIE : Fuzzing Windows Applications with Harness Synthesis and Fast Cloning, 2021",
+          "description": "： 利用合成和快速克隆对 Windows 应用程序进行 Fuzz 测试，构建了一个端到端 WINNIE 系统，包含两个组件：可从二进制文件中自动合成工具的生成器，以及一个高效的 Windows forkserver。 对比工具： WinAFL 。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2022-11-28T00:40:41Z",
+            "owner": "sslab-gatech",
+            "repo": "winnie",
+            "stars": 574
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Favocado: Fuzzing the Binding Code of JavaScript Engines Using Semantically Correct Test Cases, 2021",
+          "description": "对 JS 引擎中绑定层代码进行 Fuzzing 的工具：Favocado。作者在对在4个不同的JavaScript运行时系统Fuzz时，发现了61个新的bug，其中33个是安全漏洞，13个已经被CVE收录。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2021-11-17T04:01:17Z",
+            "owner": "favocado",
+            "repo": "Favocado",
+            "stars": 84
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PGFuzz: Policy-Guided Fuzzing for Robotic Vehicles, 2021",
+          "description": "：针对机器车辆（ Robotic vehicles, RVs）Fuzzing 工具，即 PGFuzz，应用场景较为有限。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-09-18T17:32:53Z",
+            "owner": "purseclab",
+            "repo": "PGFuzz",
+            "stars": 43
+          }
+        }
+      ],
+      "title": "2021"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "USENIX Security"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "NASS: Fuzzing All Native Android System Services with Interface Awareness and Coverage, 2025",
+          "description": "通过定制 Binder Server 接口，实现针对 Android 原生服务的 Fuzz 框架，NASS 已开源。（2020 年的工作，旧酒装新壶）。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2020-09-23T14:14:43Z",
+            "owner": "iromise",
+            "repo": "fans",
+            "stars": 266
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ChainFuzz: Exploiting Upstream Vulnerabilities in Open-Source Supply Chains, 2025",
+          "description": "ChainFuzz，这是一种通过生成概念验证 (PoC) 来验证下游软件中上游漏洞的自动化方法。实验数据开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-01-31T08:31:41Z",
+            "owner": "vul337",
+            "repo": "IDFuzz",
+            "stars": 92
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "IDFuzz: Intelligent Directed Grey-box Fuzzing, 2025",
+          "description": "利用神经网络模型从历史变异输入中学习，并提取有用的经验，从而引导输入变异朝向目标代码。文章来自清华大学张超团队，貌似这个团队经常对覆盖反馈生命周期的每一阶段做优化，实验数据开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-01-31T08:31:41Z",
+            "owner": "vul337",
+            "repo": "IDFuzz",
+            "stars": 92
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LLFuzz: An Over-the-Air Dynamic Testing Framework for Cellular Baseband Lower Layers, 2025",
+          "description": "针对基带和空口的 Fuzz 工具。工具已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-03-20T03:24:29Z",
+            "owner": "SysSec-KAIST",
+            "repo": "LLFuzz",
+            "stars": 60
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Encarsia: Evaluating CPU Fuzzers via Automatic Bug Injection, 2025",
+          "description": "针对 RISC-V 软硬件进行的 Fuzz 测试。Encarsia 开源链接。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Scala",
+            "last_commit": "2025-03-31T19:02:34Z",
+            "owner": "comsec-group",
+            "repo": "encarsia",
+            "stars": 35
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Low-Cost and Comprehensive Non-textual Input Fuzzing with LLM-Synthesized Input Generators, 2025",
+          "description": "使用大模型的不同文件格式的种子生成器，使其生成符合给定输入格式语法的数据。解决了大模型无法生成非文本用例的限制。G2Fuzz 已开源，使用了 OpenAI 的接口。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-11-05T06:50:11Z",
+            "owner": "G2FUZZ",
+            "repo": "G2FUZZ",
+            "stars": 30
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ELFuzz: Efficient Input Generation via LLM-driven Synthesis Over Fuzzer Space, 2025",
+          "description": "通过大模型进行 Fuzz 测试的演化。elFuzz 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-02-08T16:04:56Z",
+            "owner": "OSUSecLab",
+            "repo": "elfuzz",
+            "stars": 15
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "BLuEMan: A Stateful Simulation-based Fuzzing Framework for Open-Source RTOS Bluetooth Low Energy Protocol Stacks, 2025",
+          "description": "BLuEMan，这是一个基于仿真的针对 BLE 的 Fuzz 测试框架，它将实时操作系统 (RTOS) 与基于软件的物理层模拟器集成在一起。BLuEMan 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-04-18T07:49:24Z",
+            "owner": "zoolab-org",
+            "repo": "blueman.artifact",
+            "stars": 7
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Robust, Efficient, and Widely Available Greybox Fuzzing for COTS Binaries with System Call Pattern Feedback, 2025",
+          "description": "这篇论文提出了一种新的覆盖率概念，而不是传统的基本块/边覆盖率统计维度，通过检测系统调用的模式（顺序、参数和返回值）变相实现覆盖率统计，具体算法见论文。SAFuzz 已开源，基于 AFL 的改进。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-01-25T14:48:25Z",
+            "owner": "Nova-xiao",
+            "repo": "SPFuzz",
+            "stars": 3
+          }
+        }
+      ],
+      "title": "2025"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "HYPERPILL: Fuzzing for Hypervisor-bugs by leveraging the Hardware Virtualization Interface, 2024",
+          "description": "利用硬件虚拟化接口对 Hypervisor 虚拟机监视器进行 Fuzz。HyperPill。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-03-26T15:06:33Z",
+            "owner": "HexHive",
+            "repo": "HyperPill",
+            "stars": 65
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MultiFuzz: A Multi-Stream Fuzzer For Testing Monolithic Firmware, 2024",
+          "description": "一个针对固件 MMIO 的 Fuzz 方案，利用多输入流改进 Fuzz，需要固件仿真平台的支持，貌似基于 Fuzzware，因此，是基于已有仿真平台所做的 Fuzz 改进。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-07-01T00:22:29Z",
+            "owner": "MultiFuzz",
+            "repo": "MultiFuzz",
+            "stars": 44
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "EL3XIR: Fuzzing COTS Secure Monitors, 2024",
+          "description": "一种针对 ARM TrustZone 的 TEE 的引用监视器，即安全内核的 Fuzz 框架，EL3XIR 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-08-03T13:12:05Z",
+            "owner": "HexHive",
+            "repo": "EL3XIR",
+            "stars": 21
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Critical Code Guided Directed Greybox Fuzzing for Commits, 2024",
+          "description": "研究员提出了一种定向灰盒 Fuzz 测试器 WAFLGO（已开源），用于从 commit 中识别 bug。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-08-30T15:07:55Z",
+            "owner": "NESA-Lab",
+            "repo": "WAFLGo",
+            "stars": 20
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "A Binary-level Thread Sanitizer or Why Sanitizing on the Binary Level is Hard, 2024",
+          "description": "二进制 TSAN（已开源），这是一种实现针对 Linux x86_64 二进制目标的数据竞争检测器。目前，已有 RETROWRITE 将 ASAN 白盒插桩应用于二进制插桩，但是还没有关于 MSAN/UBSAN/TSAN 的二进制实现。本文就是实现了一个 TSAN 的黑盒插桩工具。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2024-08-10T09:38:36Z",
+            "owner": "CISPA-SysSec",
+            "repo": "binary-tsan",
+            "stars": 18
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SHiFT: Semi-hosted Fuzz Testing for Embedded Applications, 2024",
+          "description": "一个针对 MCU 固件的 Fuzz 方案，与之前工作不太相同的是，SHiFT 采用半托管方案，非全仿真，避免不必要的外设模拟，研究者特意强调方案已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-12-10T17:07:23Z",
+            "owner": "RiS3-Lab",
+            "repo": "SHiFT",
+            "stars": 18
+          }
+        }
+      ],
+      "title": "2024"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Fuzztruction: Using Fault Injection-based Fuzzing to Leverage Implicit Domain Knowledge, 2023",
+          "description": "提出一种新颖的 Fuzz 测试方案，不是变异种子，而是根据源码中的编码含义，变异数据生成器，甚至是注入错误，绕过一些判断，以便输入的用例几乎是预期的格式。这样的数据绕过了初始解析。工具原型已开源，提供了 Docker 虚拟机环境，10G+，感兴趣的同学如果想尝试此工具，请注意预留足够的磁盘空间。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2024-05-06T08:17:40Z",
+            "owner": "fuzztruction",
+            "repo": "fuzztruction",
+            "stars": 136
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "KextFuzz: Fuzzing macOS Kernel EXTensions on Apple Silicon via Exploiting Mitigations, 2023",
+          "description": "提出了第一个智能模糊解决方案 KextFuzz，用于检测运行在 Apple Silicon 上的最新 macOS 驱动漏洞。KextFuzz 未开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-08-31T09:07:37Z",
+            "owner": "vul337",
+            "repo": "KextFuzz",
+            "stars": 96
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "autofz: Automated Fuzzer Composition at Runtime, 2023",
+          "description": "一种自动化的非侵入式元 Fuzz 工具，称为 autofz，通过动态组合最大限度地发挥现有最先进模糊器的优势，即自动选择什么样的模糊器，autofz 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2023-09-13T16:25:35Z",
+            "owner": "sslab-gatech",
+            "repo": "autofz",
+            "stars": 85
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FuzzJIT: Oracle-Enhanced Fuzzing for JavaScript Engine JIT Compiler, 2023",
+          "description": "针对 Javascript 引擎的 JIT 编译器的 Fuzz 测试工具。FuzzJIT，已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Swift",
+            "last_commit": "2022-11-17T14:07:17Z",
+            "owner": "SpaceNaN",
+            "repo": "fuzzjit",
+            "stars": 82
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CarpetFuzz: Automatic Program Option Constraint Extraction from Documentation for Fuzzing, 2023",
+          "description": "利用自然语言处理（NLP）自动从程序文档中提取选项描述并分析关系（例如，冲突、在过滤掉无效组合并只留下有效组合进行 Fuzz 测试之前，请先检查选项之间的依赖关系），实现了一个名为 CarpetFuzz 的工具并评估了其性能。CarpetFuzz 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-06-18T01:28:11Z",
+            "owner": "waugustus",
+            "repo": "CarpetFuzz",
+            "stars": 54
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MorFuzz: Fuzzing Processor via Runtime Instruction Morphing enhanced Synchronizable Co-simulation, 2023",
+          "description": "提出了一种针对处理器（RISC-V）的 Fuzz 测试工具 MorFuzz，工具已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Verilog",
+            "last_commit": "2025-04-22T03:29:33Z",
+            "owner": "sycuricon",
+            "repo": "MorFuzz",
+            "stars": 52
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "GLeeFuzz: Fuzzing WebGL Through Error Message Guided Mutation, 2023",
+          "description": "WebGL 是一组用于 GPU 加速图形的标准化 JavaScript API，通过分析 Chrome 的 WebGL 实现以识别发出错误的语句之间的依赖关系和被拒绝的输入部分，并使用此信息来指导输入变异，这就是 GLeeFuzz，已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "LLVM",
+            "last_commit": "2022-11-18T03:31:16Z",
+            "owner": "HexHive",
+            "repo": "GLeeFuzz",
+            "stars": 45
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MINER: A Hybrid Data-Driven Approach for REST API Fuzzing, 2023",
+          "description": "一种新的混合数据驱动解决方案，利用神经网络模型预测关键请求参数，提高序列模板中请求的生成质量，MINER 工具原型已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-03-15T13:48:33Z",
+            "owner": "puppet-meteor",
+            "repo": "MINER",
+            "stars": 44
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PolyFuzz: Holistic Greybox Fuzzing of Multi-Language Systems, 2023",
+          "description": "POLYFuzz，已开源，这是一种灰盒模糊器，它通过跨语言覆盖反馈和跨语言（不同片段）程序输入和分支谓词之间的语义关系的显式建模，对给定的多语言系统进行整体模糊。POLYFuzz 是可扩展的，支持以不同语言组合编写的多语言代码，例如 C、Python、Java。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2022-10-15T01:47:53Z",
+            "owner": "awen-li",
+            "repo": "PolyFuzz",
+            "stars": 28
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Remote Code Execution from SSTI in the Sandbox: Automatically Detecting and Exploiting Template Escape Bugs, 2023",
+          "description": "PHP 模板引擎 Fuzz 测试工具，TEFuzz 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-04-07T06:03:39Z",
+            "owner": "seclab-fudan",
+            "repo": "TEFuzz",
+            "stars": 19
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DDRace: Finding Concurrency UAF Vulnerabilities in Linux Drivers with Directed Fuzzing, 2023",
+          "description": "提出了第一个并发定向灰盒 Fuzz 测试解决方案 DDRACE，可有效地在 Linux 驱动程序中发现并发 UAF 漏洞。DDRace 未开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2023-02-28T08:28:06Z",
+            "owner": "vul337",
+            "repo": "DDRace",
+            "stars": 11
+          }
+        }
+      ],
+      "title": "2023"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Fuzzing Hardware Like Software, 2022",
+          "description": "像软件一样对硬件进行 Fuzz 测试，来自于密歇根大学 的 Timothy Trippel ， 讲述如何将 RTL 设计的硬件转换为软件模型，并利用覆盖率引导的软件模糊器（如 AFL）自动生成测试用例以进行硬件验证，已开源 hw-Fuzzing 。",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "C",
+            "last_commit": "2021-07-05T14:02:41Z",
+            "owner": "google",
+            "repo": "AFL",
+            "stars": 4209
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "BrakTooth: Causing Havoc on Bluetooth Link Manager via Directed Fuzzing, 2022",
+          "description": "来自新加坡科技与设计大学的安全研究人员，他们发现了一个新的蓝牙芯片安全漏洞 “BrakTooth”，这一漏洞影响了包括英特尔、高通和德州仪器在内的11家供应商的13款蓝牙芯片组，PoC已开源braktooth_esp32_bluetooth_classic_attacks，此团队曾在两年前也实现了另外一个 BLE Fuzzing 工具，即 SweynTooth。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2024-08-31T14:54:50Z",
+            "owner": "Matheus-Garbelini",
+            "repo": "braktooth_esp32_bluetooth_classic_attacks",
+            "stars": 577
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing, 2022",
+          "description": "使用精准的MMIO建模提高固件 Fuzz 测试效率。一种针对 ARM Cortex-M MCU 固件进行 Fuzz 的工具，使用 Unicore Engine 仿真，MMIO 寄存器作为 Fuzz 入口，已开源 Fuzzware。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-06-27T07:50:04Z",
+            "owner": "fuzzware-fuzzer",
+            "repo": "fuzzware",
+            "stars": 376
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "StateFuzz: System Call-Based State-Aware Linux Driver Fuzzing, 2022",
+          "description": "也是一个 Fuzzing 方法改进，代码覆盖率引导的 Fuzz 测试在测试具备复杂状态的程序（比如网络协议程序、内核驱动）时存在局限，即Fuzzer缺乏指导来遍历程序状态因此，作者认为对这些程序，需要使用状态敏感的 Fuzz 测试。即将开源 StateFuzz 。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2023-08-16T01:08:59Z",
+            "owner": "vul337",
+            "repo": "StateFuzz",
+            "stars": 100
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FRAMESHIFTER: Manipulating HTTP/2 Frame Sequences with Fuzzing, 2022",
+          "description": "专为 HTTP/2 开发了一种新颖的基于语法的 Fuzzer ，并发现 HTTP/2 到 HTTP/1 转换异常的安全隐患，已开源 frameshifter 。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2022-08-18T09:12:23Z",
+            "owner": "bahruzjabiyev",
+            "repo": "frameshifter",
+            "stars": 48
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SGXFuzz: Efficiently Synthesizing Nested Structures for SGX Enclave Fuzzing, 2022",
+          "description": "针对 Intel 的 SGX 的 Fuzz 测试方案，已开源 sgxFuzz。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2022-08-22T09:10:08Z",
+            "owner": "uni-due-syssec",
+            "repo": "sgxfuzz",
+            "stars": 21
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FuzzOrigin: Detecting UXSS vulnerabilities in Browsers through Origin Fuzzing, 2022",
+          "description": "通过 Origin Fuzzing 检测浏览器中的 UXSS 漏洞，已开源 FuzzOrigin。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-09-04T07:38:06Z",
+            "owner": "compsec-snu",
+            "repo": "fuzzorigin",
+            "stars": 18
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "AmpFuzz: Fuzzing for Amplification DDoS Vulnerabilities, 2022",
+          "description": "用于流量放大攻击即 DDoS 漏洞的 Fuzz 测试，已开源 AmpFuzz 。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2022-08-27T08:44:42Z",
+            "owner": "cispa",
+            "repo": "ampfuzz",
+            "stars": 17
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DriFuzz: Harvesting Bugs in Device Drivers from Golden Seeds, 2022",
+          "description": "一种针对 WiFi 和以太网驱动程序的无硬件混合 Fuzz 测试工具，已开源 DriFuzz。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2022-06-20T18:43:17Z",
+            "owner": "buszk",
+            "repo": "drifuzz-concolic",
+            "stars": 12
+          }
+        }
+      ],
+      "title": "2022"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Nyx: Greybox Hypervisor Fuzzing using Fast Snapshots and Affine Types, 2021",
+          "description": "设计并实现了 RUB-SysSec/Nyx，用于在云端虚拟机管理程序进行 Fuzzing，这是一种高度优化、覆盖引导的虚拟机管理程序模糊器。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2021-11-14T20:30:24Z",
+            "owner": "RUB-SysSec",
+            "repo": "Nyx",
+            "stars": 208
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "The Use of Likely Invariants as Feedback for Fuzzers, 2021",
+          "description": "提出了一种新的反馈机制，通过考虑程序变量和常量之间的关系来增加代码覆盖率。在名为 eurecom-s3/invscov 的原型中实现了该技术，该原型基于 LLVM 以及 AFL++。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2022-01-19T11:23:41Z",
+            "owner": "eurecom-s3",
+            "repo": "invscov",
+            "stars": 93
+          }
+        }
+      ],
+      "title": "2021"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Analysis of DTLS Implementations Using Protocol State Fuzzing, 2020",
+          "description": "对 DTLS 实现的首次全面分析，提出的 TLS-Attacker 是一个用于分析TLS实现的开源框架。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Java",
+            "last_commit": "2026-08-02T11:24:25Z",
+            "owner": "tls-attacker",
+            "repo": "TLS-Attacker",
+            "stars": 876
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SweynTooth: Unleashing Mayhem over Bluetooth Low Energy, 2020",
+          "description": "使用了 Noridc nRF52840 实现低成本的 BLE 全栈 Fuzz 测试工具，PoC 已开源 sweyntooth_bluetooth_low_energy_attacks。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2021-11-23T00:18:26Z",
+            "owner": "Matheus-Garbelini",
+            "repo": "sweyntooth_bluetooth_low_energy_attacks",
+            "stars": 333
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FuzzGen: Automatic Fuzzer Generation, 2020",
+          "description": "提出的对库接口进行分析的工具。 这是一种用于在给定环境中自动合成复杂库的模糊器的工具。FuzzGen 利用整个系统分析来推断库的接口，并专门为该库合成模糊器。FuzzGen 不需要人工干预，可以应用于各种库。此外，生成的模糊器利用LibFuzzer 来实现更好的代码覆盖率并暴露库深处的错误。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2021-08-13T14:47:23Z",
+            "owner": "HexHive",
+            "repo": "FuzzGen",
+            "stars": 310
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FANS: Fuzzing Android Native System Services via Automated Interface Analysis, 2020",
+          "description": "提出了一种基于自动生成的 Fuzz 测试解决方案 FANS，以查找 Android 系统原生服务中的漏洞，作者刘保证开发的 Native Service Fuzz 工具 fans 开源连接，能够根据源码自动推测 Native Service 的接口和入参，进行 Fuzzing，工具的限制是需要 AOSP 的编译环境。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2020-09-23T14:14:43Z",
+            "owner": "iromise",
+            "repo": "fans",
+            "stars": 266
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "EcoFuzz: Adaptive Energy-Saving Greybox Fuzzing as a Variant of the Adversarial Multi-Armed Bandit, 2020",
+          "description": "EcoFuzz 是基于 AFL 的自适应节能灰盒 Fuzz 工具。 基于AFL 的基础上，开发了独特的自适应调度算法以及基于概率的搜索策略，根据结果，EcoFuzz 可以减少 AFL 32％的用例，从而达到 AFL 214％的路径覆盖率。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2020-04-30T06:51:11Z",
+            "owner": "MoonLight-SteinsGate",
+            "repo": "EcoFuzz",
+            "stars": 53
+          }
+        }
+      ],
+      "title": "2020"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "QSYM : A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing, 2018",
+          "description": "设计了一种快速的，称为 QSYM 的 Conolic 执行引擎，支持混合 Fuzzing。",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "C++",
+            "last_commit": "2022-11-23T00:23:10Z",
+            "owner": "sslab-gatech",
+            "repo": "qsym",
+            "stars": 654
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MoonShine: Optimizing OS Fuzzer Seed Selection with Trace Distillation, 2018",
+          "description": "MoonShine，这是一种新颖的策略，可从真实程序的系统调用中提取 Fuzz 种子。作为对 Syzkaller 的扩展， MoonShin 能够将 Syzkaller 的 Linux 内核代码覆盖率平均提高 13％。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2019-05-09T18:03:03Z",
+            "owner": "shankarapailoor",
+            "repo": "moonshine",
+            "stars": 109
+          }
+        }
+      ],
+      "title": "2019 ⤵"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "IEEE S&P"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "RGFuzz: Rule-Guided Fuzzer for WebAssembly Runtimes, 2025",
+          "description": "一个用于 WebAssembly 运行时的差分 Fuzz 测试工具 RGFuzz。备注：WebAssembly（Wasm）是一种新型的、可移植的、高效的二进制指令格式。工具已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-01-10T13:44:42Z",
+            "owner": "kaist-hacking",
+            "repo": "RGFuzz",
+            "stars": 24
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FirmRCA: Towards Post-Fuzzing Analysis on ARM Embedded Firmware with Efficient Event-based Fault Localization, 2025",
+          "description": "FirmRCA，这是一个专为嵌入式固件量身定制的实用故障定位框架。代码已开源，基于Unicorn模拟器的 hook 机制、利用 Capstone 反汇编。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-01-06T14:01:48Z",
+            "owner": "NESA-Lab",
+            "repo": "FirmRCA",
+            "stars": 15
+          }
+        }
+      ],
+      "title": "2025"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "DY Fuzzing: Formal Dolev-Yao Models Meet Cryptographic Protocol Fuzz Testing, 2024",
+          "description": "一个针对密码学算法库进行 Fuzz 测试的模型，如针对 OpenSSL/wolfSSL，已经有基于 DY 模型实现了 TLS Fuzz 的工具，tlspuffin。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-11T11:11:08Z",
+            "owner": "tlspuffin",
+            "repo": "tlspuffin",
+            "stars": 160
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SyzTrust: State-aware Fuzzing on Trusted OS Designed for IoT Devices, 2024",
+          "description": "针对 TEE 设计的 Fuzz 测试工具，基于 Syzkaller，在开发板上测试，因此 TEE 需要能够运行在开发板环境上，作者来自浙江大学，工具已开源，SyzTrust。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2024-02-29T02:49:55Z",
+            "owner": "SyzTrust",
+            "repo": "syztrust",
+            "stars": 19
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "AFGen: Whole-Function Fuzzing for Applications and Libraries, 2024",
+          "description": "AFGen（全函数 Fuzz 测试应用和库）是一种用于应用程序和库的全函数 Fuzz 测试工具。它是一种基于符号执行的 Fuzz 测试技术，通过符号执行进行静态分析，代码即将开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-03-17T13:49:38Z",
+            "owner": "Marsman1996",
+            "repo": "AFGen",
+            "stars": 15
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "To Boldly Go Where No Fuzzer Has Gone Before: Finding Bugs in Linux' Wireless Stacks through VirtIO Devices, 2024",
+          "description": "一种基于 VirtIO 设备驱动程序的新型 Fuzz 测试工具 VirtFuzz，从真实设备收集数据，在虚拟环境进行 Fuzz。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2023-06-14T18:28:14Z",
+            "owner": "cyruscyliu",
+            "repo": "virtfuzz-evaluation",
+            "stars": 5
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SATURN: Host-Gadget Synergistic USB Driver Fuzzing, 2024",
+          "description": "针对 USB 协议的 Fuzz 工具。工具已开源：Saturn。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2024-03-16T12:38:50Z",
+            "owner": "THU-WingTecher",
+            "repo": "Saturn",
+            "stars": 4
+          }
+        }
+      ],
+      "title": "2024"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Toss a Fault to Your Witcher: Applying Grey-box Coverage-Guided Mutational Fuzzing to Detect SQL and Command Injection Vulnerabilities, 2023",
+          "description": "首个使用 AFL Fuzz Web 应用程序的工具，它利用突变 Fuzz 测试来探索 Web 应用程序和故障升级来检测命令和 SQL 注入漏洞。Witcher 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2023-11-28T01:33:56Z",
+            "owner": "sefcom",
+            "repo": "Witcher",
+            "stars": 109
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SelectFuzz: Efficient Directed Fuzzing with Selective Path Exploration, 2023",
+          "description": "文章主要描述如何提升定向 Fuzz 测试（DGF）的效率和准确性，从而提升检测软件漏洞的有效性。SelectFuzz(已开源) 通过选择性路径探索来提高 DGF 的有效性，从代码上看，工具原型也是基于 AFL。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-06-26T04:48:10Z",
+            "owner": "cuhk-seclab",
+            "repo": "SelectFuzz",
+            "stars": 72
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "VIDEZZO: Dependency-aware Virtual Device Fuzzing, 2023",
+          "description": "针对虚拟机的 Fuzz 测试，目前，ViDeZZo(已开源) 支持 QEMU（6.1.50 及更高版本）和 VirtualBox (C++)，涵盖音频、存储、网络、USB 和图形虚拟设备，并涵盖 i386、x86_64、ARM 和 AArch64 版本。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-04-08T13:05:32Z",
+            "owner": "HexHive",
+            "repo": "ViDeZZo",
+            "stars": 40
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SegFuzz: Segmentizing Thread Interleaving to Discover Kernel Concurrency Bugs through Fuzzing, 2023",
+          "description": "一个用于内核并发漏洞的 Fuzz 测试框架SegFuzz(已开源)。众所周知，条件竞争类的漏洞很难通过传统 Fuzz 实现 ，但是使用方法似乎没有详细介绍。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-04-02T03:59:57Z",
+            "owner": "casys-kaist",
+            "repo": "segfuzz",
+            "stars": 32
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DEVFuzz: Automatic Device Model-Guided Device Driver Fuzzing, 2023",
+          "description": "针对驱动的 Fuzz 测试，文章指出 DEVFuzz(已开源) 针对 PCI、USB、RadpiIO、I2C 总线，且不需要实际设备，通过符号执行模拟硬件设备，这似乎与 ARM-M 固件仿真有关，且使用了 S2E，感兴趣的同学可以阅读华科周威老师 2021 年在 Usenix 上发表的论文 Fuzzware，后续“固件章节有收录”。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2024-02-02T01:59:35Z",
+            "owner": "lzto",
+            "repo": "afl-proxy",
+            "stars": 11
+          }
+        }
+      ],
+      "title": "2023"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Effective Seed Scheduling for Fuzzing with Graph Centrality Analysis, 2022",
+          "description": "使用图论中心性分析进行 Fuzz 测试的有效种子调度，此方案被称为 K-Scheduler，已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2023-04-04T03:56:38Z",
+            "owner": "Dongdongshe",
+            "repo": "K-Scheduler",
+            "stars": 120
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "JIGSAW: Efficient and Scalable Path Constraints Fuzzing, 2022",
+          "description": "将路径约束编译为本地函数，提高分支翻转率的 Fuzz 工具，工具已开源 JIGSAW。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2024-05-31T20:58:58Z",
+            "owner": "R-Fuzz",
+            "repo": "jigsaw",
+            "stars": 70
+          }
+        }
+      ],
+      "title": "2022"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "StochFuzz: Sound and Cost-effective Fuzzing of Stripped Binaries by Incremental and Stochastic Rewriting, 2021",
+          "description": "一种新的 Fuzz 技术，被称为 incremental and stochastic rewriting ，优于 afl-unicorn，利用更低的开销，提高了黑盒二进制 Fuzzing 的效率，相关工具已开源：ZhangZhuoSJTU/StochFuzz。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2023-10-21T02:43:45Z",
+            "owner": "ZhangZhuoSJTU",
+            "repo": "StochFuzz",
+            "stars": 193
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "NtFuzz: Enabling Type-Aware Kernel Fuzzing on Windows with Static Binary Analysis, 2021",
+          "description": "一个静态二进制分析器，可以自动推断出 Windows 系统调用，该分析器被整合到 SoftSec-KAIST/NTFuzz，一个 Windows 系统调用 Fuzzing 框架，首次将静态二进制分析技术与 Windows 内核的 Fuzzing 技术相结合。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "F#",
+            "last_commit": "2021-10-21T09:35:10Z",
+            "owner": "SoftSec-KAIST",
+            "repo": "NTFuzz",
+            "stars": 113
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "One Engine to Fuzz 'em All: Generic Language Processor Testing with Semantic Validation, 2021",
+          "description": "提出了一个通用 Fuzzing 框架（s3team/Polyglot ），目的是为了探索不同编程语言的处理器而生成高质量的 Fuzz 测试用例，实现各个语言之间的通用性和适用性。 相比于当前最先进的通用型 Fuzz：包括基于变异的 Fuzzer AFL 以及混合型 Fuzzer QSYM 和基于语法的 Fuzzer Nautilus 能够更有效地生成高质量的测试用例。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-01-18T20:47:28Z",
+            "owner": "s3team",
+            "repo": "Polyglot",
+            "stars": 107
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DiFuzzRTL: Differential Fuzz Testing to Find CPU Bugs, 2021",
+          "description": "一种专门发现 CPU RTL 漏洞的 Fuzz 工具， DiFuzzRTL 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Verilog",
+            "last_commit": "2024-05-27T21:05:47Z",
+            "owner": "compsec-snu",
+            "repo": "difuzz-rtl",
+            "stars": 102
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Diane: Identifying Fuzzing Triggers in Apps to Generate Under-constrained Inputs for IoT Devices, 2021",
+          "description": "通过使用网络流量和控制目标物联网设备的应用程序的混合分析来解决输入生成问题 ，工具名为 ucsb-seclab/diane，已开源， 与 IoTFuzzer 较为相似，弥补了 IoTFuzzer 的一些缺点。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-04-03T18:42:30Z",
+            "owner": "ucsb-seclab",
+            "repo": "diane",
+            "stars": 42
+          }
+        }
+      ],
+      "title": "2021"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Angora: Efficient Fuzzing by Principled Search, 2018",
+          "description": "论文开发的 Angora，主要目标是提高分支覆盖率，不使用符号执行的方法来解决路径约束 。 该工具目前活跃度较高，一直处于稳定更新中。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2022-07-18T13:42:14Z",
+            "owner": "AngoraFuzzer",
+            "repo": "Angora",
+            "stars": 954
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "NEUZZ: Efficient Fuzzing with Neural Program Smoothing, 2019",
+          "description": "利用神经网络来模拟程序的分支行为。 neuzz 通过有策略地修改现有 seeds 的一些 bytes 以期来产生 interesting seeds 从而能触发未执行过的 edge。而这个策略要借助神经网络才能得以具体实施。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2020-05-24T13:32:39Z",
+            "owner": "Dongdongshe",
+            "repo": "neuzz",
+            "stars": 408
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Razzer: Finding Kernel Race Bugs through Fuzzing, 2019",
+          "description": "设计并提出了针对内核中的数据竞争类型漏洞的 Fuzz 测试（Fuzzing）工具 Razzer 。 Razzer 的两阶段 Fuzz 测试基于Syzkaller。确定性调度程序是使用 QEMU / KVM 实现的。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2019-07-10T00:23:42Z",
+            "owner": "compsec-snu",
+            "repo": "razzer",
+            "stars": 374
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "T-Fuzz: Fuzzing by program transformation, 2018",
+          "description": "论文开发的 T-Fuzz 通过去掉 santiy check 来提高覆盖率。T-Fuzz 利用覆盖率来引导产生输入。当不能访问到新的路径时，T-Fuzz会去掉 check，以保证 Fuzz 能继续进行，发现新的路径和 bug。",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Python",
+            "last_commit": "2020-03-13T02:57:15Z",
+            "owner": "HexHive",
+            "repo": "T-Fuzz",
+            "stars": 253
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Fuzzing File Systems via Two-Dimensional Input Space Exploration, 2019",
+          "description": "本工作实现了一个基于反馈进化的 Fuzzer——JANUS，通用文件系统 Fuzzer，可以高效的探索文件系统的两个维度的输入空间。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2019-12-23T20:16:22Z",
+            "owner": "sslab-gatech",
+            "repo": "janus",
+            "stars": 238
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Full-speed Fuzzing: Reducing Fuzzing Overhead through Coverage-guided Tracing, 2019",
+          "description": "创建了一个基于静态二进制工具或 Dyninst 的实现，称为 UnTracer ，该工具能够降低 Fuzzing 开销，从而提高速度。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2022-07-07T19:12:39Z",
+            "owner": "FoRTE-Research",
+            "repo": "UnTracer-AFL",
+            "stars": 125
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CollAFL: Path Sensitive Fuzzing, 2018",
+          "description": "对 AFL 中的 coverage inaccuracy 和 seed 选择策略做了改进，改进后的工具称为 CollAFL。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2020-03-18T14:22:52Z",
+            "owner": "batgui",
+            "repo": "collafl",
+            "stars": 27
+          }
+        }
+      ],
+      "title": "2019 ⤵"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "ACM CCS"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Intent-aware Fuzzing for Android Hardened Application, 2025",
+          "description": "基于 eBPF 的 AHA-Fuzz，首个针对 Android 应用的 Intent 感知灰盒 Fuzz 测试框架。已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-12-02T03:08:35Z",
+            "owner": "S2-Lab",
+            "repo": "AHA-fuzz",
+            "stars": 18
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Fuzzing Processing Pipelines for Zero-Knowledge Circuits, 2025",
+          "description": "首个针对零知识证明的 Circuit （电路是指一种逻辑或计算模型，用于定义验证一个问题所需的步骤和逻辑运算。） 进行系统性 Fuzz 测试的技术，已在 Circuzz 初步实现。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-02-03T12:04:17Z",
+            "owner": "Rigorous-Software-Engineering",
+            "repo": "circuzz",
+            "stars": 14
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "RVISmith: Fuzzing Compilers for RVV Intrinsics, 2025",
+          "description": "针对 RVV 内部函数 RVI 的 Fuzz 工具。RVISmith 开源链接。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-12-14T11:27:10Z",
+            "owner": "yibo2000",
+            "repo": "RVISmith",
+            "stars": 10
+          }
+        }
+      ],
+      "title": "2025"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Program Environment Fuzzing, 2024",
+          "description": "论文将程序运行所需要的环境都视为外部入口，进行 Fuzz 测试，对整个交互过程进行全面覆盖，包括网络服务器、图形界面应用、编译器等在内的任何 Linux 用户模式软件，EnvFuzz 已开源，几个月前曾尝试过这个工具，可以实现一键 Fuzz，但是分析崩溃需要耗费大量时间。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2025-01-31T02:43:04Z",
+            "owner": "GJDuck",
+            "repo": "EnvFuzz",
+            "stars": 395
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ProphetFuzz: Fully Automated Prediction and Fuzzing of High-Risk Option Combinations with Only Documentation via Large Language Model, 2024",
+          "description": "提出了一种基于大型语言模型（LLM）的全自动工具 ProphetFuzz，用于预测应用程序的高风险选项组合并进行 Fuzz 测试。ProphetFuzz 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Roff",
+            "last_commit": "2026-02-10T07:59:30Z",
+            "owner": "NASP-THU",
+            "repo": "ProphetFuzz",
+            "stars": 100
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DarthShader: Fuzzing WebGPU Shader Translators & Compilers, 2024",
+          "description": "针对 Web GPU 着色器翻译器和编译器的 Fuzz 测试项目，darthshader 已开源，开箱即用。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-06-26T15:46:28Z",
+            "owner": "wgslfuzz",
+            "repo": "darthshader",
+            "stars": 73
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FOX: Coverage-guided Fuzzing as Online Stochastic Control, 2024",
+          "description": "提高覆盖引导的边缘覆盖率算法，当前算法已在 AFL++ 上实现，已开源，这种针对 AFL 算法改进的论文近些年层出不穷，有些还是值得一看。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-11-07T08:02:53Z",
+            "owner": "FOX-Fuzz",
+            "repo": "FOX",
+            "stars": 62
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "RANsacked: A Domain-Informed Approach for Fuzzing LTE and 5G RAN-Core Interfaces, 2024",
+          "description": "针对 LTE/5G 空口平台 RAN-Core 的 Fuzz，其中衍生的 ASNFuzzGen 已开源，这种针对蜂窝网的研究过于学术化，工业界关注不多。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2024-08-27T13:22:29Z",
+            "owner": "FICS",
+            "repo": "asnfuzzgen",
+            "stars": 53
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "https://github.com/zyt755/LIFTFuzz, 2024",
+          "description": "浙江大学张明雪团队，设计了一种新的解决方案 FuzzCache，它引入了一种基于软件的数据缓存机制，通过将数据库和网络请求中的数据存储到缓存中，规避了重复且昂贵的数据读取操作，也就是说 FuzzCache 用于提高 Web Fuzz 的效率。FuzzCache 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "PHP",
+            "last_commit": "2024-11-06T22:44:47Z",
+            "owner": "secureweb",
+            "repo": "fuzzcache",
+            "stars": 18
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Toss a Fault to BpfChecker: Revealing Implementation Flaws for eBPF runtimes with Differential Fuzzing, 2024",
+          "description": "论文提出了一个差分 Fuzz 测试框架 BpfChecker，用于检测 eBPF 运行时中的实现缺陷。它利用 eBPF 程序作为输入，对各种 eBPF 运行时中的关键状态进行差分测试以发现实现缺陷，获得了 80 万刀的奖励！BpfChecker 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2024-12-10T05:21:20Z",
+            "owner": "blocksecteam",
+            "repo": "BpfChecker",
+            "stars": 16
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Fuzz to the Future: Uncovering Occluded Future Vulnerabilities via Robust Fuzzing, 2024",
+          "description": "确实是一项开创性的研究，通过二进制修补绕过崩溃代码，继续 Fuzz，虽然思想我们很容易理解，但是之前未见到自动化工具，FlakJack 就这么实现了，已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-10-14T01:34:32Z",
+            "owner": "sefcom",
+            "repo": "flakjack",
+            "stars": 8
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "No Peer, no Cry: Network Application Fuzzing via Fault Injection, 2024",
+          "description": "通过故障注入，迫使目标进程进入一种奇怪的状态，进行 Fuzz。这项研究似乎拓展了故障注入的概念，说实话，看了一段内容，还是没太理解研究中所描述的故障注入，看起来是进行一些数据包微调。Fuzztruction-Net 原型已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2025-05-28T13:32:03Z",
+            "owner": "fuzztruction",
+            "repo": "fuzztruction-net-experiments",
+            "stars": 7
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "RIoTFuzzer: Companion App Assisted Remote Fuzzing for Detecting Vulnerabilities in IoT Devices, 2024",
+          "description": "利用设备配套的 App，对 IoT 设备进行 Fuzz。其实跟 IoT 关系不大，主要思路就是利用 App 逆向，找到设备远控等数据包的格式，生成对应的测试用例。论文对应的脚本已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-10-21T07:10:26Z",
+            "owner": "kzLiu2017",
+            "repo": "RIoTFuzzer",
+            "stars": 5
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LIFTFuzz: Validating Binary Lifters through Context-aware Fuzzing with GPT, 2024",
+          "description": "所谓的 binay lifter，就是将二进制转化为统一的中间语言（IR），这是在逆向工程中常见的一种方式，LiftFuzz 是一个利用指令上下文感知 Fuzz 测试来验证 binary lifeter 的新框架。LiftFuzz 利用汇编语言模型来学习指令之间的交互，并利用这些知识生成测试用例，说要开源，但是一直没有开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2024-06-25T06:39:26Z",
+            "owner": "zyt755",
+            "repo": "LIFTFUZZ",
+            "stars": 2
+          }
+        }
+      ],
+      "title": "2024"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "HOPPER: Interpretative Fuzzing for Libraries, 2023",
+          "description": "一项比较有意思的研究，一种新的 API Fuzz 工具，不需要像开发那样对 API 的用法了如指掌，而只需要知道 Hopper 如何使用。目前的局限性是只针对 C 而非 C++ 语言编写的库，Hopper 开源地址，腾讯安全大数据实验室。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-06-05T04:55:26Z",
+            "owner": "FuzzAnything",
+            "repo": "Hopper",
+            "stars": 265
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "NestFuzz: Enhancing Fuzzing with Comprehensive Understanding of Input Processing Logic, 2023",
+          "description": "专门针对开源工具进行 Fuzz 的工具 NestFuzz，仍然是基于 AFL 改进的工具，提出了一种新颖的数据结构，即输入处理树，它可以表示输入格式的整体结构。在 Fuzz 测试的第二阶段，NestFuzz 设计了一种级联依赖性感知突变策略。基于已识别的依赖关系，每当 NestFuzz 改变（字段或结构级别）输入时，它都会级联改变其他受影响的字段或子结构以维持结构有效性。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2024-10-11T07:28:03Z",
+            "owner": "fdu-sec",
+            "repo": "NestFuzz",
+            "stars": 168
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Greybox Fuzzing of Distributed Systems, 2023",
+          "description": "针对分布式系统（如 Redis）的灰盒 Fuzz 工具，已开源，环境使用 Docker，可以自己构建。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Clojure",
+            "last_commit": "2023-12-05T05:59:52Z",
+            "owner": "dsfuzz",
+            "repo": "mallory",
+            "stars": 60
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SyzDirect: Directed Greybox Fuzzing for Linux Kernel, 2023",
+          "description": "基于 Syzkaller 的改进，SyzDirect。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2024-05-31T05:27:41Z",
+            "owner": "seclab-fudan",
+            "repo": "SyzDirect",
+            "stars": 41
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PyRTFuzz: Detecting Bugs in Python Runtimes via Two-Level Collaborative Fuzzing, 2023",
+          "description": "顾名思义，就是一个用于检测 Python 运行时中的错误的 Fuzz 测试工具。它采用了两级模糊的方法，即单元测试级别的模糊和运行时级别的模糊，PyRTFuzz 已开源。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-11-25T05:01:00Z",
+            "owner": "awen-li",
+            "repo": "PyRTFuzz",
+            "stars": 18
+          }
+        }
+      ],
+      "title": "2023"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "LibAFL: A Framework to Build Modular and Reusable Fuzzers, 2022",
+          "description": "LibAFL，这是一个构建模块化和可重用模糊器的框架，来自于谷歌的个人研究者，已开源 LibAFL。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-11T13:00:38Z",
+            "owner": "AFLplusplus",
+            "repo": "LibAFL",
+            "stars": 2618
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "WINNIE : Fuzzing Windows Applications with Harness Synthesis and Fast Cloning, 2021",
+          "description": "利用合成和快速克隆对 Windows 应用程序进行 Fuzz 测试，作者构建了一个端到端 WINNIE 系统，包含两个组件：可从二进制文件中自动合成工具的生成器，以及一个高效的 Windows forkserver。 对比工具： WinAFL 。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2022-11-28T00:40:41Z",
+            "owner": "sslab-gatech",
+            "repo": "winnie",
+            "stars": 574
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DIFUZE: Interface Aware Fuzzing for Kernel Drivers, 2017",
+          "description": "作者提出的一个 seed 生成方案。通过优化种子生成，同样也可以达到提高 Fuzzing 效率的效果。经过验证，DIFUZE 相较于现有的 Fuzzer 在 ioctl() 接口上，确实存在着明显的优势。这也是显然的，DIFUZE 相较于其他的工具在 Fuzzing这样一个需要超大信息量的接口上提供了足够的信息，支撑它挖掘出大于其他工具几个数量级的信息量。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2022-04-30T02:33:52Z",
+            "owner": "ucsb-seclab",
+            "repo": "difuze",
+            "stars": 385
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DIFUZE: Interface Aware Fuzzing for Kernel Drivers, 2017",
+          "description": "作者设计并完成了针对用户态与内核驱动关键接口 ioctl() 的 Fuzzing 工具 DIFUZE， DIFUZE 首先对内核代码进行静态分析，完成interface 的 recovery，获取 interface 的关键信息，并基于这些有效的信息去生成更加合理的 Fuzzing 输入，得到一个更好的 Fuzzing 效果。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2022-04-30T02:33:52Z",
+            "owner": "ucsb-seclab",
+            "repo": "difuze",
+            "stars": 385
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Favocado: Fuzzing the Binding Code of JavaScript Engines Using Semantically Correct Test Cases, 2021",
+          "description": "论文提出一种对 JS 引擎中绑定层代码进行 Fuzzing 的工具：Favocado。作者在对在4个不同的JavaScript运行时系统Fuzz时，发现了61个新的bug，其中33个是安全漏洞，13个已经被CVE收录。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2021-11-17T04:01:17Z",
+            "owner": "favocado",
+            "repo": "Favocado",
+            "stars": 84
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PGFuzz: Policy-Guided Fuzzing for Robotic Vehicles, 2021",
+          "description": "作者设计的一个针对机器车辆（ Robotic vehicles, RVs）Fuzzing 工具，即 PGFuzz，应用场景较为有限。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-09-18T17:32:53Z",
+            "owner": "purseclab",
+            "repo": "PGFuzz",
+            "stars": 43
+          }
+        }
+      ],
+      "title": "2022 ⤵"
+    },
+    {
+      "description": "这里收录常见并且实用的工具，多数工具经过笔者实践，具有一定的普适性。也有一些优秀但是很久没有维护更新，并且适用场景非常有限的工具，未包含在其中。",
+      "items": [],
+      "title": "Tools"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "syzkaller",
+          "description": "：优秀的内核 Fuzz 工具，可以针对各种驱动接口进行 Fuzzing。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-12T21:38:48Z",
+            "owner": "google",
+            "repo": "syzkaller",
+            "stars": 6297
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "HonggFuzz",
+          "description": "：同样是谷歌开发的一个类似于 afl 的工具，只是 honggFuzz 基于反馈驱动，多线程和多进程，Fuzz 速度相比于 afl 有一个质的飞跃。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-06-19T13:47:59Z",
+            "owner": "google",
+            "repo": "honggfuzz",
+            "stars": 3372
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "winafl",
+          "description": "：afl 的一个分支项目，将 afl 用于Windows 平台。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-03-13T12:56:22Z",
+            "owner": "googleprojectzero",
+            "repo": "winafl",
+            "stars": 2598
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "trinity",
+          "description": "：Linux system call Fuzzer，对于 Linux 系统调用的 Fuzz 测试工具。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-12T18:44:49Z",
+            "owner": "kernelslacker",
+            "repo": "trinity",
+            "stars": 905
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "NtCall64",
+          "description": "：Windows NT x64 syscall Fuzzer，基于 NtCall 的 Windows 系统调用 Fuzz 测试工具。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-04-02T02:34:22Z",
+            "owner": "hfiref0x",
+            "repo": "NtCall64",
+            "stars": 641
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "afl-unicorn: Fuzzing The 'UnFuzzable'",
+          "description": "： Battelle 在 ShmooCon 2018 上发布的一个工具，已经有大佬将演讲视频添加中文字幕并上传到 B 站上。该工具 弥补了 afl 的不足，可以对任意二进制代码片段进行 Fuzz，作为一个完全使用黑盒进行 Fuzz 的工具，afl-unicorn 也保留了 afl 原有的代码覆盖率统计，根据反馈对种子进行变异，从而提高代码覆盖。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2023-06-18T16:39:00Z",
+            "owner": "Battelle",
+            "repo": "afl-unicorn",
+            "stars": 617
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "frida-Fuzzer",
+          "description": "： Frida-Fuzzer 是一款针对 API 的内存 Fuzz 测试框架，该工具的设计和开发灵感来源于 afl/afl++，Frida-Fuzzer 的当前版本支持在 GNU/Linux x86_64 和 Android x86——64 平台上运行。",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "JavaScript",
+            "last_commit": "2020-06-22T15:19:40Z",
+            "owner": "andreafioraldi",
+            "repo": "frida-fuzzer",
+            "stars": 577
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "kDriver-Fuzzer",
+          "description": "：基于 ioctlbf 框架编写的驱动漏洞挖掘工具 kDriver Fuzzer，驱动 Fuzzer。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2018-03-31T12:35:45Z",
+            "owner": "k0keoyo",
+            "repo": "kDriver-Fuzzer",
+            "stars": 480
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "UnicoreFuzz: On the Viability of Emulation for Kernelspace Fuzzing",
+          "description": "：柏林工业大学学者发表在安全顶会 USENIX Security '19 上的一篇关于 Fuzzing 内核的文章。相对于 syzkaller， unicoreFuzz 配置更加简单，能够 Fuzz 路径较深的一些函数。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-01-02T18:12:54Z",
+            "owner": "fgsect",
+            "repo": "unicorefuzz",
+            "stars": 305
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Fuzzball",
+          "description": "：FuzzBALL是基于 BitBlaze Vine 库的x86（和少许ARM）二进制代码的符号执行工具",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "OCaml",
+            "last_commit": "2025-08-15T21:14:15Z",
+            "owner": "bitblaze-fuzzball",
+            "repo": "fuzzball",
+            "stars": 216
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Intriguer: Field-Level Constraint Solving for Hybrid Fuzzing",
+          "description": "：韩国延世大学发布在安全顶会 CCS 2019 上的一篇关于 Fuzzer 性能改进的文章。该团队提出了一个基于 AFL，名为 Intriguer 的新型混合 Fuzzer。通过污点分析和指令跟踪，经过笔者实践，该工具能够覆盖更深层次的代码路径。但是同时也存在 bug，会在 目录下生成大量冗余文件。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2023-11-22T05:32:34Z",
+            "owner": "seclab-yonsei",
+            "repo": "intriguer",
+            "stars": 35
+          }
+        }
+      ],
+      "title": "二进制"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "domato",
+          "description": "：googleprojectzero 开发的一个专门用于浏览器的黑盒 Fuzz 工具，用法简单，通过让浏览器访问生成各种随机的前端页面，观察浏览器的状态。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-11-26T08:55:07Z",
+            "owner": "googleprojectzero",
+            "repo": "domato",
+            "stars": 1785
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Sulley",
+          "description": "/BooFuzz：Sulley 是一个 Fuzz 测试框架。主要用于协议的 Fuzz，如今已经不再维护。 BooFuzz 是古老的 Sulley Fuzz 测试框架的分支和后续版本。除了大量错误修复外，booFuzz 扩展更多新特性。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2020-12-29T21:22:41Z",
+            "owner": "OpenRCE",
+            "repo": "sulley",
+            "stars": 1449
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Fuzzowski",
+          "description": "：基于 booFuzz 的网络协议 Fuzz 测试工具，基于 sulley 的数据变异。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-01-29T05:48:18Z",
+            "owner": "nccgroup",
+            "repo": "fuzzowski",
+            "stars": 794
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Peach",
+          "description": "：Peach 是 Michael 团队开发的一个 Fuzz 测试框架，最初为开源软件，后续部分核心测试套商用发布。Peach 专注于文件格式的 Fuzz，同时针对各种协议的 Fuzz 也十分友好。",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Python",
+            "last_commit": "2020-07-03T12:05:41Z",
+            "owner": "MozillaSecurity",
+            "repo": "peach",
+            "stars": 418
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "API-Fuzzer",
+          "description": "：使用常见的渗透测试技术和已知漏洞对一些网络 API 请求进行 Fuzz。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Ruby",
+            "last_commit": "2017-07-16T03:50:06Z",
+            "owner": "Fuzzapi",
+            "repo": "API-fuzzer",
+            "stars": 408
+          }
+        }
+      ],
+      "title": "API/协议"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "FIRM-AFL: High-Throughput Greybox Fuzzing of IoT Firmware via Augmented Process Emulation",
+          "description": "：由中科院信工所 Yaowen Zheng 发表在 USENIX Security '19 ， FIRM-AFL 是第一个用于物联网固件的高质量灰盒模糊器，此工具的劣势在于只能 Fuzz Firmadyne 能够正常模拟的固件。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-03-22T01:30:54Z",
+            "owner": "zyw-200",
+            "repo": "FirmAFL",
+            "stars": 463
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing, 2022",
+          "description": "使用精准的 MMIO 建模提高固件 Fuzz 测试效率，来自于波鸿鲁尔大学 。一种针对 ARM Cortex-M MCU 固件进行 Fuzz 的工具，使用 Unicore Engine 仿真，MMIO 寄存器作为 Fuzz 入口，已开源 Fuzzware。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-06-27T07:50:04Z",
+            "owner": "fuzzware-fuzzer",
+            "repo": "fuzzware",
+            "stars": 376
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Automatic Firmware Emulation through Invalidity-guided Knowledge Inference, 2021",
+          "description": "华中科技大学周威老师团队开发的 μEmu，使用符号执行获取模拟固件映像所需信息，支持 ARM Cortex-M MCU 固件，基于 S2E（符号执行平台）设计和开发的，已开源 μEmu。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2023-11-20T09:30:46Z",
+            "owner": "MCUSec",
+            "repo": "uEmu",
+            "stars": 150
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Forming Faster Firmware Fuzzers, 2023",
+          "description": "柏林工业大学 Lukas Seidel 提出一种针对 ARM Cortex-M MCU 固件进行 Fuzz 的工具，SAFIREFuzz 已开源，论文总结了过去的 MCU Fuzz 类型，并展现 SAFIREFuzz 与众不同的地方：SAFIREFuzz 运行在与目标固件架构相同的操作系统上（例如树莓派），节省了以前的工具使用 QEMU TCG 带来的性能损失，且不需要使用 softmmu，显著提升 Fuzz 测试效率。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2024-12-19T15:54:24Z",
+            "owner": "pr0me",
+            "repo": "SAFIREFUZZ",
+            "stars": 130
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "IOTFuzzER: Discovering Memory Corruptions in IoT Through App-based Fuzzing",
+          "description": "：香港大学 Jiongyi Chen 发表在 NDSS 2018 上的一篇关于固件 Fuzzing 的文章，作者借助 IoT 设备的移动端 App 设计了一个黑盒 Fuzz 测试工具 IOTFuzzer 分析 IoT 设备上的内存错误漏洞。通过测试了 17 个不同的 IoT 设备，最终发现 15 个内存错误漏洞，其中包括了 8 个未知的漏洞。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2018-10-15T22:29:34Z",
+            "owner": "zyw-200",
+            "repo": "IOTFuzzer_Full",
+            "stars": 53
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MultiFuzz: A Multi-Stream Fuzzer For Testing Monolithic Firmware, 2024",
+          "description": "一个针对固件 MMIO 的 Fuzz 方案，利用多输入流改进 Fuzz，需要固件仿真平台的支持，貌似基于 Fuzzware，因此，是基于已有仿真平台所做的 Fuzz 改进。研究来自阿德莱德大学。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-07-01T00:22:29Z",
+            "owner": "MultiFuzz",
+            "repo": "MultiFuzz",
+            "stars": 44
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FIRMCORN: Vulnerability-Oriented Fuzzing of IoT Firmware via Optimized Virtual Execution",
+          "description": "：发表在 IEEE Access 2020 年的期刊上，作为基于优化虚拟执行的 IoT 固件 Fuzz 测试框架 FIRMCORN，作者声称是首次面向 IoT 固件的 Fuzz 测试框架。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2022-04-28T02:56:10Z",
+            "owner": "FIRMCORN-Fuzzing",
+            "repo": "FIRMCORN",
+            "stars": 32
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FirmSolo: Enabling dynamic analysis of binary Linux-based IoT kernel modules, 2023",
+          "description": "波士顿大学 Ioannis Angelakopoulos 工程师介绍的另外一种 IoT 固件 Fuzz 测试解决方案 FirmSolo。以经典的 Firmadyne 为例，传统固件模拟工具专注于用户空间的仿真和测试。而 FirmSole 可以提取固件的内核模块元信息，生成一个可以由 Qemu 加载的新内核，进而可以对这些内核模块进行 Fuzz 测试，已开源 FirmSole 。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-07-16T20:31:59Z",
+            "owner": "BUseclab",
+            "repo": "FirmSolo",
+            "stars": 22
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SHiFT: Semi-hosted Fuzz Testing for Embedded Applications, 2024",
+          "description": "一个针对 MCU 固件的 Fuzz 方案，与之前工作不太相同的是，SHiFT 采用半托管方案，非全仿真，避免不必要的外设模拟，研究者特意强调方案已开源。论文来自东北大学。",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-12-10T17:07:23Z",
+            "owner": "RiS3-Lab",
+            "repo": "SHiFT",
+            "stars": 18
+          }
+        }
+      ],
+      "title": "固件"
+    },
+    {
+      "description": "如果你看到了认为比较好的有关 Fuzz 测试的资源，欢迎贡献本项目！请阅读贡献指南。",
+      "items": [],
+      "title": "Contribute"
+    },
+    {
+      "description": "本作品采用知识共享署名-相同方式共享 4.0 国际许可协议进行许可。",
+      "items": [],
+      "title": "License"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T04:05:34.523Z",
+    "original_repository": "secnotes/fuzzing-tutorial",
+    "original_repository_sha": "a06a56fc03fa51fcb9c862e9852dc2cf48992055",
+    "enhanced_repository": "enhansome/enhansome-fuzzing-tutorial",
+    "enhanced_repository_description": null,
+    "title": "Awesome Recent Papers/Blogs/Tools Related to Fuzzing with stars"
+  }
+}
