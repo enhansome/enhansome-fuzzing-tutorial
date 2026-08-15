@@ -1770,7 +1770,7 @@
             "last_commit": "2026-08-13T12:14:43Z",
             "owner": "AFLplusplus",
             "repo": "LibAFL",
-            "stars": 2620
+            "stars": 2621
           }
         },
         {
@@ -1879,7 +1879,7 @@
             "last_commit": "2026-06-19T13:47:59Z",
             "owner": "google",
             "repo": "honggfuzz",
-            "stars": 3372
+            "stars": 3373
           }
         },
         {
@@ -1904,7 +1904,7 @@
           "repo_info": {
             "archived": false,
             "language": "C",
-            "last_commit": "2026-08-14T15:43:34Z",
+            "last_commit": "2026-08-15T01:38:41Z",
             "owner": "kernelslacker",
             "repo": "trinity",
             "stars": 905
@@ -2231,7 +2231,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-14T18:57:51.926Z",
+    "last_updated": "2026-08-15T18:33:50.909Z",
     "original_repository": "secnotes/fuzzing-tutorial",
     "original_repository_sha": "a06a56fc03fa51fcb9c862e9852dc2cf48992055",
     "enhanced_repository": "enhansome/enhansome-fuzzing-tutorial",
