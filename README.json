@@ -966,7 +966,7 @@
             "last_commit": "2026-08-02T11:24:25Z",
             "owner": "tls-attacker",
             "repo": "TLS-Attacker",
-            "stars": 878
+            "stars": 879
           }
         },
         {
@@ -1770,7 +1770,7 @@
             "last_commit": "2026-08-13T12:14:43Z",
             "owner": "AFLplusplus",
             "repo": "LibAFL",
-            "stars": 2621
+            "stars": 2622
           }
         },
         {
@@ -1893,7 +1893,7 @@
             "last_commit": "2026-03-13T12:56:22Z",
             "owner": "googleprojectzero",
             "repo": "winafl",
-            "stars": 2599
+            "stars": 2600
           }
         },
         {
@@ -1904,7 +1904,7 @@
           "repo_info": {
             "archived": false,
             "language": "C",
-            "last_commit": "2026-08-15T01:38:41Z",
+            "last_commit": "2026-08-16T18:30:00Z",
             "owner": "kernelslacker",
             "repo": "trinity",
             "stars": 905
@@ -2231,7 +2231,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-15T18:33:50.909Z",
+    "last_updated": "2026-08-16T18:33:04.488Z",
     "original_repository": "secnotes/fuzzing-tutorial",
     "original_repository_sha": "a06a56fc03fa51fcb9c862e9852dc2cf48992055",
     "enhanced_repository": "enhansome/enhansome-fuzzing-tutorial",
