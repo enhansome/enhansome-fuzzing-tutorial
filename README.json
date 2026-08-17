@@ -19,7 +19,7 @@
             "last_commit": "2026-03-18T14:39:18Z",
             "owner": "vul337",
             "repo": "FirmAgent",
-            "stars": 64
+            "stars": 66
           }
         },
         {
@@ -1112,7 +1112,7 @@
           "repo_info": {
             "archived": false,
             "language": "Rust",
-            "last_commit": "2026-08-13T16:29:46Z",
+            "last_commit": "2026-08-17T16:12:49Z",
             "owner": "tlspuffin",
             "repo": "tlspuffin",
             "stars": 160
@@ -1767,7 +1767,7 @@
           "repo_info": {
             "archived": false,
             "language": "Rust",
-            "last_commit": "2026-08-13T12:14:43Z",
+            "last_commit": "2026-08-17T11:53:52Z",
             "owner": "AFLplusplus",
             "repo": "LibAFL",
             "stars": 2622
@@ -1862,10 +1862,10 @@
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-14T13:39:12Z",
+            "last_commit": "2026-08-17T12:49:23Z",
             "owner": "google",
             "repo": "syzkaller",
-            "stars": 6299
+            "stars": 6302
           }
         },
         {
@@ -1893,7 +1893,7 @@
             "last_commit": "2026-03-13T12:56:22Z",
             "owner": "googleprojectzero",
             "repo": "winafl",
-            "stars": 2600
+            "stars": 2602
           }
         },
         {
@@ -1904,7 +1904,7 @@
           "repo_info": {
             "archived": false,
             "language": "C",
-            "last_commit": "2026-08-16T18:30:00Z",
+            "last_commit": "2026-08-17T02:31:48Z",
             "owner": "kernelslacker",
             "repo": "trinity",
             "stars": 905
@@ -2231,7 +2231,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-16T18:33:04.488Z",
+    "last_updated": "2026-08-17T18:42:56.207Z",
     "original_repository": "secnotes/fuzzing-tutorial",
     "original_repository_sha": "a06a56fc03fa51fcb9c862e9852dc2cf48992055",
     "enhanced_repository": "enhansome/enhansome-fuzzing-tutorial",
