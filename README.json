@@ -289,7 +289,7 @@
             "last_commit": "2026-08-13T16:29:40Z",
             "owner": "googleprojectzero",
             "repo": "fuzzilli",
-            "stars": 2332
+            "stars": 2331
           }
         },
         {
@@ -800,7 +800,7 @@
             "last_commit": "2021-07-05T14:02:41Z",
             "owner": "google",
             "repo": "AFL",
-            "stars": 4209
+            "stars": 4208
           }
         },
         {
@@ -814,7 +814,7 @@
             "last_commit": "2024-08-31T14:54:50Z",
             "owner": "Matheus-Garbelini",
             "repo": "braktooth_esp32_bluetooth_classic_attacks",
-            "stars": 578
+            "stars": 579
           }
         },
         {
@@ -1112,7 +1112,7 @@
           "repo_info": {
             "archived": false,
             "language": "Rust",
-            "last_commit": "2026-08-17T16:12:49Z",
+            "last_commit": "2026-08-18T13:30:19Z",
             "owner": "tlspuffin",
             "repo": "tlspuffin",
             "stars": 160
@@ -1767,7 +1767,7 @@
           "repo_info": {
             "archived": false,
             "language": "Rust",
-            "last_commit": "2026-08-17T11:53:52Z",
+            "last_commit": "2026-08-18T15:21:21Z",
             "owner": "AFLplusplus",
             "repo": "LibAFL",
             "stars": 2622
@@ -1879,7 +1879,7 @@
             "last_commit": "2026-06-19T13:47:59Z",
             "owner": "google",
             "repo": "honggfuzz",
-            "stars": 3373
+            "stars": 3372
           }
         },
         {
@@ -1904,7 +1904,7 @@
           "repo_info": {
             "archived": false,
             "language": "C",
-            "last_commit": "2026-08-17T02:31:48Z",
+            "last_commit": "2026-08-17T21:36:21Z",
             "owner": "kernelslacker",
             "repo": "trinity",
             "stars": 905
@@ -2231,7 +2231,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-17T18:42:56.207Z",
+    "last_updated": "2026-08-18T18:40:59.997Z",
     "original_repository": "secnotes/fuzzing-tutorial",
     "original_repository_sha": "a06a56fc03fa51fcb9c862e9852dc2cf48992055",
     "enhanced_repository": "enhansome/enhansome-fuzzing-tutorial",
