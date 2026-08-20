@@ -17,7 +17,7 @@
                 "last_commit": "2026-03-18T14:39:18Z",
                 "owner": "vul337",
                 "repo": "FirmAgent",
-                "stars": 68
+                "stars": 69
               }
             },
             {
@@ -305,10 +305,10 @@
                 "archived": false,
                 "id": 176764231,
                 "language": "Swift",
-                "last_commit": "2026-08-19T03:03:13Z",
+                "last_commit": "2026-08-20T18:05:50Z",
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2332
+                "stars": 2333
               }
             },
             {
@@ -508,7 +508,7 @@
                 "last_commit": "2025-03-31T19:02:34Z",
                 "owner": "comsec-group",
                 "repo": "encarsia",
-                "stars": 35
+                "stars": 37
               }
             },
             {
@@ -1197,7 +1197,7 @@
                 "archived": false,
                 "id": 412007186,
                 "language": "Rust",
-                "last_commit": "2026-08-19T17:29:43Z",
+                "last_commit": "2026-08-20T18:24:08Z",
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 160
@@ -1513,7 +1513,7 @@
                 "last_commit": "2019-07-10T00:23:42Z",
                 "owner": "compsec-snu",
                 "repo": "razzer",
-                "stars": 374
+                "stars": 375
               }
             },
             {
@@ -1904,7 +1904,7 @@
                 "archived": false,
                 "id": 306484908,
                 "language": "Rust",
-                "last_commit": "2026-08-19T11:54:41Z",
+                "last_commit": "2026-08-20T11:56:06Z",
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
                 "stars": 2622
@@ -2052,7 +2052,7 @@
                 "archived": false,
                 "id": 6600033,
                 "language": "C",
-                "last_commit": "2026-08-19T16:11:38Z",
+                "last_commit": "2026-08-20T15:37:30Z",
                 "owner": "kernelslacker",
                 "repo": "trinity",
                 "stars": 905
@@ -2397,7 +2397,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-19T18:38:50.375Z",
+    "last_updated": "2026-08-20T18:42:26.450Z",
     "original_repository": "secnotes/fuzzing-tutorial",
     "original_repository_id": 349086106,
     "original_repository_sha": "a06a56fc03fa51fcb9c862e9852dc2cf48992055",
