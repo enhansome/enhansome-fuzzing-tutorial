@@ -22,7 +22,7 @@
 * [Evaluating Fuzz Testing, 2018](http://www.cs.umd.edu/~mwh/papers/Fuzzeval.pdf) - 发表在CCS 2018 上的一篇论文，总结近些年 Fuzzing 的发展，分析了安全顶会上提出的多个工具，涵盖了 Fuzzing 完整的生命周期，是一篇不错的 survery。
 * [Fuzzing: Art, Science, and Engineering, 2018](https://arxiv.org/pdf/1812.00140.pdf)：一个非常详尽的 survery，包括各个工具的对比，也涵盖了 Fuzzing 的各个阶段。
 * [Fuzzing: State of the art, 2018](https://ieeexplore.ieee.org/document/8371326) - 发表在 [IEEE Transactions on Reliability](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=24)  上的论文，可以大概了解 Fuzzing 思想，但是分析并不深入，相比上面两篇文章，有一定的差距。
-* [Source-and-Fuzzing, 2019](https://github.com/lcatro/Source-and-Fuzzing) ⭐ 1,081 | 🐛 4 | 🌐 C++ | 📅 2021-08-24 - 一些阅读源码和 Fuzzing 的经验，涵盖黑盒与白盒测试，一系列文章对 Fuzz 的分析较为深入，值得一看。
+* [Source-and-Fuzzing, 2019](https://github.com/lcatro/Source-and-Fuzzing) ⭐ 1,082 | 🐛 4 | 🌐 C++ | 📅 2021-08-24 - 一些阅读源码和 Fuzzing 的经验，涵盖黑盒与白盒测试，一系列文章对 Fuzz 的分析较为深入，值得一看。
 * [Effective File Format Fuzzing – Thoughts, Techniques and Results, 2015](https://www.youtube.com/watch?v=qTTwqFRD1H8) - Blackhat Europe 2015 的演讲，作者主要分享多年来对多个开源和商用软件的 Fuzz 方法，包括 Adobe Reader、 Wireshark、 Hex-Rays IDA Pro 等软件。
 * [CoLaFUZE: Coverage-Guided and Layout-Aware Fuzzing for Android Drivers, 2021](https://www.jstage.jst.go.jp/article/transinf/E104.D/11/E104.D_2021NGP0005/_pdf) - 一个覆盖率引导和布局感知的模糊工具，用于自动生成有效输入和探索驱动程序代码。用于 Fuzz 测试**安卓驱动程序**。
 * [Better Pay Attention Whilst Fuzzing, 2022](https://arxiv.org/pdf/2112.07143) - 用于解决现有 Fuzzing 工具的两个局限性，缺乏对程序的全面分析和缺乏有效的变异策略。通过深度学习提高覆盖率。
@@ -82,7 +82,7 @@
 
 * [Semantic-Informed Driver Fuzzing Without Both the Hardware Devices and the Emulators, 2022](https://www.ndss-symposium.org/ndss-paper/auto-draft-248/) - 提出了一种无设备驱动程序 Fuzz 测试系统 DR .Fuzz，它不需要硬件设备对驱动程序进行 Fuzzing。DR .Fuzz 的核心是一种**语义通知机制**，它有效地生成输入以正确构造相关数据结构，以在驱动初始化时通过“验证链”，从而实现后续的无设备驱动程序 Fuzz 测试。
 * [MobFuzz: Adaptive Multi-objective Optimization in Gray-box Fuzzing, 2022](https://www.ndss-symposium.org/ndss-paper/auto-draft-199/) - 一种用于多目标优化 (MOO) 的灰盒模糊器，称为 MobFuzz。
-* [FirmWire: Transparent Dynamic Analysis for Cellular Baseband Firmware, 2022](https://hernan.de/research/papers/firmwire-ndss22-hernandez.pdf) - [FirmWire](https://github.com/FirmWire/FirmWire) ⭐ 876 | 🐛 17 | 🌐 Python | 📅 2026-08-20，是一个支持三星和联发科的全系统**基带**固件分析平台。它支持对基带固件映像进行 Fuzz 测试、模拟和调试。
+* [FirmWire: Transparent Dynamic Analysis for Cellular Baseband Firmware, 2022](https://hernan.de/research/papers/firmwire-ndss22-hernandez.pdf) - [FirmWire](https://github.com/FirmWire/FirmWire) ⭐ 877 | 🐛 17 | 🌐 Python | 📅 2026-08-20，是一个支持三星和联发科的全系统**基带**固件分析平台。它支持对基带固件映像进行 Fuzz 测试、模拟和调试。
 * [EMS: History-Driven Mutation for Coverage-based Fuzzing, 2022](https://nesa.zju.edu.cn/download/lcy_pdf_ems_ndss22.pdf) - 一种新颖的变异方案，通过分析历史测试用例，发现一些已经尝试过的用例仍有可能触发新的独特路径。提出了一种轻量级、高效的 Probabilistic Byte Orientation Model（PBOM）模型，基于此提出了一个新的历史驱动的变异框架 EMS，发现了多个新的 CVE。
 * [Context-Sensitive and Directional Concurrency Fuzzing for Data-Race Detection, 2022](https://www.ndss-symposium.org/ndss-paper/auto-draft-198/) - 一个名为 CONZZER 的新型并发 Fuzz 测试框架，以有效地探索线程交错并检测难以发现的**数据竞争**。
 * [datAFLow: Towards a Data-Flow-Guided Fuzzer, 2022](https://www.ndss-symposium.org/ndss-paper/auto-draft-273/) - DATAFLOW，这是一个由轻量级数据流分析驱动的灰盒 Fuzz 工具。
@@ -135,7 +135,7 @@
 * [HYPERPILL: Fuzzing for Hypervisor-bugs by leveraging the Hardware Virtualization Interface, 2024](https://www.usenix.org/conference/usenixsecurity24/presentation/bulekov) - 利用硬件虚拟化接口对 Hypervisor 虚拟机监视器进行 Fuzz。[HyperPill](https://github.com/HexHive/HyperPill) ⭐ 65 | 🐛 4 | 🌐 C++ | 📅 2026-03-26。
 * [MultiFuzz: A Multi-Stream Fuzzer For Testing Monolithic Firmware, 2024](https://www.usenix.org/conference/usenixsecurity24/presentation/chesser) - 一个针对**固件 MMIO** 的 Fuzz 方案，利用多输入流改进 Fuzz，需要固件仿真平台的支持，貌似基于 [Fuzzware](https://github.com/MultiFuzz/MultiFuzz) ⭐ 44 | 🐛 0 | 🌐 Rust | 📅 2026-07-01，因此，是基于已有仿真平台所做的 Fuzz 改进。
 * [EL3XIR: Fuzzing COTS Secure Monitors, 2024](https://www.usenix.org/conference/usenixsecurity24/presentation/lindenmeier) - 一种针对 ARM TrustZone 的 TEE 的引用监视器，即安全内核的 Fuzz 框架，[EL3XIR](https://github.com/HexHive/EL3XIR) ⭐ 21 | 🐛 4 | 🌐 C | 📅 2024-08-03 已开源。
-* [Critical Code Guided Directed Greybox Fuzzing for Commits, 2024](https://www.usenix.org/conference/usenixsecurity24/presentation/xiang-yi) - 研究员提出了一种定向灰盒 Fuzz 测试器 [WAFLGO](https://github.com/He1loNice/WAFLGo) ⭐ 20 | 🐛 2 | 🌐 C | 📅 2024-08-30（已开源），用于**从 commit 中识别 bug**。
+* [Critical Code Guided Directed Greybox Fuzzing for Commits, 2024](https://www.usenix.org/conference/usenixsecurity24/presentation/xiang-yi) - 研究员提出了一种定向灰盒 Fuzz 测试器 [WAFLGO](https://github.com/He1loNice/WAFLGo) ⭐ 19 | 🐛 2 | 🌐 C | 📅 2024-08-30（已开源），用于**从 commit 中识别 bug**。
 * [A Binary-level Thread Sanitizer or Why Sanitizing on the Binary Level is Hard, 2024](https://www.usenix.org/conference/usenixsecurity24/presentation/schilling) - 二进制 [TSAN](https://github.com/CISPA-SysSec/binary-tsan) ⭐ 18 | 🐛 0 | 🌐 C++ | 📅 2024-08-10（已开源），这是一种实现针对 Linux x86\_64 二进制目标的数据竞争检测器。目前，已有 RETROWRITE 将 ASAN 白盒插桩应用于二进制插桩，但是还没有关于 MSAN/UBSAN/TSAN 的二进制实现。本文就是实现了一个 TSAN 的黑盒插桩工具。
 * [SHiFT: Semi-hosted Fuzz Testing for Embedded Applications, 2024](https://www.usenix.org/conference/usenixsecurity24/presentation/mera) - 一个**针对 MCU 固件**的 Fuzz 方案，与之前工作不太相同的是，[SHiFT](https://github.com/RiS3-Lab/SHiFT) ⭐ 18 | 🐛 0 | 🌐 C | 📅 2024-12-10 采用半托管方案，非全仿真，避免不必要的外设模拟，研究者特意强调方案已开源。
 * [Fuzzing BusyBox: Leveraging LLM and Crash Reuse for Embedded Bug Unearthing, 2024](https://www.usenix.org/conference/usenixsecurity24/presentation/asmita) - 顾名思义，通过利用大语言模型（LLM）生成目标特定的初始种子来增强 Fuzz 测试。**利用大模型 Fuzz** 实现挖掘嵌入式系统中 Busybox 的漏洞。研究者使用 OpenAI 的 GPT-4 模型生成初始种子。
@@ -167,7 +167,7 @@
 ### 2022
 
 * [Fuzzing Hardware Like Software, 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/trippel) - 像软件一样对硬件进行 Fuzz 测试，来自于*密歇根大学* 的 Timothy Trippel ， 讲述如何将 RTL 设计的硬件转换为软件模型，并利用覆盖率引导的软件模糊器（如 [AFL](https://github.com/google/AFL) ⚠️ Archived）自动生成测试用例以进行硬件验证，已开源 [hw-Fuzzing](https://github.com/googleinterns/hw-Fuzzing) ⚠️ Archived 。
-* [BrakTooth: Causing Havoc on Bluetooth Link Manager via Directed Fuzzing, 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/garbelini) - 来自新加坡科技与设计大学的安全研究人员，他们发现了一个新的**蓝牙芯片安全漏洞** “BrakTooth”，这一漏洞影响了包括英特尔、高通和德州仪器在内的11家供应商的13款蓝牙芯片组，PoC已开源[braktooth\_esp32\_bluetooth\_classic\_attacks](https://github.com/Matheus-Garbelini/braktooth_esp32_bluetooth_classic_attacks) ⭐ 579 | 🐛 32 | 📅 2024-08-31，此团队曾在两年前也实现了另外一个 BLE Fuzzing 工具，即 SweynTooth。
+* [BrakTooth: Causing Havoc on Bluetooth Link Manager via Directed Fuzzing, 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/garbelini) - 来自新加坡科技与设计大学的安全研究人员，他们发现了一个新的**蓝牙芯片安全漏洞** “BrakTooth”，这一漏洞影响了包括英特尔、高通和德州仪器在内的11家供应商的13款蓝牙芯片组，PoC已开源[braktooth\_esp32\_bluetooth\_classic\_attacks](https://github.com/Matheus-Garbelini/braktooth_esp32_bluetooth_classic_attacks) ⭐ 580 | 🐛 32 | 📅 2024-08-31，此团队曾在两年前也实现了另外一个 BLE Fuzzing 工具，即 SweynTooth。
 * [Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing, 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/scharnowski) -  使用精准的MMIO建模提高**固件 Fuzz 测试**效率。一种针对 **ARM Cortex-M MCU 固件**进行 Fuzz 的工具，使用 Unicore Engine 仿真，MMIO 寄存器作为 Fuzz 入口，已开源 [Fuzzware](https://github.com/Fuzzware-Fuzzer/Fuzzware) ⭐ 376 | 🐛 15 | 🌐 Python | 📅 2026-06-27。
 * [StateFuzz: System Call-Based State-Aware Linux Driver Fuzzing, 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/zhao-bodong) -  也是一个 Fuzzing 方法改进，代码覆盖率引导的 Fuzz 测试在测试具备复杂状态的程序（比如网络协议程序、内核驱动）时存在局限，即Fuzzer缺乏指导来遍历程序状态因此，作者认为对这些程序，需要使用状态敏感的 Fuzz 测试。即将开源 [StateFuzz](https://github.com/vul337/StateFuzz) ⭐ 100 | 🐛 2 | 🌐 C++ | 📅 2023-08-16 。
 * [FRAMESHIFTER: Manipulating HTTP/2 Frame Sequences with Fuzzing, 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/jabiyev) -  专为 HTTP/2 开发了一种新颖的基于语法的 Fuzzer ，并发现 HTTP/2 到 HTTP/1 转换异常的安全隐患，已开源  [frameshifter](https://github.com/bahruzjabiyev/frameshifter) ⭐ 48 | 🐛 2 | 🌐 Python | 📅 2022-08-18 。
@@ -267,7 +267,7 @@
 
 ### 2019 ⤵
 
-* [Angora: Efficient Fuzzing by Principled Search, 2018](http://web.cs.ucdavis.edu/~hchen/paper/chen2018angora.pdf) - 论文开发的 [Angora](https://github.com/AngoraFuzzer/Angora) ⭐ 955 | 🐛 41 | 🌐 C++ | 📅 2022-07-18，主要目标是**提高分支覆盖率，不使用符号执行的方法来解决路径约束** 。 该工具目前活跃度较高，一直处于稳定更新中。
+* [Angora: Efficient Fuzzing by Principled Search, 2018](http://web.cs.ucdavis.edu/~hchen/paper/chen2018angora.pdf) - 论文开发的 [Angora](https://github.com/AngoraFuzzer/Angora) ⭐ 956 | 🐛 41 | 🌐 C++ | 📅 2022-07-18，主要目标是**提高分支覆盖率，不使用符号执行的方法来解决路径约束** 。 该工具目前活跃度较高，一直处于稳定更新中。
 * [NEUZZ: Efficient Fuzzing with Neural Program Smoothing, 2019](https://www.computer.org/csdl/proceedings-article/sp/2019/666000a900/19skg5XghG0) - **利用神经网络来模拟程序的分支行为**。 [neuzz](https://github.com/Dongdongshe/neuzz) ⭐ 408 | 🐛 12 | 🌐 C | 📅 2020-05-24 通过有策略地修改现有 seeds 的一些 bytes 以期来产生 interesting seeds 从而能触发未执行过的 edge。而这个策略要借助神经网络才能得以具体实施。
 * [Razzer: Finding Kernel Race Bugs through Fuzzing, 2019](https://www.computer.org/csdl/proceedings-article/sp/2019/666000a296/19skfwZLirm) - 设计并提出了**针对内核中的数据竞争类型漏洞的 Fuzz 测试（Fuzzing）工具 Razzer** 。 [Razzer](https://github.com/compsec-snu/razzer) ⭐ 375 | 🐛 9 | 🌐 C | 📅 2019-07-10 的两阶段 Fuzz 测试基于Syzkaller。确定性调度程序是使用 QEMU / KVM 实现的。
 * [T-Fuzz: Fuzzing by program transformation, 2018](https://nebelwelt.net/publications/files/18Oakland.pdf) - 论文开发的 [T-Fuzz](https://github.com/HexHive/T-Fuzz) ⚠️ Archived 通过**去掉 santiy check 来提高覆盖率**。T-Fuzz 利用覆盖率来引导产生输入。当不能访问到新的路径时，T-Fuzz会去掉 check，以保证 Fuzz 能继续进行，发现新的路径和 bug。
@@ -328,7 +328,7 @@
 
 ### 2022 ⤵
 
-* [LibAFL: A Framework to Build Modular and Reusable Fuzzers, 2022](https://dl.acm.org/doi/10.1145/3548606.3560602) - **LibAFL**，这是一个构建模块化和可重用模糊器的框架，来自于谷歌的个人研究者，已开源 **[LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,623 | 🐛 115 | 🌐 Rust | 📅 2026-08-21**。
+* [LibAFL: A Framework to Build Modular and Reusable Fuzzers, 2022](https://dl.acm.org/doi/10.1145/3548606.3560602) - **LibAFL**，这是一个构建模块化和可重用模糊器的框架，来自于谷歌的个人研究者，已开源 **[LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,622 | 🐛 115 | 🌐 Rust | 📅 2026-08-21**。
 * [WINNIE : Fuzzing Windows Applications with Harness Synthesis and Fast Cloning, 2021](https://www.ndss-symposium.org/ndss-paper/winnie-Fuzzing-windows-applications-with-harness-synthesis-and-fast-cloning/) - 利用合成和快速克隆对 **Windows 应用程序**进行 Fuzz 测试，作者构建了一个端到端 [WINNIE](https://github.com/sslab-gatech/winnie) ⭐ 574 | 🐛 15 | 🌐 C | 📅 2022-11-28 系统，包含两个组件：可从二进制文件中自动合成工具的生成器，以及一个高效的 Windows forkserver。 对比工具： WinAFL 。
 * [DIFUZE: Interface Aware Fuzzing for Kernel Drivers, 2017](https://acmccs.github.io/papers/p2123-corinaA.pdf) - 作者提出的一个 seed 生成方案。通过**优化种子生成**，同样也可以达到提高 Fuzzing 效率的效果。经过验证，[DIFUZE](https://github.com/ucsb-seclab/difuze) ⭐ 385 | 🐛 7 | 🌐 C++ | 📅 2022-04-30 相较于现有的 Fuzzer 在 ioctl() 接口上，确实存在着明显的优势。这也是显然的，DIFUZE 相较于其他的工具在 Fuzzing这样一个需要超大信息量的接口上提供了足够的信息，支撑它挖掘出大于其他工具几个数量级的信息量。
 * [DIFUZE: Interface Aware Fuzzing for Kernel Drivers, 2017](https://acmccs.github.io/papers/p2123-corinaA.pdf) - 作者设计并完成了**针对用户态与内核驱动关键接口 ioctl() 的 Fuzzing 工具 DIFUZE**， [DIFUZE](https://github.com/ucsb-seclab/difuze) ⭐ 385 | 🐛 7 | 🌐 C++ | 📅 2022-04-30 首先对内核代码进行静态分析，完成interface 的 recovery，获取 interface 的关键信息，并基于这些有效的信息去生成更加合理的 Fuzzing 输入，得到一个更好的 Fuzzing 效果。
@@ -353,15 +353,15 @@
 ### 变异器
 
 * [Radamsa](https://gitlab.com/akihe/radamsa) ：Radamsa 是用于健壮性测试的测试用例生成器。通过读取有效数据的样本文件并从中生成令人感兴趣的不同输出来工作。
-* [zzuf](https://github.com/samhocevar/zzuf) ⭐ 447 | 🐛 14 | 🌐 C | 📅 2022-12-11 ：一个 Fuzzer 的输入程序，作为一个优秀的开源项目，已经有不少国外的大型项目引入 zzuf，作为各种畸形数据的生成。
+* [zzuf](https://github.com/samhocevar/zzuf) ⭐ 448 | 🐛 14 | 🌐 C | 📅 2022-12-11 ：一个 Fuzzer 的输入程序，作为一个优秀的开源项目，已经有不少国外的大型项目引入 zzuf，作为各种畸形数据的生成。
 
 ### 二进制
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,304 | 🐛 622 | 🌐 Go | 📅 2026-08-21：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,305 | 🐛 622 | 🌐 Go | 📅 2026-08-21：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
 * [HonggFuzz](https://github.com/google/honggFuzz) ⭐ 3,374 | 🐛 30 | 🌐 C | 📅 2026-06-19：同样是谷歌开发的一个类似于 afl 的工具，只是 honggFuzz 基于反馈驱动，多线程和多进程，Fuzz 速度相比于 afl 有一个质的飞跃。
 * [winafl](https://github.com/googleprojectzero/winafl) ⭐ 2,602 | 🐛 170 | 🌐 C | 📅 2026-03-13：afl 的一个分支项目，将 afl 用于Windows 平台。
-* [trinity](https://github.com/kernelslacker/trinity) ⭐ 905 | 🐛 1 | 🌐 C | 📅 2026-08-21：Linux system call Fuzzer，对于 **Linux 系统调用**的 Fuzz 测试工具。
-* [NtCall64](https://github.com/hfiref0x/NtCall64) ⭐ 641 | 🐛 0 | 🌐 C | 📅 2026-04-02：Windows NT x64 syscall Fuzzer，基于 NtCall 的 **Windows 系统调用** Fuzz 测试工具。
+* [trinity](https://github.com/kernelslacker/trinity) ⭐ 905 | 🐛 1 | 🌐 C | 📅 2026-08-22：Linux system call Fuzzer，对于 **Linux 系统调用**的 Fuzz 测试工具。
+* [NtCall64](https://github.com/hfiref0x/NtCall64) ⭐ 642 | 🐛 0 | 🌐 C | 📅 2026-04-02：Windows NT x64 syscall Fuzzer，基于 NtCall 的 **Windows 系统调用** Fuzz 测试工具。
 * [afl-unicorn: Fuzzing The 'UnFuzzable' ](https://www.youtube.com/watch?v=OheODvF0884)： [Battelle](https://www.battelle.org/cyber) 在  **ShmooCon 2018** 上发布的一个工具，已经有大佬将演讲视频添加[中文字幕](https://www.bilibili.com/video/av83051615/)并上传到 B 站上。该[工具](https://github.com/Battelle/afl-unicorn) ⭐ 617 | 🐛 14 | 🌐 C | 📅 2023-06-18 弥补了 afl 的不足，可以对任意二进制代码片段进行 Fuzz，作为一个完全使用**黑盒进行 Fuzz** 的工具，afl-unicorn 也保留了 afl 原有的代码覆盖率统计，根据反馈对种子进行变异，从而提高代码覆盖。
 * [frida-Fuzzer](https://github.com/andreafioraldi/frida-Fuzzer) ⚠️ Archived： Frida-Fuzzer 是一款针对 API 的内存 Fuzz 测试框架，该工具的设计和开发灵感来源于 afl/afl++，Frida-Fuzzer 的当前版本支持在 GNU/Linux x86\_64 和 Android x86——64 平台上运行。
 * [kDriver-Fuzzer](https://github.com/k0keoyo/kDriver-Fuzzer) ⭐ 480 | 🐛 0 | 🌐 C | 📅 2018-03-31：基于 ioctlbf 框架编写的驱动漏洞挖掘工具 kDriver Fuzzer，**驱动 Fuzzer**。
@@ -450,4 +450,4 @@
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-21._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-22._
