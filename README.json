@@ -508,7 +508,7 @@
                 "last_commit": "2025-03-31T19:02:34Z",
                 "owner": "comsec-group",
                 "repo": "encarsia",
-                "stars": 37
+                "stars": 36
               }
             },
             {
@@ -889,7 +889,7 @@
                 "last_commit": "2026-06-27T07:50:04Z",
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 376
+                "stars": 377
               }
             },
             {
@@ -2052,7 +2052,7 @@
                 "archived": false,
                 "id": 6600033,
                 "language": "C",
-                "last_commit": "2026-08-22T17:57:20Z",
+                "last_commit": "2026-08-23T16:07:07Z",
                 "owner": "kernelslacker",
                 "repo": "trinity",
                 "stars": 905
@@ -2279,7 +2279,7 @@
                 "last_commit": "2026-06-27T07:50:04Z",
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 376
+                "stars": 377
               }
             },
             {
@@ -2397,7 +2397,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-22T18:34:18.241Z",
+    "last_updated": "2026-08-23T18:33:03.024Z",
     "original_repository": "secnotes/fuzzing-tutorial",
     "original_repository_id": 349086106,
     "original_repository_sha": "a06a56fc03fa51fcb9c862e9852dc2cf48992055",
