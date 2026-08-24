@@ -933,7 +933,7 @@
                 "last_commit": "2026-06-27T07:50:04Z",
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 377
+                "stars": 378
               }
             },
             {
@@ -1241,7 +1241,7 @@
                 "archived": false,
                 "id": 412007186,
                 "language": "Rust",
-                "last_commit": "2026-08-24T13:31:50Z",
+                "last_commit": "2026-08-24T17:33:47Z",
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 160
@@ -2367,7 +2367,7 @@
                 "last_commit": "2026-06-27T07:50:04Z",
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 377
+                "stars": 378
               }
             },
             {
@@ -2485,7 +2485,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T14:23:53.283Z",
+    "last_updated": "2026-08-24T18:43:35.730Z",
     "original_repository": "secnotes/fuzzing-tutorial",
     "original_repository_id": 349086106,
     "original_repository_sha": "a06a56fc03fa51fcb9c862e9852dc2cf48992055",
