@@ -17,7 +17,7 @@
                 "last_commit": "2026-03-18T14:39:18Z",
                 "owner": "vul337",
                 "repo": "FirmAgent",
-                "stars": 71
+                "stars": 72
               }
             },
             {
@@ -903,7 +903,7 @@
                 "last_commit": "2021-07-05T14:02:41Z",
                 "owner": "google",
                 "repo": "AFL",
-                "stars": 4206
+                "stars": 4205
               }
             },
             {
@@ -1241,7 +1241,7 @@
                 "archived": false,
                 "id": 412007186,
                 "language": "Rust",
-                "last_commit": "2026-08-24T17:33:47Z",
+                "last_commit": "2026-08-25T17:17:39Z",
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 160
@@ -2095,10 +2095,10 @@
                 "archived": false,
                 "id": 44087204,
                 "language": "Go",
-                "last_commit": "2026-08-24T14:12:26Z",
+                "last_commit": "2026-08-25T15:24:39Z",
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6307
+                "stars": 6308
               }
             },
             {
@@ -2485,7 +2485,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T06:17:00.935Z",
+    "last_updated": "2026-08-25T18:42:21.480Z",
     "original_repository": "secnotes/fuzzing-tutorial",
     "original_repository_id": 349086106,
     "original_repository_sha": "a06a56fc03fa51fcb9c862e9852dc2cf48992055",
