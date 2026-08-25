@@ -390,7 +390,7 @@
                 "last_commit": "2026-08-20T11:02:19Z",
                 "owner": "FirmWire",
                 "repo": "FirmWire",
-                "stars": 878
+                "stars": 879
               }
             }
           ],
@@ -412,7 +412,7 @@
                 "last_commit": "2022-11-28T00:40:41Z",
                 "owner": "sslab-gatech",
                 "repo": "winnie",
-                "stars": 574
+                "stars": 575
               }
             },
             {
@@ -903,7 +903,7 @@
                 "last_commit": "2021-07-05T14:02:41Z",
                 "owner": "google",
                 "repo": "AFL",
-                "stars": 4207
+                "stars": 4206
               }
             },
             {
@@ -933,7 +933,7 @@
                 "last_commit": "2026-06-27T07:50:04Z",
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 378
+                "stars": 379
               }
             },
             {
@@ -1988,7 +1988,7 @@
                 "last_commit": "2022-11-28T00:40:41Z",
                 "owner": "sslab-gatech",
                 "repo": "winnie",
-                "stars": 574
+                "stars": 575
               }
             },
             {
@@ -2113,7 +2113,7 @@
                 "last_commit": "2026-06-19T13:47:59Z",
                 "owner": "google",
                 "repo": "honggfuzz",
-                "stars": 3374
+                "stars": 3375
               }
             },
             {
@@ -2128,7 +2128,7 @@
                 "last_commit": "2026-03-13T12:56:22Z",
                 "owner": "googleprojectzero",
                 "repo": "winafl",
-                "stars": 2603
+                "stars": 2604
               }
             },
             {
@@ -2367,7 +2367,7 @@
                 "last_commit": "2026-06-27T07:50:04Z",
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 378
+                "stars": 379
               }
             },
             {
@@ -2485,7 +2485,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T18:43:35.730Z",
+    "last_updated": "2026-08-25T06:17:00.935Z",
     "original_repository": "secnotes/fuzzing-tutorial",
     "original_repository_id": 349086106,
     "original_repository_sha": "a06a56fc03fa51fcb9c862e9852dc2cf48992055",
