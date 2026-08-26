@@ -933,7 +933,7 @@
                 "last_commit": "2026-06-27T07:50:04Z",
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 379
+                "stars": 380
               }
             },
             {
@@ -1241,7 +1241,7 @@
                 "archived": false,
                 "id": 412007186,
                 "language": "Rust",
-                "last_commit": "2026-08-25T17:17:39Z",
+                "last_commit": "2026-08-26T16:35:55Z",
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 160
@@ -1970,7 +1970,7 @@
                 "archived": false,
                 "id": 306484908,
                 "language": "Rust",
-                "last_commit": "2026-08-24T11:54:56Z",
+                "last_commit": "2026-08-26T17:17:33Z",
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
                 "stars": 2622
@@ -2095,10 +2095,10 @@
                 "archived": false,
                 "id": 44087204,
                 "language": "Go",
-                "last_commit": "2026-08-25T15:24:39Z",
+                "last_commit": "2026-08-26T08:42:29Z",
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6308
+                "stars": 6309
               }
             },
             {
@@ -2113,7 +2113,7 @@
                 "last_commit": "2026-06-19T13:47:59Z",
                 "owner": "google",
                 "repo": "honggfuzz",
-                "stars": 3375
+                "stars": 3376
               }
             },
             {
@@ -2140,7 +2140,7 @@
                 "archived": false,
                 "id": 6600033,
                 "language": "C",
-                "last_commit": "2026-08-23T16:07:07Z",
+                "last_commit": "2026-08-26T16:11:00Z",
                 "owner": "kernelslacker",
                 "repo": "trinity",
                 "stars": 905
@@ -2330,7 +2330,7 @@
                 "last_commit": "2017-07-16T03:50:06Z",
                 "owner": "Fuzzapi",
                 "repo": "API-fuzzer",
-                "stars": 408
+                "stars": 409
               }
             }
           ],
@@ -2367,7 +2367,7 @@
                 "last_commit": "2026-06-27T07:50:04Z",
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 379
+                "stars": 380
               }
             },
             {
@@ -2485,7 +2485,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T18:42:21.480Z",
+    "last_updated": "2026-08-26T19:50:06.833Z",
     "original_repository": "secnotes/fuzzing-tutorial",
     "original_repository_id": 349086106,
     "original_repository_sha": "a06a56fc03fa51fcb9c862e9852dc2cf48992055",
