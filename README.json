@@ -1973,7 +1973,7 @@
                 "last_commit": "2026-08-26T17:17:33Z",
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2622
+                "stars": 2623
               }
             },
             {
@@ -2095,7 +2095,7 @@
                 "archived": false,
                 "id": 44087204,
                 "language": "Go",
-                "last_commit": "2026-08-26T08:42:29Z",
+                "last_commit": "2026-08-27T11:37:04Z",
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6309
@@ -2270,7 +2270,7 @@
                 "last_commit": "2024-11-26T08:55:07Z",
                 "owner": "googleprojectzero",
                 "repo": "domato",
-                "stars": 1785
+                "stars": 1784
               }
             },
             {
@@ -2485,9 +2485,16 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-26T19:50:06.833Z",
-    "original_repository": "secnotes/fuzzing-tutorial",
-    "original_repository_id": 349086106,
+    "last_updated": "2026-08-27T11:42:06.413Z",
+    "original_repository_info": {
+      "archived": false,
+      "id": 349086106,
+      "language": "Python",
+      "last_commit": "2026-07-08T12:25:29Z",
+      "owner": "secnotes",
+      "repo": "fuzzing-tutorial",
+      "stars": 406
+    },
     "original_repository_sha": "a06a56fc03fa51fcb9c862e9852dc2cf48992055",
     "enhanced_repository": "enhansome/enhansome-fuzzing-tutorial",
     "enhanced_repository_description": null,
