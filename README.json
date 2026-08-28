@@ -390,7 +390,7 @@
                 "last_commit": "2026-08-20T11:02:19Z",
                 "owner": "FirmWire",
                 "repo": "FirmWire",
-                "stars": 879
+                "stars": 878
               }
             }
           ],
@@ -1241,7 +1241,7 @@
                 "archived": false,
                 "id": 412007186,
                 "language": "Rust",
-                "last_commit": "2026-08-26T16:35:55Z",
+                "last_commit": "2026-08-27T17:11:58Z",
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 160
@@ -1719,7 +1719,7 @@
                 "last_commit": "2025-01-31T02:43:04Z",
                 "owner": "GJDuck",
                 "repo": "EnvFuzz",
-                "stars": 396
+                "stars": 397
               }
             },
             {
@@ -1891,7 +1891,7 @@
                 "last_commit": "2026-06-05T04:55:26Z",
                 "owner": "FuzzAnything",
                 "repo": "Hopper",
-                "stars": 265
+                "stars": 266
               }
             },
             {
@@ -1970,10 +1970,10 @@
                 "archived": false,
                 "id": 306484908,
                 "language": "Rust",
-                "last_commit": "2026-08-26T17:17:33Z",
+                "last_commit": "2026-08-27T11:53:55Z",
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2623
+                "stars": 2625
               }
             },
             {
@@ -2095,7 +2095,7 @@
                 "archived": false,
                 "id": 44087204,
                 "language": "Go",
-                "last_commit": "2026-08-27T11:37:04Z",
+                "last_commit": "2026-08-27T14:52:09Z",
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6309
@@ -2188,7 +2188,7 @@
                 "last_commit": "2020-06-22T15:19:40Z",
                 "owner": "andreafioraldi",
                 "repo": "frida-fuzzer",
-                "stars": 577
+                "stars": 578
               }
             },
             {
@@ -2485,7 +2485,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T11:42:06.413Z",
+    "last_updated": "2026-08-28T02:04:57.574Z",
     "original_repository_info": {
       "archived": false,
       "id": 349086106,
