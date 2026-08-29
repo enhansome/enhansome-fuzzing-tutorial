@@ -21,7 +21,7 @@
                 "open_issues": 2,
                 "owner": "vul337",
                 "repo": "FirmAgent",
-                "stars": 72,
+                "stars": 73,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -715,7 +715,7 @@
                 "id": 994250163,
                 "language": "C",
                 "license": "Apache-2.0",
-                "last_commit": "2026-01-31T08:31:41Z",
+                "last_commit": "2026-08-29T07:54:20Z",
                 "open_issues": 0,
                 "owner": "vul337",
                 "repo": "IDFuzz",
@@ -736,7 +736,7 @@
                 "id": 994250163,
                 "language": "C",
                 "license": "Apache-2.0",
-                "last_commit": "2026-01-31T08:31:41Z",
+                "last_commit": "2026-08-29T07:54:20Z",
                 "open_issues": 0,
                 "owner": "vul337",
                 "repo": "IDFuzz",
@@ -2182,7 +2182,7 @@
                 "open_issues": 41,
                 "owner": "AngoraFuzzer",
                 "repo": "Angora",
-                "stars": 956,
+                "stars": 957,
                 "topics": [
                   "afl",
                   "data-flow-analysis",
@@ -3008,7 +3008,7 @@
                 "open_issues": 620,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6309,
+                "stars": 6310,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3190,7 +3190,7 @@
                 "open_issues": 0,
                 "owner": "k0keoyo",
                 "repo": "kDriver-Fuzzer",
-                "stars": 480,
+                "stars": 481,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3595,7 +3595,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T04:47:01.365Z",
+    "last_updated": "2026-08-29T20:38:33.751Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
