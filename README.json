@@ -21,7 +21,7 @@
                 "open_issues": 2,
                 "owner": "vul337",
                 "repo": "FirmAgent",
-                "stars": 73,
+                "stars": 74,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -324,27 +324,6 @@
             },
             {
               "node_type": "item",
-              "title": "EnclaveFuzz: Finding Vulnerabilities in SGX Applications, 2024",
-              "description": "Fuzz 对象是使用了因特尔 SGX 技术的软件，已开源。",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Code of paper \"EnclaveFuzz: Finding Vulnerabilities in SGX Applications\"",
-                "homepage": null,
-                "id": 424112774,
-                "language": "C++",
-                "license": "Apache-2.0",
-                "last_commit": "2026-01-01T16:50:39Z",
-                "open_issues": 0,
-                "owner": "vul337",
-                "repo": "EnclaveFuzz",
-                "stars": 25,
-                "topics": []
-              },
-              "first_seen": "2026-08-29T01:32:57.477Z"
-            },
-            {
-              "node_type": "item",
               "title": "ReqsMiner: Automated Discovery of CDN Forwarding Request Inconsistencies and DoS Attacks with Grammar-based Fuzzing, 2024",
               "description": "针对 CDN 请求不一致的 Fuzz 工具，已开源。",
               "children": [],
@@ -360,6 +339,27 @@
                 "owner": "Konano",
                 "repo": "ReqsMiner",
                 "stars": 25,
+                "topics": []
+              },
+              "first_seen": "2026-08-29T01:32:57.477Z"
+            },
+            {
+              "node_type": "item",
+              "title": "EnclaveFuzz: Finding Vulnerabilities in SGX Applications, 2024",
+              "description": "Fuzz 对象是使用了因特尔 SGX 技术的软件，已开源。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Code of paper \"EnclaveFuzz: Finding Vulnerabilities in SGX Applications\"",
+                "homepage": null,
+                "id": 424112774,
+                "language": "C++",
+                "license": "Apache-2.0",
+                "last_commit": "2026-01-01T16:50:39Z",
+                "open_issues": 0,
+                "owner": "vul337",
+                "repo": "EnclaveFuzz",
+                "stars": 24,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -433,7 +433,7 @@
                 "open_issues": 74,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2334,
+                "stars": 2336,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -636,7 +636,7 @@
                 "open_issues": 1,
                 "owner": "purseclab",
                 "repo": "PGFuzz",
-                "stars": 43,
+                "stars": 44,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1286,7 +1286,7 @@
                 "open_issues": 32,
                 "owner": "Matheus-Garbelini",
                 "repo": "braktooth_esp32_bluetooth_classic_attacks",
-                "stars": 580,
+                "stars": 581,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -2815,7 +2815,7 @@
                 "open_issues": 116,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2626,
+                "stars": 2627,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -2946,7 +2946,7 @@
                 "open_issues": 1,
                 "owner": "purseclab",
                 "repo": "PGFuzz",
-                "stars": 43,
+                "stars": 44,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3005,10 +3005,10 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-08-28T14:06:25Z",
-                "open_issues": 620,
+                "open_issues": 621,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6310,
+                "stars": 6311,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3064,7 +3064,7 @@
                 "open_issues": 170,
                 "owner": "googleprojectzero",
                 "repo": "winafl",
-                "stars": 2605,
+                "stars": 2606,
                 "topics": [
                   "afl",
                   "fuzzing",
@@ -3595,7 +3595,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T20:38:33.751Z",
+    "last_updated": "2026-08-30T20:45:25.886Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
