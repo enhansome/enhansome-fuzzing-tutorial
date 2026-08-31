@@ -429,11 +429,11 @@
                 "id": 176764231,
                 "language": "Swift",
                 "license": "Apache-2.0",
-                "last_commit": "2026-08-20T18:05:50Z",
+                "last_commit": "2026-08-31T18:00:19Z",
                 "open_issues": 74,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2336,
+                "stars": 2337,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1048,7 +1048,7 @@
                 "open_issues": 0,
                 "owner": "vul337",
                 "repo": "KextFuzz",
-                "stars": 96,
+                "stars": 97,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1511,7 +1511,7 @@
                 "id": 56690117,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-08-02T11:24:25Z",
+                "last_commit": "2026-08-31T20:45:57Z",
                 "open_issues": 34,
                 "owner": "tls-attacker",
                 "repo": "TLS-Attacker",
@@ -1687,7 +1687,7 @@
                 "open_issues": 0,
                 "owner": "kaist-hacking",
                 "repo": "RGFuzz",
-                "stars": 24,
+                "stars": 25,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1735,7 +1735,7 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-08-28T12:23:23Z",
+                "last_commit": "2026-08-31T16:13:17Z",
                 "open_issues": 133,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
@@ -2232,7 +2232,7 @@
                 "open_issues": 9,
                 "owner": "compsec-snu",
                 "repo": "razzer",
-                "stars": 375,
+                "stars": 376,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -2811,11 +2811,11 @@
                 "id": 306484908,
                 "language": "Rust",
                 "license": "NOASSERTION",
-                "last_commit": "2026-08-28T19:13:45Z",
-                "open_issues": 116,
+                "last_commit": "2026-08-31T11:55:08Z",
+                "open_issues": 119,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2627,
+                "stars": 2628,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3004,11 +3004,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-08-28T14:06:25Z",
+                "last_commit": "2026-08-31T15:31:20Z",
                 "open_issues": 621,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6311,
+                "stars": 6314,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3089,7 +3089,7 @@
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
-                "stars": 905,
+                "stars": 906,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3595,7 +3595,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-30T20:45:25.886Z",
+    "last_updated": "2026-08-31T22:38:02.731Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
