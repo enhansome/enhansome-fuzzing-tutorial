@@ -429,11 +429,11 @@
                 "id": 176764231,
                 "language": "Swift",
                 "license": "Apache-2.0",
-                "last_commit": "2026-08-31T18:00:19Z",
+                "last_commit": "2026-09-02T15:44:02Z",
                 "open_issues": 74,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2337,
+                "stars": 2339,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -589,7 +589,7 @@
                 "open_issues": 15,
                 "owner": "sslab-gatech",
                 "repo": "winnie",
-                "stars": 575,
+                "stars": 576,
                 "topics": [
                   "afl-fuzz",
                   "fuzzing",
@@ -1735,7 +1735,7 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-01T19:32:35Z",
+                "last_commit": "2026-09-02T12:53:28Z",
                 "open_issues": 134,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
@@ -2428,7 +2428,7 @@
                 "open_issues": 3,
                 "owner": "GJDuck",
                 "repo": "EnvFuzz",
-                "stars": 397,
+                "stars": 398,
                 "topics": [
                   "binary",
                   "e9patch",
@@ -2811,11 +2811,11 @@
                 "id": 306484908,
                 "language": "Rust",
                 "license": "NOASSERTION",
-                "last_commit": "2026-08-31T11:55:08Z",
-                "open_issues": 119,
+                "last_commit": "2026-09-02T18:04:55Z",
+                "open_issues": 114,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2630,
+                "stars": 2631,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -2847,7 +2847,7 @@
                 "open_issues": 15,
                 "owner": "sslab-gatech",
                 "repo": "winnie",
-                "stars": 575,
+                "stars": 576,
                 "topics": [
                   "afl-fuzz",
                   "fuzzing",
@@ -3004,8 +3004,8 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-01T08:21:31Z",
-                "open_issues": 627,
+                "last_commit": "2026-09-02T14:59:57Z",
+                "open_issues": 625,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6313,
@@ -3595,7 +3595,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-01T20:45:12.359Z",
+    "last_updated": "2026-09-02T20:44:16.954Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
