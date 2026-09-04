@@ -21,7 +21,7 @@
                 "open_issues": 2,
                 "owner": "vul337",
                 "repo": "FirmAgent",
-                "stars": 75,
+                "stars": 76,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -287,7 +287,7 @@
                 "open_issues": 6,
                 "owner": "ChatAFLndss",
                 "repo": "ChatAFL",
-                "stars": 393,
+                "stars": 394,
                 "topics": [
                   "fuzzing",
                   "fuzzing-testing",
@@ -433,7 +433,7 @@
                 "open_issues": 74,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2339,
+                "stars": 2340,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1265,7 +1265,7 @@
                 "open_issues": 66,
                 "owner": "google",
                 "repo": "AFL",
-                "stars": 4204,
+                "stars": 4203,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1735,7 +1735,7 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-03T14:58:49Z",
+                "last_commit": "2026-09-04T17:56:21Z",
                 "open_issues": 134,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
@@ -2815,7 +2815,7 @@
                 "open_issues": 116,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2631,
+                "stars": 2630,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3004,8 +3004,8 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-03T14:49:47Z",
-                "open_issues": 624,
+                "last_commit": "2026-09-04T15:00:56Z",
+                "open_issues": 626,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6316,
@@ -3595,7 +3595,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-03T20:42:18.022Z",
+    "last_updated": "2026-09-04T20:29:02.806Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
