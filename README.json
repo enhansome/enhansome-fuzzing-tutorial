@@ -553,7 +553,7 @@
                 "open_issues": 17,
                 "owner": "FirmWire",
                 "repo": "FirmWire",
-                "stars": 878,
+                "stars": 880,
                 "topics": [
                   "baseband",
                   "emulation",
@@ -1307,7 +1307,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 383,
+                "stars": 384,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -1511,7 +1511,7 @@
                 "id": 56690117,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-01T10:19:12Z",
+                "last_commit": "2026-09-05T17:58:27Z",
                 "open_issues": 34,
                 "owner": "tls-attacker",
                 "repo": "TLS-Attacker",
@@ -2815,7 +2815,7 @@
                 "open_issues": 116,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2630,
+                "stars": 2631,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3008,7 +3008,7 @@
                 "open_issues": 626,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6316,
+                "stars": 6318,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3039,7 +3039,7 @@
                 "open_issues": 30,
                 "owner": "google",
                 "repo": "honggfuzz",
-                "stars": 3376,
+                "stars": 3377,
                 "topics": [
                   "c",
                   "fuzzing",
@@ -3428,7 +3428,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 383,
+                "stars": 384,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -3595,7 +3595,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-04T20:29:02.806Z",
+    "last_updated": "2026-09-05T20:04:58.598Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
