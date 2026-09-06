@@ -21,7 +21,7 @@
                 "open_issues": 2,
                 "owner": "vul337",
                 "repo": "FirmAgent",
-                "stars": 76,
+                "stars": 77,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -2815,7 +2815,7 @@
                 "open_issues": 116,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2631,
+                "stars": 2632,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3005,10 +3005,10 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-04T15:00:56Z",
-                "open_issues": 626,
+                "open_issues": 627,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6318,
+                "stars": 6319,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3595,7 +3595,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-05T20:04:58.598Z",
+    "last_updated": "2026-09-06T20:09:31.601Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
