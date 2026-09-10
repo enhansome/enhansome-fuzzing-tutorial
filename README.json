@@ -18,10 +18,10 @@
                 "language": "C",
                 "license": "NOASSERTION",
                 "last_commit": "2026-09-03T01:37:32Z",
-                "open_issues": 2,
+                "open_issues": 3,
                 "owner": "vul337",
                 "repo": "FirmAgent",
-                "stars": 77,
+                "stars": 78,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -105,7 +105,7 @@
                 "open_issues": 0,
                 "owner": "kaist-hacking",
                 "repo": "RTCON",
-                "stars": 7,
+                "stars": 8,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -287,7 +287,7 @@
                 "open_issues": 6,
                 "owner": "ChatAFLndss",
                 "repo": "ChatAFL",
-                "stars": 394,
+                "stars": 395,
                 "topics": [
                   "fuzzing",
                   "fuzzing-testing",
@@ -429,7 +429,7 @@
                 "id": 176764231,
                 "language": "Swift",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-09T16:00:59Z",
+                "last_commit": "2026-09-10T15:18:57Z",
                 "open_issues": 74,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
@@ -719,7 +719,7 @@
                 "open_issues": 0,
                 "owner": "vul337",
                 "repo": "IDFuzz",
-                "stars": 92,
+                "stars": 93,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -740,7 +740,7 @@
                 "open_issues": 0,
                 "owner": "vul337",
                 "repo": "IDFuzz",
-                "stars": 92,
+                "stars": 93,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1333,7 +1333,7 @@
                 "open_issues": 2,
                 "owner": "vul337",
                 "repo": "StateFuzz",
-                "stars": 100,
+                "stars": 101,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1673,6 +1673,43 @@
           "children": [
             {
               "node_type": "item",
+              "title": "Jazzer: Coverage-Guided Fuzzing for Semantic Vulnerabilities in the Java Ecosystem, 2026",
+              "description": "谷歌 OSS-Fuzz 中 Java 生态的主力 Fuzzer Jazzer 论文化，除内存错误外还检测 SSRF、路径遍历、反序列化等语义类漏洞，Jazzer 已开源。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Coverage-guided, in-process fuzzing for the JVM",
+                "homepage": "https://code-intelligence.com",
+                "id": 333867901,
+                "language": "Java",
+                "license": "Apache-2.0",
+                "last_commit": "2026-09-09T23:33:42Z",
+                "open_issues": 49,
+                "owner": "CodeIntelligenceTesting",
+                "repo": "jazzer",
+                "stars": 1255,
+                "topics": [
+                  "clojure",
+                  "fuzzer",
+                  "fuzzing",
+                  "java",
+                  "jni",
+                  "jvm",
+                  "kotlin",
+                  "security"
+                ]
+              },
+              "first_seen": "2026-09-10T20:35:10.983Z"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "2026"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "RGFuzz: Rule-Guided Fuzzer for WebAssembly Runtimes, 2025",
               "description": "一个用于 WebAssembly 运行时的差分 Fuzz 测试工具 RGFuzz。备注：WebAssembly（Wasm）是一种新型的、可移植的、高效的二进制指令格式。工具已开源。",
               "children": [],
@@ -1735,8 +1772,8 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-09T14:41:13Z",
-                "open_issues": 136,
+                "last_commit": "2026-09-10T17:20:08Z",
+                "open_issues": 137,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 160,
@@ -3004,11 +3041,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-09T16:31:11Z",
-                "open_issues": 627,
+                "last_commit": "2026-09-10T10:00:38Z",
+                "open_issues": 626,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6319,
+                "stars": 6320,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3039,7 +3076,7 @@
                 "open_issues": 30,
                 "owner": "google",
                 "repo": "honggfuzz",
-                "stars": 3380,
+                "stars": 3381,
                 "topics": [
                   "c",
                   "fuzzing",
@@ -3064,7 +3101,7 @@
                 "open_issues": 170,
                 "owner": "googleprojectzero",
                 "repo": "winafl",
-                "stars": 2609,
+                "stars": 2608,
                 "topics": [
                   "afl",
                   "fuzzing",
@@ -3595,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-09T20:40:19.228Z",
+    "last_updated": "2026-09-10T20:35:10.983Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
@@ -3603,7 +3640,7 @@
       "id": 349086106,
       "language": "Python",
       "license": "CC-BY-SA-4.0",
-      "last_commit": "2026-07-08T12:25:29Z",
+      "last_commit": "2026-09-10T10:51:52Z",
       "open_issues": 0,
       "owner": "secnotes",
       "repo": "fuzzing-tutorial",
@@ -3616,7 +3653,7 @@
         "security"
       ]
     },
-    "original_repository_sha": "a06a56fc03fa51fcb9c862e9852dc2cf48992055",
+    "original_repository_sha": "482daba1e83bc2e7208925faeb21408e70d5646c",
     "enhanced_repository": "enhansome/enhansome-fuzzing-tutorial",
     "enhanced_repository_description": null,
     "title": "Awesome Recent Papers/Blogs/Tools Related to Fuzzing with stars"
