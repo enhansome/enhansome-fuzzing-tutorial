@@ -21,7 +21,7 @@
                 "open_issues": 3,
                 "owner": "vul337",
                 "repo": "FirmAgent",
-                "stars": 78,
+                "stars": 80,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1515,7 +1515,7 @@
                 "open_issues": 34,
                 "owner": "tls-attacker",
                 "repo": "TLS-Attacker",
-                "stars": 880,
+                "stars": 881,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1772,8 +1772,8 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-10T17:20:08Z",
-                "open_issues": 137,
+                "last_commit": "2026-09-11T16:49:12Z",
+                "open_issues": 140,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 160,
@@ -2849,7 +2849,7 @@
                 "language": "Rust",
                 "license": "NOASSERTION",
                 "last_commit": "2026-09-07T11:54:32Z",
-                "open_issues": 119,
+                "open_issues": 120,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
                 "stars": 2637,
@@ -3041,8 +3041,8 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-10T10:00:38Z",
-                "open_issues": 626,
+                "last_commit": "2026-09-11T14:22:07Z",
+                "open_issues": 627,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6320,
@@ -3143,7 +3143,7 @@
                 "id": 65441391,
                 "language": "C",
                 "license": "BSD-2-Clause",
-                "last_commit": "2026-04-02T02:34:22Z",
+                "last_commit": "2026-09-11T13:15:23Z",
                 "open_issues": 0,
                 "owner": "hfiref0x",
                 "repo": "NtCall64",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-10T20:35:10.983Z",
+    "last_updated": "2026-09-11T20:40:51.655Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
