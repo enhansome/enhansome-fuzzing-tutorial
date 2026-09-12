@@ -553,7 +553,7 @@
                 "open_issues": 17,
                 "owner": "FirmWire",
                 "repo": "FirmWire",
-                "stars": 881,
+                "stars": 883,
                 "topics": [
                   "baseband",
                   "emulation",
@@ -1536,7 +1536,7 @@
                 "open_issues": 15,
                 "owner": "Matheus-Garbelini",
                 "repo": "sweyntooth_bluetooth_low_energy_attacks",
-                "stars": 335,
+                "stars": 336,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -2852,7 +2852,7 @@
                 "open_issues": 120,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2637,
+                "stars": 2639,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3042,7 +3042,7 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-11T14:22:07Z",
-                "open_issues": 627,
+                "open_issues": 628,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6320,
@@ -3076,7 +3076,7 @@
                 "open_issues": 30,
                 "owner": "google",
                 "repo": "honggfuzz",
-                "stars": 3381,
+                "stars": 3382,
                 "topics": [
                   "c",
                   "fuzzing",
@@ -3143,7 +3143,7 @@
                 "id": 65441391,
                 "language": "C",
                 "license": "BSD-2-Clause",
-                "last_commit": "2026-09-11T13:15:23Z",
+                "last_commit": "2026-09-12T08:21:38Z",
                 "open_issues": 0,
                 "owner": "hfiref0x",
                 "repo": "NtCall64",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-11T20:40:51.655Z",
+    "last_updated": "2026-09-12T20:19:44.051Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
