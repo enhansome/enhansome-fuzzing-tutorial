@@ -1,6 +1,6 @@
 # Awesome Recent Papers/Blogs/Tools Related to Fuzzing with stars
 
-[<img src="logo/logo.png" align="right" width="30%">](https://github.com/secnotes/Fuzzing-tutorial) ⭐ 406 | 🐛 0 | 🌐 Python | 📅 2026-09-10
+[<img src="logo/logo.png" align="right" width="30%">](https://github.com/secnotes/Fuzzing-tutorial) ⭐ 405 | 🐛 0 | 🌐 Python | 📅 2026-09-10
 
 > Curated list of classic Fuzzing books, papers about Fuzzing at information security top conferences over the years, commonly used Fuzzing tools, and resources that can help us use Fuzzer easily. → [English](https://secnotes.github.io/fuzzing-tutorial/index_en.html)
 
@@ -31,8 +31,8 @@
 
 ### 2026
 
-* [FirmAgent: Leveraging Fuzzing to Assist LLM Agents with IoT Firmware Vulnerability Discovery, 2026](https://www.ndss-symposium.org/ndss-paper/firmagent-leveraging-fuzzing-to-assist-llm-agents-with-iot-firmware-vulnerability-discovery/) - 针对 IoT 固件的混合方案 FirmAgent，先用 Fuzz 收集运行时输入点（污点源）并重建潜在漏洞路径，再由大模型智能体辅助推理发现漏洞，作者团队为清华大学张超组（vul337），[FirmAgent 已开源](https://github.com/vul337/FirmAgent) ⭐ 80 | 🐛 3 | 🌐 C | 📅 2026-09-03，[看雪解读](https://bbs.kanxue.com/thread-291020.htm)。
-* [SYSYPHUZZ: the Pressure of More Coverage, 2026](https://www.ndss-symposium.org/ndss-paper/sysyphuzz-the-pressure-of-more-coverage/) - 一个内核 Fuzz 工具，通过施加"覆盖率压力"有针对性地探索传统 Fuzzer 难以触达的欠测试代码区域，提升内核漏洞挖掘效果，来自 EPFL HexHive 团队，[Sysyphuzz 已开源](https://github.com/HexHive/Sysyphuzz) ⭐ 26 | 🐛 0 | 🌐 Python | 📅 2025-11-12。
+* [FirmAgent: Leveraging Fuzzing to Assist LLM Agents with IoT Firmware Vulnerability Discovery, 2026](https://www.ndss-symposium.org/ndss-paper/firmagent-leveraging-fuzzing-to-assist-llm-agents-with-iot-firmware-vulnerability-discovery/) - 针对 IoT 固件的混合方案 FirmAgent，先用 Fuzz 收集运行时输入点（污点源）并重建潜在漏洞路径，再由大模型智能体辅助推理发现漏洞，作者团队为清华大学张超组（vul337），[FirmAgent 已开源](https://github.com/vul337/FirmAgent) ⭐ 82 | 🐛 3 | 🌐 C | 📅 2026-09-03，[看雪解读](https://bbs.kanxue.com/thread-291020.htm)。
+* [SYSYPHUZZ: the Pressure of More Coverage, 2026](https://www.ndss-symposium.org/ndss-paper/sysyphuzz-the-pressure-of-more-coverage/) - 一个内核 Fuzz 工具，通过施加"覆盖率压力"有针对性地探索传统 Fuzzer 难以触达的欠测试代码区域，提升内核漏洞挖掘效果，来自 EPFL HexHive 团队，[Sysyphuzz 已开源](https://github.com/HexHive/Sysyphuzz) ⭐ 27 | 🐛 0 | 🌐 Python | 📅 2025-11-12。
 * [ADGFUZZ: Assignment Dependency-Guided Fuzzing for Robotic Vehicles, 2026](https://www.ndss-symposium.org/ndss-paper/adgfuzz-assignment-dependency-guided-fuzzing-for-robotic-vehicles/) - 针对机器车辆（Robotic Vehicle）控制软件的 Fuzz 框架，通过分析源码中赋值语句之间的依赖关系，专门挖掘赋值语句相关漏洞，作者已报告 16 个确认修复的 bug，[ADGFuzz 已开源](https://github.com/wyunc/ADGFuzz) ⭐ 9 | 🐛 0 | 🌐 Python | 📅 2026-01-04。
 * [HyperMirage: Direct State Manipulation in Hybrid Virtual CPU Fuzzing, 2026](https://www.ndss-symposium.org/ndss-paper/hypermirage-direct-state-manipulation-in-hybrid-virtual-cpu-fuzzing/) - 针对虚拟机监视器（hypervisor）CPU 仿真接口的 Fuzz 工具，提出"直接状态操纵"自动变异 fuzzing 所消费的 VM 状态，免去手工构造种子的繁琐，在 Xen/KVM 中发现 11 个已确认 bug，[HyperMirage 已开源](https://github.com/tum-itsec/hypermirage) ⭐ 8 | 🐛 0 | 📅 2026-04-19。
 * [RTCON: Context-Adaptive Function-Level Fuzzing for RTOS Kernels, 2026](https://www.ndss-symposium.org/ndss-paper/rtcon-context-adaptive-function-level-fuzzing-for-rtos-kernels/) - 针对实时操作系统（RTOS）内核的函数级 Fuzz 工具，在 Fuzz 过程中自适应地生成函数上下文，可对内核中任意目标函数进行测试，发现 27 个 bug（25 个新漏洞），崩溃分类精度达 92.7%，[RTCON 已开源](https://github.com/kaist-hacking/RTCON) ⭐ 8 | 🐛 0 | 🌐 C++ | 📅 2026-08-21。
@@ -71,7 +71,7 @@
 
 ### 2023
 
-* [FuzzILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities, 2023](https://www.ndss-symposium.org/ndss-paper/Fuzzilli-Fuzzing-for-javascript-jit-compiler-vulnerabilities/) - 谷歌Project Zero安全团队开发的针对 Javascript JIT 引擎进行 Fuzzing 的工具。[已开源](https://github.com/googleprojectzero/Fuzzilli) ⭐ 2,342 | 🐛 74 | 🌐 Swift | 📅 2026-09-10。
+* [FuzzILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities, 2023](https://www.ndss-symposium.org/ndss-paper/Fuzzilli-Fuzzing-for-javascript-jit-compiler-vulnerabilities/) - 谷歌Project Zero安全团队开发的针对 Javascript JIT 引擎进行 Fuzzing 的工具。[已开源](https://github.com/googleprojectzero/Fuzzilli) ⭐ 2,343 | 🐛 74 | 🌐 Swift | 📅 2026-09-10。
 * [Assessing the Impact of Interface Vulnerabilities in Compartmentalized Software, 2023](https://www.ndss-symposium.org/ndss-paper/assessing-the-impact-of-interface-vulnerabilities-in-compartmentalized-software/) - 针对上下文隔离的 API 接口（CIV，这是作者定义的一个概念，主要是指沙箱等隔离环境，应用划分、隔离后，应用的不同部分之间在交互时的控制和数据依赖关系，会在 interface 引入新的漏洞）进行 Fuzzing 的方案。Github 文档描述非常详细，[已开源](https://github.com/confFuzz/confFuzz) ⭐ 48 | 🐛 0 | 🌐 C++ | 📅 2023-05-01，当前作者已针对  Okular/ImageMagick/Apache/exif  等诸多软件进行了 Fuzz 测试。
 * [No Grammar, No Problem: Towards Fuzzing the Linux Kernel without System-Call Descriptions, 2023](https://www.ndss-symposium.org/ndss-paper/no-grammar-no-problem-towards-Fuzzing-the-linux-kernel-without-system-call-descriptions/) - 不用像 Syzkaller 那样编写复杂的系统调用描述，即可对内核进行 Fuzzing 的工具。[FuzzNG 已开源](https://github.com/BUseclab/FuzzNG) ⭐ 36 | 🐛 1 | 🌐 C++ | 📅 2023-06-05。
 * [DARWIN: Survival of the Fittest Fuzzing Mutators, 2023](https://www.ndss-symposium.org/ndss-paper/darwin-survival-of-the-fittest-Fuzzing-mutators/) - 改进优化 AFL 变异算法，通过实验证明比原生 AFL 多出 66% 的安全漏洞，[已开源](https://github.com/TUDA-SSL/DARWIN) ⭐ 33 | 🐛 0 | 🌐 C | 📅 2023-02-28，很好奇为啥叫 DARWIN 的软件或者工具这么多🐶。
@@ -167,8 +167,8 @@
 ### 2022
 
 * [Fuzzing Hardware Like Software, 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/trippel) - 像软件一样对硬件进行 Fuzz 测试，来自于*密歇根大学* 的 Timothy Trippel ， 讲述如何将 RTL 设计的硬件转换为软件模型，并利用覆盖率引导的软件模糊器（如 [AFL](https://github.com/google/AFL) ⚠️ Archived）自动生成测试用例以进行硬件验证，已开源 [hw-Fuzzing](https://github.com/googleinterns/hw-Fuzzing) ⚠️ Archived 。
-* [BrakTooth: Causing Havoc on Bluetooth Link Manager via Directed Fuzzing, 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/garbelini) - 来自新加坡科技与设计大学的安全研究人员，他们发现了一个新的**蓝牙芯片安全漏洞** “BrakTooth”，这一漏洞影响了包括英特尔、高通和德州仪器在内的11家供应商的13款蓝牙芯片组，PoC已开源[braktooth\_esp32\_bluetooth\_classic\_attacks](https://github.com/Matheus-Garbelini/braktooth_esp32_bluetooth_classic_attacks) ⭐ 582 | 🐛 32 | 📅 2024-08-31，此团队曾在两年前也实现了另外一个 BLE Fuzzing 工具，即 SweynTooth。
-* [Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing, 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/scharnowski) -  使用精准的MMIO建模提高**固件 Fuzz 测试**效率。一种针对 **ARM Cortex-M MCU 固件**进行 Fuzz 的工具，使用 Unicore Engine 仿真，MMIO 寄存器作为 Fuzz 入口，已开源 [Fuzzware](https://github.com/Fuzzware-Fuzzer/Fuzzware) ⭐ 384 | 🐛 15 | 🌐 Python | 📅 2026-06-27。
+* [BrakTooth: Causing Havoc on Bluetooth Link Manager via Directed Fuzzing, 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/garbelini) - 来自新加坡科技与设计大学的安全研究人员，他们发现了一个新的**蓝牙芯片安全漏洞** “BrakTooth”，这一漏洞影响了包括英特尔、高通和德州仪器在内的11家供应商的13款蓝牙芯片组，PoC已开源[braktooth\_esp32\_bluetooth\_classic\_attacks](https://github.com/Matheus-Garbelini/braktooth_esp32_bluetooth_classic_attacks) ⭐ 583 | 🐛 32 | 📅 2024-08-31，此团队曾在两年前也实现了另外一个 BLE Fuzzing 工具，即 SweynTooth。
+* [Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing, 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/scharnowski) -  使用精准的MMIO建模提高**固件 Fuzz 测试**效率。一种针对 **ARM Cortex-M MCU 固件**进行 Fuzz 的工具，使用 Unicore Engine 仿真，MMIO 寄存器作为 Fuzz 入口，已开源 [Fuzzware](https://github.com/Fuzzware-Fuzzer/Fuzzware) ⭐ 385 | 🐛 15 | 🌐 Python | 📅 2026-06-27。
 * [StateFuzz: System Call-Based State-Aware Linux Driver Fuzzing, 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/zhao-bodong) -  也是一个 Fuzzing 方法改进，代码覆盖率引导的 Fuzz 测试在测试具备复杂状态的程序（比如网络协议程序、内核驱动）时存在局限，即Fuzzer缺乏指导来遍历程序状态因此，作者认为对这些程序，需要使用状态敏感的 Fuzz 测试。即将开源 [StateFuzz](https://github.com/vul337/StateFuzz) ⭐ 101 | 🐛 2 | 🌐 C++ | 📅 2023-08-16 。
 * [FRAMESHIFTER: Manipulating HTTP/2 Frame Sequences with Fuzzing, 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/jabiyev) -  专为 HTTP/2 开发了一种新颖的基于语法的 Fuzzer ，并发现 HTTP/2 到 HTTP/1 转换异常的安全隐患，已开源  [frameshifter](https://github.com/bahruzjabiyev/frameshifter) ⭐ 48 | 🐛 2 | 🌐 Python | 📅 2022-08-18 。
 * [SGXFuzz: Efficiently Synthesizing Nested Structures for SGX Enclave Fuzzing, 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/cloosters) - 针对 Intel 的 SGX 的 Fuzz 测试方案，已开源 [sgxFuzz](https://github.com/uni-due-syssec/sgxFuzz) ⭐ 21 | 🐛 2 | 🌐 Python | 📅 2022-08-22。
@@ -192,7 +192,7 @@
 ### 2020
 
 * [Analysis of DTLS Implementations Using Protocol State Fuzzing, 2020](https://www.usenix.org/conference/usenixsecurity20/presentation/fiterau-brostean) - 对 DTLS 实现的首次全面分析，提出的 [TLS-Attacker](https://github.com/tls-attacker/TLS-Attacker) ⭐ 881 | 🐛 34 | 🌐 Java | 📅 2026-09-08  是一个用于分析TLS实现的开源框架。
-* [SweynTooth: Unleashing Mayhem over Bluetooth Low Energy, 2020](https://www.usenix.org/conference/atc20/presentation/garbelini) - 使用了 Noridc nRF52840 实现低成本的 **BLE 全栈 Fuzz 测试**工具，PoC 已开源  [sweyntooth\_bluetooth\_low\_energy\_attacks](https://github.com/Matheus-Garbelini/sweyntooth_bluetooth_low_energy_attacks) ⭐ 336 | 🐛 15 | 🌐 Python | 📅 2021-11-23。
+* [SweynTooth: Unleashing Mayhem over Bluetooth Low Energy, 2020](https://www.usenix.org/conference/atc20/presentation/garbelini) - 使用了 Noridc nRF52840 实现低成本的 **BLE 全栈 Fuzz 测试**工具，PoC 已开源  [sweyntooth\_bluetooth\_low\_energy\_attacks](https://github.com/Matheus-Garbelini/sweyntooth_bluetooth_low_energy_attacks) ⭐ 337 | 🐛 15 | 🌐 Python | 📅 2021-11-23。
 * [FuzzGen: Automatic Fuzzer Generation, 2020](https://www.usenix.org/conference/usenixsecurity20/presentation/ispoglou) - 提出的对库接口进行分析的工具。 这是一种用于在给定环境中自动合成复杂库的模糊器的工具。[FuzzGen](https://github.com/HexHive/FuzzGen) ⭐ 311 | 🐛 9 | 🌐 C++ | 📅 2021-08-13 利用*整个系统分析*来推断库的接口，并专门为该库合成模糊器。FuzzGen 不需要人工干预，可以应用于各种库。此外，生成的模糊器利用LibFuzzer 来实现更好的代码覆盖率并暴露库深处的错误。
 * [FANS: Fuzzing Android Native System Services via Automated Interface Analysis, 2020](https://www.usenix.org/conference/usenixsecurity20/presentation/liu) - 提出了一种基于自动生成的 Fuzz 测试解决方案 FANS，以查找 Android 系统原生服务中的漏洞，作者[刘保证](http://netsec.ccert.edu.cn/people/iromise/)开发的 Native Service Fuzz 工具 fans [开源连接](https://github.com/iromise/fans) ⭐ 265 | 🐛 0 | 🌐 C++ | 📅 2020-09-23，能够根据源码自动推测 Native Service 的接口和入参，进行 Fuzzing，工具的限制是需要 AOSP 的编译环境。
 * [EcoFuzz: Adaptive Energy-Saving Greybox Fuzzing as a Variant of the Adversarial Multi-Armed Bandit, 2020](https://www.usenix.org/conference/usenixsecurity20/presentation/yue) - [EcoFuzz](https://github.com/MoonLight-SteinsGate/EcoFuzz) ⭐ 53 | 🐛 0 | 🌐 C | 📅 2020-04-30 是基于 AFL 的自适应节能灰盒 Fuzz 工具。 基于AFL 的基础上，开发了独特的自适应调度算法以及基于概率的搜索策略，根据结果，EcoFuzz 可以减少 AFL 32％的用例，从而达到 AFL 214％的路径覆盖率。
@@ -235,7 +235,7 @@
 
 ### 2024
 
-* [DY Fuzzing: Formal Dolev-Yao Models Meet Cryptographic Protocol Fuzz Testing, 2024](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a096/1Ub234bjuWA) - 一个针对密码学算法库进行 Fuzz 测试的模型，如针对 OpenSSL/wolfSSL，已经有基于 DY 模型实现了 **TLS Fuzz** 的工具，[tlspuffin](https://github.com/tlspuffin/tlspuffin) ⭐ 160 | 🐛 140 | 🌐 Rust | 📅 2026-09-11。
+* [DY Fuzzing: Formal Dolev-Yao Models Meet Cryptographic Protocol Fuzz Testing, 2024](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a096/1Ub234bjuWA) - 一个针对密码学算法库进行 Fuzz 测试的模型，如针对 OpenSSL/wolfSSL，已经有基于 DY 模型实现了 **TLS Fuzz** 的工具，[tlspuffin](https://github.com/tlspuffin/tlspuffin) ⭐ 160 | 🐛 134 | 🌐 Rust | 📅 2026-09-14。
 * [SyzTrust: State-aware Fuzzing on Trusted OS Designed for IoT Devices, 2024](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a070/1RjEaG9OpTa) - 针对 TEE 设计的 Fuzz 测试工具，基于 Syzkaller，在开发板上测试，因此 TEE 需要能够运行在开发板环境上，作者来自浙江大学，工具已开源，[SyzTrust](https://github.com/SyzTrust/syztrust) ⭐ 19 | 🐛 0 | 🌐 Go | 📅 2024-02-29。
 * [AFGen: Whole-Function Fuzzing for Applications and Libraries, 2024](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a011/1RjE9PjiDss) - AFGen（全函数 Fuzz 测试应用和库）是一种用于应用程序和库的全函数 Fuzz 测试工具。它是一种基于符号执行的 Fuzz 测试技术，通过符号执行进行静态分析，[代码即将开源](https://github.com/Marsman1996/AFGen) ⭐ 15 | 🐛 2 | 🌐 C | 📅 2025-03-17。
 * [To Boldly Go Where No Fuzzer Has Gone Before: Finding Bugs in Linux' Wireless Stacks through VirtIO Devices, 2024](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a024/1RjEa0y9RMQ) - 一种基于 VirtIO 设备驱动程序的新型 Fuzz 测试工具 [VirtFuzz](https://github.com/cyruscyliu/virtFuzz-evaluation) ⭐ 5 | 🐛 0 | 🌐 Shell | 📅 2023-06-14，从真实设备收集数据，在虚拟环境进行 Fuzz。
@@ -272,7 +272,7 @@
 * [StochFuzz: Sound and Cost-effective Fuzzing of Stripped Binaries by Incremental and Stochastic Rewriting, 2021](https://ieeexplore.ieee.org/document/9519407) - 一种新的 Fuzz 技术，被称为  incremental and stochastic rewriting ，优于 afl-unicorn，利用更低的开销，提高了**黑盒二进制 Fuzzing** 的效率，相关工具已开源：[ZhangZhuoSJTU](https://github.com/ZhangZhuoSJTU)/**[StochFuzz](https://github.com/ZhangZhuoSJTU/StochFuzz) ⭐ 193 | 🐛 2 | 🌐 C | 📅 2023-10-21**。
 * [NtFuzz: Enabling Type-Aware Kernel Fuzzing on Windows with Static Binary Analysis, 2021](https://ieeexplore.ieee.org/document/9519448) - 一个静态二进制分析器，可以自动推断出 Windows 系统调用，该分析器被整合到 [SoftSec-KAIST](https://github.com/SoftSec-KAIST)/**[NTFuzz](https://github.com/SoftSec-KAIST/NTFuzz) ⭐ 113 | 🐛 6 | 🌐 F# | 📅 2021-10-21**，一个 **Windows 系统调用** Fuzzing 框架，首次将静态二进制分析技术与 Windows 内核的 Fuzzing 技术相结合。
 * [One Engine to Fuzz 'em All: Generic Language Processor Testing with Semantic Validation, 2021](https://ieeexplore.ieee.org/document/9519403) - 提出了一个通用 Fuzzing 框架（[s3team](https://github.com/s3team)/**[Polyglot](https://github.com/s3team/Polyglot) ⭐ 106 | 🐛 0 | 🌐 C | 📅 2024-01-18** ），目的是为了探索不同编程语言的处理器而生成高质量的 Fuzz 测试用例，实现各个语言之间的通用性和适用性。 相比于当前最先进的通用型 Fuzz：包括基于变异的 Fuzzer **AFL** 以及混合型 Fuzzer **QSYM** 和基于语法的 Fuzzer **Nautilus** 能够更有效地生成高质量的测试用例。
-* [DiFuzzRTL: Differential Fuzz Testing to Find CPU Bugs, 2021](https://ieeexplore.ieee.org/document/9519470) - 一种专门发现 CPU RTL 漏洞的 Fuzz 工具， [DiFuzzRTL](https://github.com/compsec-snu/diFuzz-rtl) ⭐ 102 | 🐛 2 | 🌐 Verilog | 📅 2024-05-27 已开源。
+* [DiFuzzRTL: Differential Fuzz Testing to Find CPU Bugs, 2021](https://ieeexplore.ieee.org/document/9519470) - 一种专门发现 CPU RTL 漏洞的 Fuzz 工具， [DiFuzzRTL](https://github.com/compsec-snu/diFuzz-rtl) ⭐ 101 | 🐛 2 | 🌐 Verilog | 📅 2024-05-27 已开源。
 * [Diane: Identifying Fuzzing Triggers in Apps to Generate Under-constrained Inputs for IoT Devices, 2021](https://ieeexplore.ieee.org/document/9519432) - 通过使用网络流量和控制目标物联网设备的应用程序的混合分析来解决输入生成问题 ，工具名为 [ucsb-seclab](https://github.com/ucsb-seclab)/**[diane](https://github.com/ucsb-seclab/diane) ⭐ 42 | 🐛 7 | 🌐 Python | 📅 2024-04-03**，已开源， 与 IoTFuzzer 较为相似，弥补了 IoTFuzzer 的一些缺点。
 
 ### 2020
@@ -313,7 +313,7 @@
 
 * [Program Environment Fuzzing, 2024](https://dl.acm.org/doi/10.1145/3658644.3690229) - 论文将程序运行所需要的环境都视为外部入口，进行 Fuzz 测试，对整个交互过程进行全面覆盖，包括网络服务器、图形界面应用、编译器等在内的任何 Linux 用户模式软件，[EnvFuzz](https://github.com/GJDuck/EnvFuzz) ⭐ 398 | 🐛 3 | 🌐 C++ | 📅 2025-01-31 已开源，几个月前曾尝试过这个工具，可以实现一键 Fuzz，但是分析崩溃需要耗费大量时间。
 * [ProphetFuzz: Fully Automated Prediction and Fuzzing of High-Risk Option Combinations with Only Documentation via Large Language Model, 2024](https://dl.acm.org/doi/10.1145/3658644.3690231) - 提出了一种基于大型语言模型（LLM）的全自动工具 ProphetFuzz，用于预测应用程序的高风险选项组合并进行 Fuzz 测试。[ProphetFuzz](https://github.com/NASP-THU/ProphetFuzz) ⭐ 100 | 🐛 2 | 🌐 Roff | 📅 2026-02-10 已开源。
-* [DarthShader: Fuzzing WebGPU Shader Translators & Compilers, 2024](https://dl.acm.org/doi/10.1145/3658644.3690209) - 针对 Web GPU 着色器翻译器和编译器的 Fuzz 测试项目，[darthshader](https://github.com/wgslFuzz/darthshader) ⭐ 74 | 🐛 7 | 🌐 C | 📅 2026-06-26 已开源，开箱即用。
+* [DarthShader: Fuzzing WebGPU Shader Translators & Compilers, 2024](https://dl.acm.org/doi/10.1145/3658644.3690209) - 针对 Web GPU 着色器翻译器和编译器的 Fuzz 测试项目，[darthshader](https://github.com/wgslFuzz/darthshader) ⭐ 74 | 🐛 9 | 🌐 C | 📅 2026-09-14 已开源，开箱即用。
 * [FOX: Coverage-guided Fuzzing as Online Stochastic Control, 2024](https://dl.acm.org/doi/10.1145/3643659.3648562) - 提高覆盖引导的边缘覆盖率算法，当前算法已在 AFL++ 上实现，已[开源](https://github.com/FOX-Fuzz/FOX) ⭐ 62 | 🐛 4 | 🌐 C | 📅 2024-11-07，这种针对 AFL 算法改进的论文近些年层出不穷，有些还是值得一看。
 * [RANsacked: A Domain-Informed Approach for Fuzzing LTE and 5G RAN-Core Interfaces, 2024](https://dl.acm.org/doi/10.1145/3658644.3670320) - 针对 LTE/5G 空口平台 RAN-Core 的 Fuzz，其中衍生的 [ASNFuzzGen](https://github.com/fics/asnFuzzgen) ⭐ 53 | 🐛 2 | 🌐 Rust | 📅 2024-08-27 已开源，这种针对蜂窝网的研究过于学术化，工业界关注不多。
 * [https://github.com/zyt755/LIFTFuzz, 2024](https://dl.acm.org/doi/10.1145/3658644.3670278) - 浙江大学张明雪团队，设计了一种新的解决方案 FuzzCache，它引入了一种基于软件的数据缓存机制，通过将数据库和网络请求中的数据存储到缓存中，规避了重复且昂贵的数据读取操作，也就是说 FuzzCache 用于提高 Web Fuzz 的效率。[FuzzCache](https://github.com/secureweb/Fuzzcache) ⭐ 18 | 🐛 0 | 🌐 PHP | 📅 2024-11-06 已开源。
@@ -345,7 +345,7 @@
 
 ### 2022 ⤵
 
-* [LibAFL: A Framework to Build Modular and Reusable Fuzzers, 2022](https://dl.acm.org/doi/10.1145/3548606.3560602) - **LibAFL**，这是一个构建模块化和可重用模糊器的框架，来自于谷歌的个人研究者，已开源 **[LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,642 | 🐛 120 | 🌐 Rust | 📅 2026-09-07**。
+* [LibAFL: A Framework to Build Modular and Reusable Fuzzers, 2022](https://dl.acm.org/doi/10.1145/3548606.3560602) - **LibAFL**，这是一个构建模块化和可重用模糊器的框架，来自于谷歌的个人研究者，已开源 **[LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,643 | 🐛 120 | 🌐 Rust | 📅 2026-09-07**。
 * [WINNIE : Fuzzing Windows Applications with Harness Synthesis and Fast Cloning, 2021](https://www.ndss-symposium.org/ndss-paper/winnie-Fuzzing-windows-applications-with-harness-synthesis-and-fast-cloning/) - 利用合成和快速克隆对 **Windows 应用程序**进行 Fuzz 测试，作者构建了一个端到端 [WINNIE](https://github.com/sslab-gatech/winnie) ⭐ 576 | 🐛 15 | 🌐 C | 📅 2022-11-28 系统，包含两个组件：可从二进制文件中自动合成工具的生成器，以及一个高效的 Windows forkserver。 对比工具： WinAFL 。
 * [DIFUZE: Interface Aware Fuzzing for Kernel Drivers, 2017](https://acmccs.github.io/papers/p2123-corinaA.pdf) - 作者提出的一个 seed 生成方案。通过**优化种子生成**，同样也可以达到提高 Fuzzing 效率的效果。经过验证，[DIFUZE](https://github.com/ucsb-seclab/difuze) ⭐ 385 | 🐛 7 | 🌐 C++ | 📅 2022-04-30 相较于现有的 Fuzzer 在 ioctl() 接口上，确实存在着明显的优势。这也是显然的，DIFUZE 相较于其他的工具在 Fuzzing这样一个需要超大信息量的接口上提供了足够的信息，支撑它挖掘出大于其他工具几个数量级的信息量。
 * [DIFUZE: Interface Aware Fuzzing for Kernel Drivers, 2017](https://acmccs.github.io/papers/p2123-corinaA.pdf) - 作者设计并完成了**针对用户态与内核驱动关键接口 ioctl() 的 Fuzzing 工具 DIFUZE**， [DIFUZE](https://github.com/ucsb-seclab/difuze) ⭐ 385 | 🐛 7 | 🌐 C++ | 📅 2022-04-30 首先对内核代码进行静态分析，完成interface 的 recovery，获取 interface 的关键信息，并基于这些有效的信息去生成更加合理的 Fuzzing 输入，得到一个更好的 Fuzzing 效果。
@@ -374,7 +374,7 @@
 
 ### 二进制
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,321 | 🐛 628 | 🌐 Go | 📅 2026-09-11：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,323 | 🐛 633 | 🌐 Go | 📅 2026-09-14：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
 * [HonggFuzz](https://github.com/google/honggFuzz) ⭐ 3,382 | 🐛 30 | 🌐 C | 📅 2026-06-19：同样是谷歌开发的一个类似于 afl 的工具，只是 honggFuzz 基于反馈驱动，多线程和多进程，Fuzz 速度相比于 afl 有一个质的飞跃。
 * [winafl](https://github.com/googleprojectzero/winafl) ⭐ 2,608 | 🐛 170 | 🌐 C | 📅 2026-03-13：afl 的一个分支项目，将 afl 用于Windows 平台。
 * [trinity](https://github.com/kernelslacker/trinity) ⭐ 910 | 🐛 1 | 🌐 C | 📅 2026-09-08：Linux system call Fuzzer，对于 **Linux 系统调用**的 Fuzz 测试工具。
@@ -390,7 +390,7 @@
 ### API/协议
 
 * [domato](https://github.com/googleprojectzero/domato) ⭐ 1,784 | 🐛 3 | 🌐 Python | 📅 2024-11-26 ：googleprojectzero 开发的一个专门用于浏览器的黑盒 Fuzz 工具，用法简单，通过让浏览器访问生成各种随机的前端页面，观察浏览器的状态。
-* [Sulley](https://github.com/OpenRCE/sulley) ⭐ 1,450 | 🐛 56 | 🌐 Python | 📅 2020-12-29/[BooFuzz](https://github.com/jtpereyda/booFuzz) ⭐ 2,358 | 🐛 101 | 🌐 Python | 📅 2026-08-06：Sulley 是一个 Fuzz 测试框架。主要用于协议的 Fuzz，如今已经不再维护。 [BooFuzz](https://github.com/jtpereyda/booFuzz) ⭐ 2,358 | 🐛 101 | 🌐 Python | 📅 2026-08-06 是古老的 [Sulley](https://github.com/OpenRCE/sulley) ⭐ 1,450 | 🐛 56 | 🌐 Python | 📅 2020-12-29  Fuzz 测试框架的分支和后续版本。除了大量错误修复外，booFuzz 扩展更多新特性。
+* [Sulley](https://github.com/OpenRCE/sulley) ⭐ 1,450 | 🐛 56 | 🌐 Python | 📅 2020-12-29/[BooFuzz](https://github.com/jtpereyda/booFuzz) ⭐ 2,357 | 🐛 101 | 🌐 Python | 📅 2026-08-06：Sulley 是一个 Fuzz 测试框架。主要用于协议的 Fuzz，如今已经不再维护。 [BooFuzz](https://github.com/jtpereyda/booFuzz) ⭐ 2,357 | 🐛 101 | 🌐 Python | 📅 2026-08-06 是古老的 [Sulley](https://github.com/OpenRCE/sulley) ⭐ 1,450 | 🐛 56 | 🌐 Python | 📅 2020-12-29  Fuzz 测试框架的分支和后续版本。除了大量错误修复外，booFuzz 扩展更多新特性。
 * [Fuzzowski](https://github.com/nccgroup/Fuzzowski) ⭐ 793 | 🐛 13 | 🌐 Python | 📅 2024-01-29：基于 booFuzz 的网络协议 Fuzz 测试工具，基于 sulley 的数据变异。
 * [Peach](https://github.com/MozillaSecurity/peach) ⚠️ Archived：Peach 是 Michael  团队开发的一个 Fuzz 测试框架，最初为开源软件，后续部分核心测试套**商用**发布。Peach 专注于文件格式的 Fuzz，同时针对各种协议的 Fuzz 也十分友好。
 * [API-Fuzzer](https://github.com/Fuzzapi/API-Fuzzer) ⭐ 409 | 🐛 2 | 🌐 Ruby | 📅 2017-07-16：使用常见的渗透测试技术和已知漏洞对一些网络 **API** 请求进行 Fuzz。
@@ -400,7 +400,7 @@
 ### 固件
 
 * [FIRM-AFL: High-Throughput Greybox Fuzzing of IoT Firmware via Augmented Process Emulation](https://www.usenix.org/conference/usenixsecurity19/presentation/zheng)：由中科院信工所 Yaowen Zheng 发表在 **USENIX Security '19** ， [FIRM-AFL](https://github.com/zyw-200/FirmAFL) ⭐ 463 | 🐛 45 | 🌐 C | 📅 2024-03-22 是第一个用于物联网固件的高质量灰盒模糊器，此工具的劣势在于只能 Fuzz Firmadyne 能够正常模拟的固件。
-* [Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing, 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/scharnowski) -  使用精准的 MMIO 建模提高固件 Fuzz 测试效率，来自于*波鸿鲁尔大学* 。一种针对 **ARM Cortex-M MCU 固件**进行 Fuzz 的工具，使用 **Unicore Engine** 仿真，MMIO 寄存器作为 Fuzz 入口，已开源 [Fuzzware](https://github.com/Fuzzware-Fuzzer/Fuzzware) ⭐ 384 | 🐛 15 | 🌐 Python | 📅 2026-06-27。
+* [Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing, 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/scharnowski) -  使用精准的 MMIO 建模提高固件 Fuzz 测试效率，来自于*波鸿鲁尔大学* 。一种针对 **ARM Cortex-M MCU 固件**进行 Fuzz 的工具，使用 **Unicore Engine** 仿真，MMIO 寄存器作为 Fuzz 入口，已开源 [Fuzzware](https://github.com/Fuzzware-Fuzzer/Fuzzware) ⭐ 385 | 🐛 15 | 🌐 Python | 📅 2026-06-27。
 * [Automatic Firmware Emulation through Invalidity-guided Knowledge Inference, 2021](https://www.usenix.org/conference/usenixsecurity21/presentation/zhou) - 华中科技大学周威老师团队开发的 μEmu，使用**符号执行**获取**模拟固件映像**所需信息，支持 **ARM Cortex-M MCU 固件**，基于 **S2E**（符号执行平台）设计和开发的，已开源 [μEmu](https://github.com/MCUSec/uEmu) ⭐ 151 | 🐛 1 | 🌐 Python | 📅 2023-11-20。
 * [Forming Faster Firmware Fuzzers, 2023](https://www.usenix.org/conference/usenixsecurity23/presentation/seidel) - *柏林工业大学* Lukas Seidel 提出一种针对 **ARM Cortex-M MCU** 固件进行 Fuzz 的工具，[SAFIREFuzz](https://github.com/pr0me/SAFIREFuzz) ⭐ 130 | 🐛 1 | 🌐 Rust | 📅 2024-12-19 已开源，论文总结了过去的 MCU Fuzz 类型，并展现 SAFIREFuzz 与众不同的地方：SAFIREFuzz 运行在与目标固件架构相同的操作系统上（例如树莓派），节省了以前的工具使用 QEMU TCG 带来的性能损失，且不需要使用 softmmu，显著提升 Fuzz 测试效率。
 * [IOTFuzzER: Discovering Memory Corruptions in IoT Through App-based Fuzzing](https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_01A-1_Chen_paper.pdf)：香港大学  Jiongyi Chen  发表在 **NDSS 2018** 上的一篇关于固件 Fuzzing 的文章，作者借助 IoT 设备的移动端 App 设计了一个黑盒 Fuzz 测试工具 [IOTFuzzer](https://github.com/zyw-200/IOTFuzzer_Full) ⭐ 53 | 🐛 1 | 🌐 C | 📅 2018-10-15 分析 IoT 设备上的内存错误漏洞。通过测试了 17 个不同的 IoT 设备，最终发现 15 个内存错误漏洞，其中包括了 8 个未知的漏洞。
@@ -459,7 +459,7 @@
 
 ## Contribute
 
-如果你看到了认为比较好的有关 Fuzz 测试的资源，欢迎贡献本项目！请阅读[贡献指南](https://github.com/secnotes/Fuzzing-tutorial/blob/main/CONTRIBUTING.md) ⭐ 406 | 🐛 0 | 🌐 Python | 📅 2026-09-10。
+如果你看到了认为比较好的有关 Fuzz 测试的资源，欢迎贡献本项目！请阅读[贡献指南](https://github.com/secnotes/Fuzzing-tutorial/blob/main/CONTRIBUTING.md) ⭐ 405 | 🐛 0 | 🌐 Python | 📅 2026-09-10。
 
 ## License
 
@@ -467,4 +467,4 @@
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-13._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-14._
