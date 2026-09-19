@@ -21,7 +21,7 @@
                 "open_issues": 3,
                 "owner": "vul337",
                 "repo": "FirmAgent",
-                "stars": 87,
+                "stars": 88,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -433,7 +433,7 @@
                 "open_issues": 74,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2344,
+                "stars": 2345,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1265,7 +1265,7 @@
                 "open_issues": 66,
                 "owner": "google",
                 "repo": "AFL",
-                "stars": 4199,
+                "stars": 4198,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1286,7 +1286,7 @@
                 "open_issues": 32,
                 "owner": "Matheus-Garbelini",
                 "repo": "braktooth_esp32_bluetooth_classic_attacks",
-                "stars": 584,
+                "stars": 585,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3042,10 +3042,10 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-18T06:37:57Z",
-                "open_issues": 637,
+                "open_issues": 641,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6324,
+                "stars": 6325,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3101,7 +3101,7 @@
                 "open_issues": 170,
                 "owner": "googleprojectzero",
                 "repo": "winafl",
-                "stars": 2608,
+                "stars": 2607,
                 "topics": [
                   "afl",
                   "fuzzing",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-18T20:36:44.458Z",
+    "last_updated": "2026-09-19T20:14:52.685Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
