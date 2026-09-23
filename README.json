@@ -287,7 +287,7 @@
                 "open_issues": 6,
                 "owner": "ChatAFLndss",
                 "repo": "ChatAFL",
-                "stars": 398,
+                "stars": 399,
                 "topics": [
                   "fuzzing",
                   "fuzzing-testing",
@@ -429,11 +429,11 @@
                 "id": 176764231,
                 "language": "Swift",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-16T10:49:30Z",
+                "last_commit": "2026-09-23T10:10:18Z",
                 "open_issues": 74,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2345,
+                "stars": 2346,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1286,7 +1286,7 @@
                 "open_issues": 32,
                 "owner": "Matheus-Garbelini",
                 "repo": "braktooth_esp32_bluetooth_classic_attacks",
-                "stars": 586,
+                "stars": 587,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1684,7 +1684,7 @@
                 "language": "Java",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-09T23:33:42Z",
-                "open_issues": 49,
+                "open_issues": 50,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
                 "stars": 1259,
@@ -1772,8 +1772,8 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-22T17:30:17Z",
-                "open_issues": 134,
+                "last_commit": "2026-09-23T19:57:45Z",
+                "open_issues": 133,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 160,
@@ -3041,11 +3041,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-22T20:58:26Z",
-                "open_issues": 638,
+                "last_commit": "2026-09-23T19:57:36Z",
+                "open_issues": 634,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6326,
+                "stars": 6325,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3126,7 +3126,7 @@
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
-                "stars": 910,
+                "stars": 909,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3409,7 +3409,7 @@
                 "open_issues": 2,
                 "owner": "Fuzzapi",
                 "repo": "API-fuzzer",
-                "stars": 409,
+                "stars": 408,
                 "topics": [
                   "gem",
                   "ruby",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-22T21:01:25.425Z",
+    "last_updated": "2026-09-23T21:16:46.513Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
