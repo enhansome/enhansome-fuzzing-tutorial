@@ -1307,7 +1307,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 385,
+                "stars": 386,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -1687,7 +1687,7 @@
                 "open_issues": 50,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
-                "stars": 1258,
+                "stars": 1259,
                 "topics": [
                   "clojure",
                   "fuzzer",
@@ -2849,10 +2849,10 @@
                 "language": "Rust",
                 "license": "NOASSERTION",
                 "last_commit": "2026-09-16T11:53:47Z",
-                "open_issues": 122,
+                "open_issues": 123,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2644,
+                "stars": 2645,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3042,7 +3042,7 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-24T21:06:14Z",
-                "open_issues": 634,
+                "open_issues": 636,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6329,
@@ -3072,11 +3072,11 @@
                 "id": 35228769,
                 "language": "C",
                 "license": "Apache-2.0",
-                "last_commit": "2026-06-19T13:47:59Z",
+                "last_commit": "2026-09-25T16:46:26Z",
                 "open_issues": 31,
                 "owner": "google",
                 "repo": "honggfuzz",
-                "stars": 3384,
+                "stars": 3387,
                 "topics": [
                   "c",
                   "fuzzing",
@@ -3174,7 +3174,7 @@
                 "open_issues": 14,
                 "owner": "Battelle",
                 "repo": "afl-unicorn",
-                "stars": 617,
+                "stars": 618,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3409,7 +3409,7 @@
                 "open_issues": 2,
                 "owner": "Fuzzapi",
                 "repo": "API-fuzzer",
-                "stars": 408,
+                "stars": 409,
                 "topics": [
                   "gem",
                   "ruby",
@@ -3465,7 +3465,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 385,
+                "stars": 386,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-24T21:17:44.586Z",
+    "last_updated": "2026-09-25T21:15:18.683Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
