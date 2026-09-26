@@ -553,7 +553,7 @@
                 "open_issues": 18,
                 "owner": "FirmWire",
                 "repo": "FirmWire",
-                "stars": 885,
+                "stars": 884,
                 "topics": [
                   "baseband",
                   "emulation",
@@ -1687,7 +1687,7 @@
                 "open_issues": 50,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
-                "stars": 1259,
+                "stars": 1260,
                 "topics": [
                   "clojure",
                   "fuzzer",
@@ -3041,11 +3041,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-24T21:06:14Z",
-                "open_issues": 636,
+                "last_commit": "2026-09-26T01:23:35Z",
+                "open_issues": 635,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6329,
+                "stars": 6331,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-25T21:15:18.683Z",
+    "last_updated": "2026-09-26T20:47:47.847Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
