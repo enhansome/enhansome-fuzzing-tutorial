@@ -1,6 +1,6 @@
 # Awesome Recent Papers/Blogs/Tools Related to Fuzzing with stars
 
-[<img src="logo/logo.png" align="right" width="30%">](https://github.com/secnotes/Fuzzing-tutorial) ⭐ 405 | 🐛 0 | 🌐 Python | 📅 2026-09-10
+[<img src="logo/logo.png" align="right" width="30%">](https://github.com/secnotes/Fuzzing-tutorial) ⭐ 404 | 🐛 0 | 🌐 Python | 📅 2026-09-10
 
 > Curated list of classic Fuzzing books, papers about Fuzzing at information security top conferences over the years, commonly used Fuzzing tools, and resources that can help us use Fuzzer easily. → [English](https://secnotes.github.io/fuzzing-tutorial/index_en.html)
 
@@ -61,7 +61,7 @@
 
 ### 2024
 
-* [Large Language Model guided Protocol Fuzzing, 2024](https://www.ndss-symposium.org/ndss-paper/large-language-model-guided-protocol-Fuzzing/) - 研究人员开发了一款以大模型为指导的协议 Fuzz，通过 AI 训练 RFC 文档包含的协议规范，[ChatAFL 已开源](https://github.com/ChatAFLndss/ChatAFL) ⭐ 399 | 🐛 6 | 🌐 C | 📅 2025-06-30。
+* [Large Language Model guided Protocol Fuzzing, 2024](https://www.ndss-symposium.org/ndss-paper/large-language-model-guided-protocol-Fuzzing/) - 研究人员开发了一款以大模型为指导的协议 Fuzz，通过 AI 训练 RFC 文档包含的协议规范，[ChatAFL 已开源](https://github.com/ChatAFLndss/ChatAFL) ⭐ 398 | 🐛 6 | 🌐 C | 📅 2025-06-30。
 * [Predictive Context-sensitive Fuzzing, 2024](https://www.ndss-symposium.org/ndss-paper/predictive-context-sensitive-Fuzzing/) - 一种**新颖的统计覆盖率**的思路。目前大多数 Fuzz 工具都是通过边（edge）作为覆盖引导，edge coverage 是函数的控制流，只考虑代码执行而忽略内部程序状态。本文使用程序分析领域的上下文敏感（context-sensitivity）作为覆盖率统计，结合 calling-context 和 edge coverage，[已开源](https://github.com/eurecom-s3/predictive-cs-Fuzzing) ⭐ 30 | 🐛 1 | 🌐 C++ | 📅 2024-02-29。
 * [ReqsMiner: Automated Discovery of CDN Forwarding Request Inconsistencies and DoS Attacks with Grammar-based Fuzzing, 2024](https://www.ndss-symposium.org/ndss-paper/reqsminer-automated-discovery-of-cdn-forwarding-request-inconsistencies-and-dos-attacks-with-grammar-based-Fuzzing/) - 针对 CDN 请求不一致的 Fuzz 工具，[已开源](https://github.com/Konano/ReqsMiner) ⭐ 25 | 🐛 0 | 🌐 Python | 📅 2024-06-27。
 * [EnclaveFuzz: Finding Vulnerabilities in SGX Applications, 2024](https://www.ndss-symposium.org/ndss-paper/enclaveFuzz-finding-vulnerabilities-in-sgx-applications/) - Fuzz 对象是使用了因特尔 SGX 技术的软件，[已开源](https://github.com/vul337/EnclaveFuzz) ⭐ 24 | 🐛 0 | 🌐 C++ | 📅 2026-01-01。
@@ -71,7 +71,7 @@
 
 ### 2023
 
-* [FuzzILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities, 2023](https://www.ndss-symposium.org/ndss-paper/Fuzzilli-Fuzzing-for-javascript-jit-compiler-vulnerabilities/) - 谷歌Project Zero安全团队开发的针对 Javascript JIT 引擎进行 Fuzzing 的工具。[已开源](https://github.com/googleprojectzero/Fuzzilli) ⭐ 2,345 | 🐛 74 | 🌐 Swift | 📅 2026-09-24。
+* [FuzzILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities, 2023](https://www.ndss-symposium.org/ndss-paper/Fuzzilli-Fuzzing-for-javascript-jit-compiler-vulnerabilities/) - 谷歌Project Zero安全团队开发的针对 Javascript JIT 引擎进行 Fuzzing 的工具。[已开源](https://github.com/googleprojectzero/Fuzzilli) ⭐ 2,346 | 🐛 74 | 🌐 Swift | 📅 2026-09-24。
 * [Assessing the Impact of Interface Vulnerabilities in Compartmentalized Software, 2023](https://www.ndss-symposium.org/ndss-paper/assessing-the-impact-of-interface-vulnerabilities-in-compartmentalized-software/) - 针对上下文隔离的 API 接口（CIV，这是作者定义的一个概念，主要是指沙箱等隔离环境，应用划分、隔离后，应用的不同部分之间在交互时的控制和数据依赖关系，会在 interface 引入新的漏洞）进行 Fuzzing 的方案。Github 文档描述非常详细，[已开源](https://github.com/confFuzz/confFuzz) ⭐ 48 | 🐛 0 | 🌐 C++ | 📅 2023-05-01，当前作者已针对  Okular/ImageMagick/Apache/exif  等诸多软件进行了 Fuzz 测试。
 * [No Grammar, No Problem: Towards Fuzzing the Linux Kernel without System-Call Descriptions, 2023](https://www.ndss-symposium.org/ndss-paper/no-grammar-no-problem-towards-Fuzzing-the-linux-kernel-without-system-call-descriptions/) - 不用像 Syzkaller 那样编写复杂的系统调用描述，即可对内核进行 Fuzzing 的工具。[FuzzNG 已开源](https://github.com/BUseclab/FuzzNG) ⭐ 36 | 🐛 1 | 🌐 C++ | 📅 2023-06-05。
 * [DARWIN: Survival of the Fittest Fuzzing Mutators, 2023](https://www.ndss-symposium.org/ndss-paper/darwin-survival-of-the-fittest-Fuzzing-mutators/) - 改进优化 AFL 变异算法，通过实验证明比原生 AFL 多出 66% 的安全漏洞，[已开源](https://github.com/TUDA-SSL/DARWIN) ⭐ 33 | 🐛 0 | 🌐 C | 📅 2023-02-28，很好奇为啥叫 DARWIN 的软件或者工具这么多🐶。
@@ -80,7 +80,7 @@
 
 ### 2022
 
-* [FirmWire: Transparent Dynamic Analysis for Cellular Baseband Firmware, 2022](https://hernan.de/research/papers/firmwire-ndss22-hernandez.pdf) - [FirmWire](https://github.com/FirmWire/FirmWire) ⭐ 884 | 🐛 18 | 🌐 Python | 📅 2026-08-20，是一个支持三星和联发科的全系统**基带**固件分析平台。它支持对基带固件映像进行 Fuzz 测试、模拟和调试。
+* [FirmWire: Transparent Dynamic Analysis for Cellular Baseband Firmware, 2022](https://hernan.de/research/papers/firmwire-ndss22-hernandez.pdf) - [FirmWire](https://github.com/FirmWire/FirmWire) ⭐ 885 | 🐛 18 | 🌐 Python | 📅 2026-08-20，是一个支持三星和联发科的全系统**基带**固件分析平台。它支持对基带固件映像进行 Fuzz 测试、模拟和调试。
 * [Semantic-Informed Driver Fuzzing Without Both the Hardware Devices and the Emulators, 2022](https://www.ndss-symposium.org/ndss-paper/auto-draft-248/) - 提出了一种无设备驱动程序 Fuzz 测试系统 DR .Fuzz，它不需要硬件设备对驱动程序进行 Fuzzing。DR .Fuzz 的核心是一种**语义通知机制**，它有效地生成输入以正确构造相关数据结构，以在驱动初始化时通过“验证链”，从而实现后续的无设备驱动程序 Fuzz 测试。
 * [MobFuzz: Adaptive Multi-objective Optimization in Gray-box Fuzzing, 2022](https://www.ndss-symposium.org/ndss-paper/auto-draft-199/) - 一种用于多目标优化 (MOO) 的灰盒模糊器，称为 MobFuzz。
 * [EMS: History-Driven Mutation for Coverage-based Fuzzing, 2022](https://nesa.zju.edu.cn/download/lcy_pdf_ems_ndss22.pdf) - 一种新颖的变异方案，通过分析历史测试用例，发现一些已经尝试过的用例仍有可能触发新的独特路径。提出了一种轻量级、高效的 Probabilistic Byte Orientation Model（PBOM）模型，基于此提出了一个新的历史驱动的变异框架 EMS，发现了多个新的 CVE。
@@ -374,7 +374,7 @@
 
 ### 二进制
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,331 | 🐛 635 | 🌐 Go | 📅 2026-09-26：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,332 | 🐛 635 | 🌐 Go | 📅 2026-09-26：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
 * [HonggFuzz](https://github.com/google/honggFuzz) ⭐ 3,387 | 🐛 31 | 🌐 C | 📅 2026-09-25：同样是谷歌开发的一个类似于 afl 的工具，只是 honggFuzz 基于反馈驱动，多线程和多进程，Fuzz 速度相比于 afl 有一个质的飞跃。
 * [winafl](https://github.com/googleprojectzero/winafl) ⭐ 2,606 | 🐛 170 | 🌐 C | 📅 2026-03-13：afl 的一个分支项目，将 afl 用于Windows 平台。
 * [trinity](https://github.com/kernelslacker/trinity) ⭐ 909 | 🐛 1 | 🌐 C | 📅 2026-09-24：Linux system call Fuzzer，对于 **Linux 系统调用**的 Fuzz 测试工具。
@@ -459,7 +459,7 @@
 
 ## Contribute
 
-如果你看到了认为比较好的有关 Fuzz 测试的资源，欢迎贡献本项目！请阅读[贡献指南](https://github.com/secnotes/Fuzzing-tutorial/blob/main/CONTRIBUTING.md) ⭐ 405 | 🐛 0 | 🌐 Python | 📅 2026-09-10。
+如果你看到了认为比较好的有关 Fuzz 测试的资源，欢迎贡献本项目！请阅读[贡献指南](https://github.com/secnotes/Fuzzing-tutorial/blob/main/CONTRIBUTING.md) ⭐ 404 | 🐛 0 | 🌐 Python | 📅 2026-09-10。
 
 ## License
 
@@ -467,4 +467,4 @@
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-26._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-27._

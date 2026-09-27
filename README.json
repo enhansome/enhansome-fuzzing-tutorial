@@ -287,7 +287,7 @@
                 "open_issues": 6,
                 "owner": "ChatAFLndss",
                 "repo": "ChatAFL",
-                "stars": 399,
+                "stars": 398,
                 "topics": [
                   "fuzzing",
                   "fuzzing-testing",
@@ -433,7 +433,7 @@
                 "open_issues": 74,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2345,
+                "stars": 2346,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -553,7 +553,7 @@
                 "open_issues": 18,
                 "owner": "FirmWire",
                 "repo": "FirmWire",
-                "stars": 884,
+                "stars": 885,
                 "topics": [
                   "baseband",
                   "emulation",
@@ -1265,7 +1265,7 @@
                 "open_issues": 66,
                 "owner": "google",
                 "repo": "AFL",
-                "stars": 4197,
+                "stars": 4196,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3045,7 +3045,7 @@
                 "open_issues": 635,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6331,
+                "stars": 6332,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-26T20:47:47.847Z",
+    "last_updated": "2026-09-27T21:04:24.008Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
@@ -3644,7 +3644,7 @@
       "open_issues": 0,
       "owner": "secnotes",
       "repo": "fuzzing-tutorial",
-      "stars": 405,
+      "stars": 404,
       "topics": [
         "awesome",
         "awesome-list",
