@@ -553,7 +553,7 @@
                 "open_issues": 19,
                 "owner": "FirmWire",
                 "repo": "FirmWire",
-                "stars": 885,
+                "stars": 887,
                 "topics": [
                   "baseband",
                   "emulation",
@@ -715,7 +715,7 @@
                 "id": 994250163,
                 "language": "C",
                 "license": "Apache-2.0",
-                "last_commit": "2026-08-29T07:54:20Z",
+                "last_commit": "2026-10-01T10:35:13Z",
                 "open_issues": 0,
                 "owner": "vul337",
                 "repo": "IDFuzz",
@@ -736,7 +736,7 @@
                 "id": 994250163,
                 "language": "C",
                 "license": "Apache-2.0",
-                "last_commit": "2026-08-29T07:54:20Z",
+                "last_commit": "2026-10-01T10:35:13Z",
                 "open_issues": 0,
                 "owner": "vul337",
                 "repo": "IDFuzz",
@@ -1511,7 +1511,7 @@
                 "id": 56690117,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-28T13:27:00Z",
+                "last_commit": "2026-10-01T12:59:17Z",
                 "open_issues": 34,
                 "owner": "tls-attacker",
                 "repo": "TLS-Attacker",
@@ -1772,8 +1772,8 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-30T16:06:02Z",
-                "open_issues": 133,
+                "last_commit": "2026-10-01T15:05:31Z",
+                "open_issues": 134,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 160,
@@ -2852,7 +2852,7 @@
                 "open_issues": 125,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2646,
+                "stars": 2645,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3041,8 +3041,8 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-30T16:50:53Z",
-                "open_issues": 633,
+                "last_commit": "2026-10-01T14:10:57Z",
+                "open_issues": 634,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6333,
@@ -3147,7 +3147,7 @@
                 "open_issues": 0,
                 "owner": "hfiref0x",
                 "repo": "NtCall64",
-                "stars": 641,
+                "stars": 642,
                 "topics": [
                   "brute-force-attacks",
                   "c",
@@ -3346,7 +3346,7 @@
                 "open_issues": 56,
                 "owner": "OpenRCE",
                 "repo": "sulley",
-                "stars": 1450,
+                "stars": 1451,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-30T22:00:04.963Z",
+    "last_updated": "2026-10-01T22:28:35.928Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
