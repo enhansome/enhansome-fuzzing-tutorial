@@ -1,6 +1,6 @@
 # Awesome Recent Papers/Blogs/Tools Related to Fuzzing with stars
 
-[<img src="logo/logo.png" align="right" width="30%">](https://github.com/secnotes/Fuzzing-tutorial) ⭐ 405 | 🐛 0 | 🌐 Python | 📅 2026-09-10
+[<img src="logo/logo.png" align="right" width="30%">](https://github.com/secnotes/Fuzzing-tutorial)
 
 > Curated list of classic Fuzzing books, papers about Fuzzing at information security top conferences over the years, commonly used Fuzzing tools, and resources that can help us use Fuzzer easily. → [English](https://secnotes.github.io/fuzzing-tutorial/index_en.html)
 
@@ -61,7 +61,7 @@
 
 ### 2024
 
-* [Large Language Model guided Protocol Fuzzing, 2024](https://www.ndss-symposium.org/ndss-paper/large-language-model-guided-protocol-Fuzzing/) - 研究人员开发了一款以大模型为指导的协议 Fuzz，通过 AI 训练 RFC 文档包含的协议规范，[ChatAFL 已开源](https://github.com/ChatAFLndss/ChatAFL) ⭐ 399 | 🐛 6 | 🌐 C | 📅 2025-06-30。
+* [Large Language Model guided Protocol Fuzzing, 2024](https://www.ndss-symposium.org/ndss-paper/large-language-model-guided-protocol-Fuzzing/) - 研究人员开发了一款以大模型为指导的协议 Fuzz，通过 AI 训练 RFC 文档包含的协议规范，[ChatAFL 已开源](https://github.com/ChatAFLndss/ChatAFL) ⭐ 400 | 🐛 6 | 🌐 C | 📅 2025-06-30。
 * [Predictive Context-sensitive Fuzzing, 2024](https://www.ndss-symposium.org/ndss-paper/predictive-context-sensitive-Fuzzing/) - 一种**新颖的统计覆盖率**的思路。目前大多数 Fuzz 工具都是通过边（edge）作为覆盖引导，edge coverage 是函数的控制流，只考虑代码执行而忽略内部程序状态。本文使用程序分析领域的上下文敏感（context-sensitivity）作为覆盖率统计，结合 calling-context 和 edge coverage，[已开源](https://github.com/eurecom-s3/predictive-cs-Fuzzing) ⭐ 30 | 🐛 1 | 🌐 C++ | 📅 2024-02-29。
 * [ReqsMiner: Automated Discovery of CDN Forwarding Request Inconsistencies and DoS Attacks with Grammar-based Fuzzing, 2024](https://www.ndss-symposium.org/ndss-paper/reqsminer-automated-discovery-of-cdn-forwarding-request-inconsistencies-and-dos-attacks-with-grammar-based-Fuzzing/) - 针对 CDN 请求不一致的 Fuzz 工具，[已开源](https://github.com/Konano/ReqsMiner) ⭐ 25 | 🐛 0 | 🌐 Python | 📅 2024-06-27。
 * [EnclaveFuzz: Finding Vulnerabilities in SGX Applications, 2024](https://www.ndss-symposium.org/ndss-paper/enclaveFuzz-finding-vulnerabilities-in-sgx-applications/) - Fuzz 对象是使用了因特尔 SGX 技术的软件，[已开源](https://github.com/vul337/EnclaveFuzz) ⭐ 24 | 🐛 0 | 🌐 C++ | 📅 2026-01-01。
@@ -374,7 +374,7 @@
 
 ### 二进制
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,334 | 🐛 632 | 🌐 Go | 📅 2026-10-02：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,334 | 🐛 635 | 🌐 Go | 📅 2026-10-02：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
 * [HonggFuzz](https://github.com/google/honggFuzz) ⭐ 3,391 | 🐛 31 | 🌐 C | 📅 2026-09-25：同样是谷歌开发的一个类似于 afl 的工具，只是 honggFuzz 基于反馈驱动，多线程和多进程，Fuzz 速度相比于 afl 有一个质的飞跃。
 * [winafl](https://github.com/googleprojectzero/winafl) ⭐ 2,607 | 🐛 170 | 🌐 C | 📅 2026-03-13：afl 的一个分支项目，将 afl 用于Windows 平台。
 * [trinity](https://github.com/kernelslacker/trinity) ⭐ 910 | 🐛 1 | 🌐 C | 📅 2026-09-24：Linux system call Fuzzer，对于 **Linux 系统调用**的 Fuzz 测试工具。
@@ -459,7 +459,7 @@
 
 ## Contribute
 
-如果你看到了认为比较好的有关 Fuzz 测试的资源，欢迎贡献本项目！请阅读[贡献指南](https://github.com/secnotes/Fuzzing-tutorial/blob/main/CONTRIBUTING.md) ⭐ 405 | 🐛 0 | 🌐 Python | 📅 2026-09-10。
+如果你看到了认为比较好的有关 Fuzz 测试的资源，欢迎贡献本项目！请阅读[贡献指南](https://github.com/secnotes/Fuzzing-tutorial/blob/main/CONTRIBUTING.md)。
 
 ## License
 
@@ -467,4 +467,4 @@
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-02._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-03._

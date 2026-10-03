@@ -287,7 +287,7 @@
                 "open_issues": 6,
                 "owner": "ChatAFLndss",
                 "repo": "ChatAFL",
-                "stars": 399,
+                "stars": 400,
                 "topics": [
                   "fuzzing",
                   "fuzzing-testing",
@@ -3042,7 +3042,7 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-02T10:23:01Z",
-                "open_issues": 632,
+                "open_issues": 635,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6334,
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-02T21:57:33.107Z",
+    "last_updated": "2026-10-03T04:47:05.577Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
