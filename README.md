@@ -212,7 +212,7 @@
 
 ### 2026
 
-* [Jazzer: Coverage-Guided Fuzzing for Semantic Vulnerabilities in the Java Ecosystem, 2026](https://ieeexplore.ieee.org/document/11573447) - 谷歌 OSS-Fuzz 中 Java 生态的主力 Fuzzer Jazzer 论文化，除内存错误外还检测 **SSRF、路径遍历、反序列化等语义类漏洞**，[Jazzer 已开源](https://github.com/CodeIntelligenceTesting/jazzer) ⭐ 1,259 | 🐛 50 | 🌐 Java | 📅 2026-10-02。
+* [Jazzer: Coverage-Guided Fuzzing for Semantic Vulnerabilities in the Java Ecosystem, 2026](https://ieeexplore.ieee.org/document/11573447) - 谷歌 OSS-Fuzz 中 Java 生态的主力 Fuzzer Jazzer 论文化，除内存错误外还检测 **SSRF、路径遍历、反序列化等语义类漏洞**，[Jazzer 已开源](https://github.com/CodeIntelligenceTesting/jazzer) ⭐ 1,260 | 🐛 50 | 🌐 Java | 📅 2026-10-03。
 * [Batch Me If You Can: Coverage-guided RPKI Fuzzing at Scale, 2026](https://ieeexplore.ieee.org/document/11573494) - 针对 RPKI（资源公钥基础设施，互联网 BGP 路由安全的基础）实现的**大规模覆盖引导 Fuzzing**，工具 CAT 吞吐量提升 66 倍，发现 21 个未知漏洞（8 个 CVE，最高 CVSS 9.8）。
 * [Camveil: Unveiling Security Camera Vulnerabilities through Multi-Protocol Coordinated Fuzzing, 2026](https://ieeexplore.ieee.org/document/11573550) - 针对监控摄像头的 **多协议协同 Fuzz** 工具，同一设备的多个协议（如 ONVIF、RTSP 等）实现存在关联交互，跨协议协同测试可挖掘单协议 Fuzz 难以发现的漏洞。
 * [deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses, 2026](https://ieeexplore.ieee.org/document/11573565) - 针对 **Rust 生态**的内存安全漏洞挖掘，利用大模型增强/合成 harness，对 unsafe 代码依赖及 Rust-C 混合库进行 Fuzz。
@@ -374,7 +374,7 @@
 
 ### 二进制
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,334 | 🐛 635 | 🌐 Go | 📅 2026-10-02：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,336 | 🐛 635 | 🌐 Go | 📅 2026-10-02：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
 * [HonggFuzz](https://github.com/google/honggFuzz) ⭐ 3,391 | 🐛 31 | 🌐 C | 📅 2026-09-25：同样是谷歌开发的一个类似于 afl 的工具，只是 honggFuzz 基于反馈驱动，多线程和多进程，Fuzz 速度相比于 afl 有一个质的飞跃。
 * [winafl](https://github.com/googleprojectzero/winafl) ⭐ 2,607 | 🐛 170 | 🌐 C | 📅 2026-03-13：afl 的一个分支项目，将 afl 用于Windows 平台。
 * [trinity](https://github.com/kernelslacker/trinity) ⭐ 910 | 🐛 1 | 🌐 C | 📅 2026-09-24：Linux system call Fuzzer，对于 **Linux 系统调用**的 Fuzz 测试工具。

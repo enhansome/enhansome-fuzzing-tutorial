@@ -1683,11 +1683,11 @@
                 "id": 333867901,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-02T09:27:58Z",
+                "last_commit": "2026-10-03T19:34:17Z",
                 "open_issues": 50,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
-                "stars": 1259,
+                "stars": 1260,
                 "topics": [
                   "clojure",
                   "fuzzer",
@@ -3045,7 +3045,7 @@
                 "open_issues": 635,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6334,
+                "stars": 6336,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-03T04:47:05.577Z",
+    "last_updated": "2026-10-03T20:45:25.038Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
