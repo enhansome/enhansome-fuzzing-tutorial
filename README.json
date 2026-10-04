@@ -433,7 +433,7 @@
                 "open_issues": 74,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2348,
+                "stars": 2349,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -2852,7 +2852,7 @@
                 "open_issues": 128,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2645,
+                "stars": 2646,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3042,7 +3042,7 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-02T10:23:01Z",
-                "open_issues": 635,
+                "open_issues": 636,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6336,
@@ -3076,7 +3076,7 @@
                 "open_issues": 31,
                 "owner": "google",
                 "repo": "honggfuzz",
-                "stars": 3391,
+                "stars": 3392,
                 "topics": [
                   "c",
                   "fuzzing",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-03T20:45:25.038Z",
+    "last_updated": "2026-10-04T21:01:20.340Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
@@ -3644,7 +3644,7 @@
       "open_issues": 0,
       "owner": "secnotes",
       "repo": "fuzzing-tutorial",
-      "stars": 405,
+      "stars": 404,
       "topics": [
         "awesome",
         "awesome-list",
