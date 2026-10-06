@@ -191,7 +191,7 @@
 
 ### 2020
 
-* [Analysis of DTLS Implementations Using Protocol State Fuzzing, 2020](https://www.usenix.org/conference/usenixsecurity20/presentation/fiterau-brostean) - 对 DTLS 实现的首次全面分析，提出的 [TLS-Attacker](https://github.com/tls-attacker/TLS-Attacker) ⭐ 879 | 🐛 34 | 🌐 Java | 📅 2026-10-01  是一个用于分析TLS实现的开源框架。
+* [Analysis of DTLS Implementations Using Protocol State Fuzzing, 2020](https://www.usenix.org/conference/usenixsecurity20/presentation/fiterau-brostean) - 对 DTLS 实现的首次全面分析，提出的 [TLS-Attacker](https://github.com/tls-attacker/TLS-Attacker) ⭐ 879 | 🐛 35 | 🌐 Java | 📅 2026-10-01  是一个用于分析TLS实现的开源框架。
 * [SweynTooth: Unleashing Mayhem over Bluetooth Low Energy, 2020](https://www.usenix.org/conference/atc20/presentation/garbelini) - 使用了 Noridc nRF52840 实现低成本的 **BLE 全栈 Fuzz 测试**工具，PoC 已开源  [sweyntooth\_bluetooth\_low\_energy\_attacks](https://github.com/Matheus-Garbelini/sweyntooth_bluetooth_low_energy_attacks) ⭐ 338 | 🐛 15 | 🌐 Python | 📅 2021-11-23。
 * [FuzzGen: Automatic Fuzzer Generation, 2020](https://www.usenix.org/conference/usenixsecurity20/presentation/ispoglou) - 提出的对库接口进行分析的工具。 这是一种用于在给定环境中自动合成复杂库的模糊器的工具。[FuzzGen](https://github.com/HexHive/FuzzGen) ⭐ 312 | 🐛 9 | 🌐 C++ | 📅 2021-08-13 利用*整个系统分析*来推断库的接口，并专门为该库合成模糊器。FuzzGen 不需要人工干预，可以应用于各种库。此外，生成的模糊器利用LibFuzzer 来实现更好的代码覆盖率并暴露库深处的错误。
 * [FANS: Fuzzing Android Native System Services via Automated Interface Analysis, 2020](https://www.usenix.org/conference/usenixsecurity20/presentation/liu) - 提出了一种基于自动生成的 Fuzz 测试解决方案 FANS，以查找 Android 系统原生服务中的漏洞，作者[刘保证](http://netsec.ccert.edu.cn/people/iromise/)开发的 Native Service Fuzz 工具 fans [开源连接](https://github.com/iromise/fans) ⭐ 265 | 🐛 0 | 🌐 C++ | 📅 2020-09-23，能够根据源码自动推测 Native Service 的接口和入参，进行 Fuzzing，工具的限制是需要 AOSP 的编译环境。
@@ -374,8 +374,8 @@
 
 ### 二进制
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,338 | 🐛 632 | 🌐 Go | 📅 2026-10-05：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
-* [HonggFuzz](https://github.com/google/honggFuzz) ⭐ 3,392 | 🐛 31 | 🌐 C | 📅 2026-09-25：同样是谷歌开发的一个类似于 afl 的工具，只是 honggFuzz 基于反馈驱动，多线程和多进程，Fuzz 速度相比于 afl 有一个质的飞跃。
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,339 | 🐛 632 | 🌐 Go | 📅 2026-10-05：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
+* [HonggFuzz](https://github.com/google/honggFuzz) ⭐ 3,393 | 🐛 31 | 🌐 C | 📅 2026-09-25：同样是谷歌开发的一个类似于 afl 的工具，只是 honggFuzz 基于反馈驱动，多线程和多进程，Fuzz 速度相比于 afl 有一个质的飞跃。
 * [winafl](https://github.com/googleprojectzero/winafl) ⭐ 2,607 | 🐛 170 | 🌐 C | 📅 2026-03-13：afl 的一个分支项目，将 afl 用于Windows 平台。
 * [trinity](https://github.com/kernelslacker/trinity) ⭐ 910 | 🐛 1 | 🌐 C | 📅 2026-09-24：Linux system call Fuzzer，对于 **Linux 系统调用**的 Fuzz 测试工具。
 * [NtCall64](https://github.com/hfiref0x/NtCall64) ⭐ 642 | 🐛 0 | 🌐 C | 📅 2026-09-12：Windows NT x64 syscall Fuzzer，基于 NtCall 的 **Windows 系统调用** Fuzz 测试工具。
@@ -391,7 +391,7 @@
 
 * [domato](https://github.com/googleprojectzero/domato) ⭐ 1,785 | 🐛 3 | 🌐 Python | 📅 2024-11-26 ：googleprojectzero 开发的一个专门用于浏览器的黑盒 Fuzz 工具，用法简单，通过让浏览器访问生成各种随机的前端页面，观察浏览器的状态。
 * [Sulley](https://github.com/OpenRCE/sulley) ⭐ 1,452 | 🐛 56 | 🌐 Python | 📅 2020-12-29/[BooFuzz](https://github.com/jtpereyda/booFuzz) ⭐ 2,362 | 🐛 101 | 🌐 Python | 📅 2026-09-21：Sulley 是一个 Fuzz 测试框架。主要用于协议的 Fuzz，如今已经不再维护。 [BooFuzz](https://github.com/jtpereyda/booFuzz) ⭐ 2,362 | 🐛 101 | 🌐 Python | 📅 2026-09-21 是古老的 [Sulley](https://github.com/OpenRCE/sulley) ⭐ 1,452 | 🐛 56 | 🌐 Python | 📅 2020-12-29  Fuzz 测试框架的分支和后续版本。除了大量错误修复外，booFuzz 扩展更多新特性。
-* [Fuzzowski](https://github.com/nccgroup/Fuzzowski) ⭐ 792 | 🐛 13 | 🌐 Python | 📅 2024-01-29：基于 booFuzz 的网络协议 Fuzz 测试工具，基于 sulley 的数据变异。
+* [Fuzzowski](https://github.com/nccgroup/Fuzzowski) ⭐ 793 | 🐛 13 | 🌐 Python | 📅 2024-01-29：基于 booFuzz 的网络协议 Fuzz 测试工具，基于 sulley 的数据变异。
 * [Peach](https://github.com/MozillaSecurity/peach) ⚠️ Archived：Peach 是 Michael  团队开发的一个 Fuzz 测试框架，最初为开源软件，后续部分核心测试套**商用**发布。Peach 专注于文件格式的 Fuzz，同时针对各种协议的 Fuzz 也十分友好。
 * [API-Fuzzer](https://github.com/Fuzzapi/API-Fuzzer) ⭐ 409 | 🐛 2 | 🌐 Ruby | 📅 2017-07-16：使用常见的渗透测试技术和已知漏洞对一些网络 **API** 请求进行 Fuzz。
 * [Defensics](https://www.synopsys.com/software-integrity/security-testing/Fuzz-testing.html)： Defensics 是一个基于变异的 Fuzzing **商用**工具，简单而强大，广泛支持各种协议，具有成熟的测试套，也具有较强扩展性，用户可以通过模板创建属于自己的测试套。
@@ -467,4 +467,4 @@
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-05._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-06._

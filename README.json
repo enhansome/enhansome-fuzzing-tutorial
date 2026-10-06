@@ -1512,7 +1512,7 @@
                 "language": "Java",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-01T12:59:17Z",
-                "open_issues": 34,
+                "open_issues": 35,
                 "owner": "tls-attacker",
                 "repo": "TLS-Attacker",
                 "stars": 879,
@@ -3045,7 +3045,7 @@
                 "open_issues": 632,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6338,
+                "stars": 6339,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3076,7 +3076,7 @@
                 "open_issues": 31,
                 "owner": "google",
                 "repo": "honggfuzz",
-                "stars": 3392,
+                "stars": 3393,
                 "topics": [
                   "c",
                   "fuzzing",
@@ -3367,7 +3367,7 @@
                 "open_issues": 13,
                 "owner": "nccgroup",
                 "repo": "fuzzowski",
-                "stars": 792,
+                "stars": 793,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-05T23:52:04.517Z",
+    "last_updated": "2026-10-06T10:26:47.030Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
