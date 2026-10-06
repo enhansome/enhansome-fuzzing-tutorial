@@ -80,7 +80,7 @@
 
 ### 2022
 
-* [FirmWire: Transparent Dynamic Analysis for Cellular Baseband Firmware, 2022](https://hernan.de/research/papers/firmwire-ndss22-hernandez.pdf) - [FirmWire](https://github.com/FirmWire/FirmWire) ⭐ 888 | 🐛 19 | 🌐 Python | 📅 2026-08-20，是一个支持三星和联发科的全系统**基带**固件分析平台。它支持对基带固件映像进行 Fuzz 测试、模拟和调试。
+* [FirmWire: Transparent Dynamic Analysis for Cellular Baseband Firmware, 2022](https://hernan.de/research/papers/firmwire-ndss22-hernandez.pdf) - [FirmWire](https://github.com/FirmWire/FirmWire) ⭐ 887 | 🐛 19 | 🌐 Python | 📅 2026-08-20，是一个支持三星和联发科的全系统**基带**固件分析平台。它支持对基带固件映像进行 Fuzz 测试、模拟和调试。
 * [Semantic-Informed Driver Fuzzing Without Both the Hardware Devices and the Emulators, 2022](https://www.ndss-symposium.org/ndss-paper/auto-draft-248/) - 提出了一种无设备驱动程序 Fuzz 测试系统 DR .Fuzz，它不需要硬件设备对驱动程序进行 Fuzzing。DR .Fuzz 的核心是一种**语义通知机制**，它有效地生成输入以正确构造相关数据结构，以在驱动初始化时通过“验证链”，从而实现后续的无设备驱动程序 Fuzz 测试。
 * [MobFuzz: Adaptive Multi-objective Optimization in Gray-box Fuzzing, 2022](https://www.ndss-symposium.org/ndss-paper/auto-draft-199/) - 一种用于多目标优化 (MOO) 的灰盒模糊器，称为 MobFuzz。
 * [EMS: History-Driven Mutation for Coverage-based Fuzzing, 2022](https://nesa.zju.edu.cn/download/lcy_pdf_ems_ndss22.pdf) - 一种新颖的变异方案，通过分析历史测试用例，发现一些已经尝试过的用例仍有可能触发新的独特路径。提出了一种轻量级、高效的 Probabilistic Byte Orientation Model（PBOM）模型，基于此提出了一个新的历史驱动的变异框架 EMS，发现了多个新的 CVE。
@@ -374,10 +374,10 @@
 
 ### 二进制
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,339 | 🐛 632 | 🌐 Go | 📅 2026-10-05：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,341 | 🐛 635 | 🌐 Go | 📅 2026-10-05：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
 * [HonggFuzz](https://github.com/google/honggFuzz) ⭐ 3,393 | 🐛 31 | 🌐 C | 📅 2026-09-25：同样是谷歌开发的一个类似于 afl 的工具，只是 honggFuzz 基于反馈驱动，多线程和多进程，Fuzz 速度相比于 afl 有一个质的飞跃。
 * [winafl](https://github.com/googleprojectzero/winafl) ⭐ 2,607 | 🐛 170 | 🌐 C | 📅 2026-03-13：afl 的一个分支项目，将 afl 用于Windows 平台。
-* [trinity](https://github.com/kernelslacker/trinity) ⭐ 910 | 🐛 1 | 🌐 C | 📅 2026-09-24：Linux system call Fuzzer，对于 **Linux 系统调用**的 Fuzz 测试工具。
+* [trinity](https://github.com/kernelslacker/trinity) ⭐ 910 | 🐛 1 | 🌐 C | 📅 2026-10-06：Linux system call Fuzzer，对于 **Linux 系统调用**的 Fuzz 测试工具。
 * [NtCall64](https://github.com/hfiref0x/NtCall64) ⭐ 642 | 🐛 0 | 🌐 C | 📅 2026-09-12：Windows NT x64 syscall Fuzzer，基于 NtCall 的 **Windows 系统调用** Fuzz 测试工具。
 * [afl-unicorn: Fuzzing The 'UnFuzzable' ](https://www.youtube.com/watch?v=OheODvF0884)： [Battelle](https://www.battelle.org/cyber) 在  **ShmooCon 2018** 上发布的一个工具，已经有大佬将演讲视频添加[中文字幕](https://www.bilibili.com/video/av83051615/)并上传到 B 站上。该[工具](https://github.com/Battelle/afl-unicorn) ⭐ 619 | 🐛 14 | 🌐 C | 📅 2023-06-18 弥补了 afl 的不足，可以对任意二进制代码片段进行 Fuzz，作为一个完全使用**黑盒进行 Fuzz** 的工具，afl-unicorn 也保留了 afl 原有的代码覆盖率统计，根据反馈对种子进行变异，从而提高代码覆盖。
 * [frida-Fuzzer](https://github.com/andreafioraldi/frida-Fuzzer) ⚠️ Archived： Frida-Fuzzer 是一款针对 API 的内存 Fuzz 测试框架，该工具的设计和开发灵感来源于 afl/afl++，Frida-Fuzzer 的当前版本支持在 GNU/Linux x86\_64 和 Android x86——64 平台上运行。
