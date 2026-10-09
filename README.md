@@ -61,7 +61,7 @@
 
 ### 2024
 
-* [Large Language Model guided Protocol Fuzzing, 2024](https://www.ndss-symposium.org/ndss-paper/large-language-model-guided-protocol-Fuzzing/) - 研究人员开发了一款以大模型为指导的协议 Fuzz，通过 AI 训练 RFC 文档包含的协议规范，[ChatAFL 已开源](https://github.com/ChatAFLndss/ChatAFL) ⭐ 400 | 🐛 6 | 🌐 C | 📅 2025-06-30。
+* [Large Language Model guided Protocol Fuzzing, 2024](https://www.ndss-symposium.org/ndss-paper/large-language-model-guided-protocol-Fuzzing/) - 研究人员开发了一款以大模型为指导的协议 Fuzz，通过 AI 训练 RFC 文档包含的协议规范，[ChatAFL 已开源](https://github.com/ChatAFLndss/ChatAFL) ⭐ 401 | 🐛 6 | 🌐 C | 📅 2025-06-30。
 * [Predictive Context-sensitive Fuzzing, 2024](https://www.ndss-symposium.org/ndss-paper/predictive-context-sensitive-Fuzzing/) - 一种**新颖的统计覆盖率**的思路。目前大多数 Fuzz 工具都是通过边（edge）作为覆盖引导，edge coverage 是函数的控制流，只考虑代码执行而忽略内部程序状态。本文使用程序分析领域的上下文敏感（context-sensitivity）作为覆盖率统计，结合 calling-context 和 edge coverage，[已开源](https://github.com/eurecom-s3/predictive-cs-Fuzzing) ⭐ 30 | 🐛 1 | 🌐 C++ | 📅 2024-02-29。
 * [ReqsMiner: Automated Discovery of CDN Forwarding Request Inconsistencies and DoS Attacks with Grammar-based Fuzzing, 2024](https://www.ndss-symposium.org/ndss-paper/reqsminer-automated-discovery-of-cdn-forwarding-request-inconsistencies-and-dos-attacks-with-grammar-based-Fuzzing/) - 针对 CDN 请求不一致的 Fuzz 工具，[已开源](https://github.com/Konano/ReqsMiner) ⭐ 25 | 🐛 0 | 🌐 Python | 📅 2024-06-27。
 * [EnclaveFuzz: Finding Vulnerabilities in SGX Applications, 2024](https://www.ndss-symposium.org/ndss-paper/enclaveFuzz-finding-vulnerabilities-in-sgx-applications/) - Fuzz 对象是使用了因特尔 SGX 技术的软件，[已开源](https://github.com/vul337/EnclaveFuzz) ⭐ 24 | 🐛 0 | 🌐 C++ | 📅 2026-01-01。
@@ -71,7 +71,7 @@
 
 ### 2023
 
-* [FuzzILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities, 2023](https://www.ndss-symposium.org/ndss-paper/Fuzzilli-Fuzzing-for-javascript-jit-compiler-vulnerabilities/) - 谷歌Project Zero安全团队开发的针对 Javascript JIT 引擎进行 Fuzzing 的工具。[已开源](https://github.com/googleprojectzero/Fuzzilli) ⭐ 2,350 | 🐛 74 | 🌐 Swift | 📅 2026-10-08。
+* [FuzzILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities, 2023](https://www.ndss-symposium.org/ndss-paper/Fuzzilli-Fuzzing-for-javascript-jit-compiler-vulnerabilities/) - 谷歌Project Zero安全团队开发的针对 Javascript JIT 引擎进行 Fuzzing 的工具。[已开源](https://github.com/googleprojectzero/Fuzzilli) ⭐ 2,351 | 🐛 74 | 🌐 Swift | 📅 2026-10-08。
 * [Assessing the Impact of Interface Vulnerabilities in Compartmentalized Software, 2023](https://www.ndss-symposium.org/ndss-paper/assessing-the-impact-of-interface-vulnerabilities-in-compartmentalized-software/) - 针对上下文隔离的 API 接口（CIV，这是作者定义的一个概念，主要是指沙箱等隔离环境，应用划分、隔离后，应用的不同部分之间在交互时的控制和数据依赖关系，会在 interface 引入新的漏洞）进行 Fuzzing 的方案。Github 文档描述非常详细，[已开源](https://github.com/confFuzz/confFuzz) ⭐ 48 | 🐛 0 | 🌐 C++ | 📅 2023-05-01，当前作者已针对  Okular/ImageMagick/Apache/exif  等诸多软件进行了 Fuzz 测试。
 * [No Grammar, No Problem: Towards Fuzzing the Linux Kernel without System-Call Descriptions, 2023](https://www.ndss-symposium.org/ndss-paper/no-grammar-no-problem-towards-Fuzzing-the-linux-kernel-without-system-call-descriptions/) - 不用像 Syzkaller 那样编写复杂的系统调用描述，即可对内核进行 Fuzzing 的工具。[FuzzNG 已开源](https://github.com/BUseclab/FuzzNG) ⭐ 36 | 🐛 1 | 🌐 C++ | 📅 2023-06-05。
 * [DARWIN: Survival of the Fittest Fuzzing Mutators, 2023](https://www.ndss-symposium.org/ndss-paper/darwin-survival-of-the-fittest-Fuzzing-mutators/) - 改进优化 AFL 变异算法，通过实验证明比原生 AFL 多出 66% 的安全漏洞，[已开源](https://github.com/TUDA-SSL/DARWIN) ⭐ 33 | 🐛 0 | 🌐 C | 📅 2023-02-28，很好奇为啥叫 DARWIN 的软件或者工具这么多🐶。
@@ -230,12 +230,12 @@
 ### 2025
 
 * [RGFuzz: Rule-Guided Fuzzer for WebAssembly Runtimes, 2025](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a003/21B7PWv1JGU) - 一个用于 WebAssembly 运行时的差分 Fuzz 测试工具 RGFuzz。备注：WebAssembly（Wasm）是一种新型的、可移植的、高效的二进制指令格式。[工具已开源](https://github.com/kaist-hacking/RGFuzz) ⭐ 25 | 🐛 0 | 🌐 Rust | 📅 2026-01-10。
-* [FirmRCA: Towards Post-Fuzzing Analysis on ARM Embedded Firmware with Efficient Event-based Fault Localization, 2025](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a002/21B7PVDny6I) - FirmRCA，这是一个专为**嵌入式固件**量身定制的实用故障定位框架。[代码已开源](https://github.com/NESA-Lab/FirmRCA) ⭐ 15 | 🐛 1 | 🌐 C | 📅 2026-01-06，基于Unicorn模拟器的 hook 机制、利用 Capstone 反汇编。
+* [FirmRCA: Towards Post-Fuzzing Analysis on ARM Embedded Firmware with Efficient Event-based Fault Localization, 2025](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a002/21B7PVDny6I) - FirmRCA，这是一个专为**嵌入式固件**量身定制的实用故障定位框架。[代码已开源](https://github.com/NESA-Lab/FirmRCA) ⭐ 17 | 🐛 1 | 🌐 C | 📅 2026-01-06，基于Unicorn模拟器的 hook 机制、利用 Capstone 反汇编。
 * [Predator: Directed Web Application Fuzzing for Efficient Vulnerability Validation, 2025](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a066/21B7Ray6BkA) - Predator，这是一个配备选择性动态插桩的定向 Fuzz 测试框架，用于 **Web 应用程序**漏洞检测和验证。暂未见开源。
 
 ### 2024
 
-* [DY Fuzzing: Formal Dolev-Yao Models Meet Cryptographic Protocol Fuzz Testing, 2024](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a096/1Ub234bjuWA) - 一个针对密码学算法库进行 Fuzz 测试的模型，如针对 OpenSSL/wolfSSL，已经有基于 DY 模型实现了 **TLS Fuzz** 的工具，[tlspuffin](https://github.com/tlspuffin/tlspuffin) ⭐ 160 | 🐛 135 | 🌐 Rust | 📅 2026-10-07。
+* [DY Fuzzing: Formal Dolev-Yao Models Meet Cryptographic Protocol Fuzz Testing, 2024](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a096/1Ub234bjuWA) - 一个针对密码学算法库进行 Fuzz 测试的模型，如针对 OpenSSL/wolfSSL，已经有基于 DY 模型实现了 **TLS Fuzz** 的工具，[tlspuffin](https://github.com/tlspuffin/tlspuffin) ⭐ 160 | 🐛 135 | 🌐 Rust | 📅 2026-10-09。
 * [SyzTrust: State-aware Fuzzing on Trusted OS Designed for IoT Devices, 2024](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a070/1RjEaG9OpTa) - 针对 TEE 设计的 Fuzz 测试工具，基于 Syzkaller，在开发板上测试，因此 TEE 需要能够运行在开发板环境上，作者来自浙江大学，工具已开源，[SyzTrust](https://github.com/SyzTrust/syztrust) ⭐ 19 | 🐛 0 | 🌐 Go | 📅 2024-02-29。
 * [AFGen: Whole-Function Fuzzing for Applications and Libraries, 2024](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a011/1RjE9PjiDss) - AFGen（全函数 Fuzz 测试应用和库）是一种用于应用程序和库的全函数 Fuzz 测试工具。它是一种基于符号执行的 Fuzz 测试技术，通过符号执行进行静态分析，[代码即将开源](https://github.com/Marsman1996/AFGen) ⭐ 15 | 🐛 2 | 🌐 C | 📅 2025-03-17。
 * [To Boldly Go Where No Fuzzer Has Gone Before: Finding Bugs in Linux' Wireless Stacks through VirtIO Devices, 2024](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a024/1RjEa0y9RMQ) - 一种基于 VirtIO 设备驱动程序的新型 Fuzz 测试工具 [VirtFuzz](https://github.com/cyruscyliu/virtFuzz-evaluation) ⭐ 5 | 🐛 0 | 🌐 Shell | 📅 2023-06-14，从真实设备收集数据，在虚拟环境进行 Fuzz。
@@ -333,7 +333,7 @@
 
 ### 2023
 
-* [HOPPER: Interpretative Fuzzing for Libraries, 2023](https://dl.acm.org/doi/10.1145/3576915.3616610) - 一项比较有意思的研究，一种新的 API Fuzz 工具，不需要像开发那样对 API 的用法了如指掌，而只需要知道 Hopper 如何使用。目前的局限性是只针对 C 而非 C++ 语言编写的库，[Hopper 开源地址](https://github.com/FuzzAnything/Hopper) ⭐ 266 | 🐛 9 | 🌐 Rust | 📅 2026-06-05，[腾讯安全大数据实验室](http://www.baidu.com/link?url=aWqSg8WuLS7zTXIhjBtwYRtDkRYa9FBRmZWPvPgPJ6x5cZJO7SHTqM_YAqot7DF1LdMA6fwn0IJGpbWxnGHsfglRNqwnqNY5tH1I_LyyH0Gt78Po_-Jbb0O2e0dXJH7pyLfzX4YfzOgNJNNEcFS6AbdYK4AP_wRnMMHAXgZiv9zHGFa84udhi8xZfIY5pvkJnOP3Wi7-uzNkugatATRZ6K)。
+* [HOPPER: Interpretative Fuzzing for Libraries, 2023](https://dl.acm.org/doi/10.1145/3576915.3616610) - 一项比较有意思的研究，一种新的 API Fuzz 工具，不需要像开发那样对 API 的用法了如指掌，而只需要知道 Hopper 如何使用。目前的局限性是只针对 C 而非 C++ 语言编写的库，[Hopper 开源地址](https://github.com/FuzzAnything/Hopper) ⭐ 267 | 🐛 9 | 🌐 Rust | 📅 2026-06-05，[腾讯安全大数据实验室](http://www.baidu.com/link?url=aWqSg8WuLS7zTXIhjBtwYRtDkRYa9FBRmZWPvPgPJ6x5cZJO7SHTqM_YAqot7DF1LdMA6fwn0IJGpbWxnGHsfglRNqwnqNY5tH1I_LyyH0Gt78Po_-Jbb0O2e0dXJH7pyLfzX4YfzOgNJNNEcFS6AbdYK4AP_wRnMMHAXgZiv9zHGFa84udhi8xZfIY5pvkJnOP3Wi7-uzNkugatATRZ6K)。
 * [NestFuzz: Enhancing Fuzzing with Comprehensive Understanding of Input Processing Logic, 2023](https://dl.acm.org/doi/10.1145/3576915.3623103) - 专门针对开源工具进行 Fuzz 的工具 [NestFuzz](https://github.com/fdu-sec/NestFuzz) ⭐ 167 | 🐛 6 | 🌐 C++ | 📅 2024-10-11，仍然是基于 AFL 改进的工具，提出了一种新颖的数据结构，即输入处理树，它可以表示输入格式的整体结构。在 Fuzz 测试的第二阶段，NestFuzz 设计了一种级联依赖性感知突变策略。基于已识别的依赖关系，每当 NestFuzz 改变（字段或结构级别）输入时，它都会级联改变其他受影响的字段或子结构以维持结构有效性。
 * [Greybox Fuzzing of Distributed Systems, 2023](https://mengrj.github.io/files/CCS23.pdf) - 针对分布式系统（如 Redis）的灰盒 Fuzz 工具，[已开源](https://github.com/dsFuzz/mallory) ⭐ 60 | 🐛 4 | 🌐 Clojure | 📅 2023-12-05，环境使用 Docker，可以自己构建。
 * [SyzDirect: Directed Greybox Fuzzing for Linux Kernel, 2023](https://dl.acm.org/doi/10.1145/3576915.3623146) - 基于 Syzkaller 的改进，[SyzDirect](https://github.com/seclab-fudan/SyzDirect) ⭐ 41 | 🐛 11 | 📅 2024-05-31。
@@ -374,9 +374,9 @@
 
 ### 二进制
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,343 | 🐛 633 | 🌐 Go | 📅 2026-10-08：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
-* [HonggFuzz](https://github.com/google/honggFuzz) ⭐ 3,395 | 🐛 30 | 🌐 C | 📅 2026-09-25：同样是谷歌开发的一个类似于 afl 的工具，只是 honggFuzz 基于反馈驱动，多线程和多进程，Fuzz 速度相比于 afl 有一个质的飞跃。
-* [winafl](https://github.com/googleprojectzero/winafl) ⭐ 2,608 | 🐛 170 | 🌐 C | 📅 2026-03-13：afl 的一个分支项目，将 afl 用于Windows 平台。
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,344 | 🐛 631 | 🌐 Go | 📅 2026-10-09：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
+* [HonggFuzz](https://github.com/google/honggFuzz) ⭐ 3,396 | 🐛 30 | 🌐 C | 📅 2026-09-25：同样是谷歌开发的一个类似于 afl 的工具，只是 honggFuzz 基于反馈驱动，多线程和多进程，Fuzz 速度相比于 afl 有一个质的飞跃。
+* [winafl](https://github.com/googleprojectzero/winafl) ⭐ 2,607 | 🐛 170 | 🌐 C | 📅 2026-03-13：afl 的一个分支项目，将 afl 用于Windows 平台。
 * [trinity](https://github.com/kernelslacker/trinity) ⭐ 910 | 🐛 1 | 🌐 C | 📅 2026-10-06：Linux system call Fuzzer，对于 **Linux 系统调用**的 Fuzz 测试工具。
 * [NtCall64](https://github.com/hfiref0x/NtCall64) ⭐ 642 | 🐛 0 | 🌐 C | 📅 2026-09-12：Windows NT x64 syscall Fuzzer，基于 NtCall 的 **Windows 系统调用** Fuzz 测试工具。
 * [afl-unicorn: Fuzzing The 'UnFuzzable' ](https://www.youtube.com/watch?v=OheODvF0884)： [Battelle](https://www.battelle.org/cyber) 在  **ShmooCon 2018** 上发布的一个工具，已经有大佬将演讲视频添加[中文字幕](https://www.bilibili.com/video/av83051615/)并上传到 B 站上。该[工具](https://github.com/Battelle/afl-unicorn) ⭐ 619 | 🐛 14 | 🌐 C | 📅 2023-06-18 弥补了 afl 的不足，可以对任意二进制代码片段进行 Fuzz，作为一个完全使用**黑盒进行 Fuzz** 的工具，afl-unicorn 也保留了 afl 原有的代码覆盖率统计，根据反馈对种子进行变异，从而提高代码覆盖。
@@ -467,4 +467,4 @@
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-08._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-09._

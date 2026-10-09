@@ -287,7 +287,7 @@
                 "open_issues": 6,
                 "owner": "ChatAFLndss",
                 "repo": "ChatAFL",
-                "stars": 400,
+                "stars": 401,
                 "topics": [
                   "fuzzing",
                   "fuzzing-testing",
@@ -433,7 +433,7 @@
                 "open_issues": 74,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2350,
+                "stars": 2351,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1265,7 +1265,7 @@
                 "open_issues": 66,
                 "owner": "google",
                 "repo": "AFL",
-                "stars": 4198,
+                "stars": 4197,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1745,7 +1745,7 @@
                 "open_issues": 1,
                 "owner": "NESA-Lab",
                 "repo": "FirmRCA",
-                "stars": 15,
+                "stars": 17,
                 "topics": [
                   "fault-localization",
                   "firmware"
@@ -1772,7 +1772,7 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-07T15:37:39Z",
+                "last_commit": "2026-10-09T14:22:51Z",
                 "open_issues": 135,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
@@ -2715,7 +2715,7 @@
                 "open_issues": 9,
                 "owner": "FuzzAnything",
                 "repo": "Hopper",
-                "stars": 266,
+                "stars": 267,
                 "topics": [
                   "afl",
                   "api-testing",
@@ -3041,11 +3041,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-08T16:50:38Z",
-                "open_issues": 633,
+                "last_commit": "2026-10-09T16:27:31Z",
+                "open_issues": 631,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6343,
+                "stars": 6344,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3076,7 +3076,7 @@
                 "open_issues": 30,
                 "owner": "google",
                 "repo": "honggfuzz",
-                "stars": 3395,
+                "stars": 3396,
                 "topics": [
                   "c",
                   "fuzzing",
@@ -3101,7 +3101,7 @@
                 "open_issues": 170,
                 "owner": "googleprojectzero",
                 "repo": "winafl",
-                "stars": 2608,
+                "stars": 2607,
                 "topics": [
                   "afl",
                   "fuzzing",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-08T23:04:56.130Z",
+    "last_updated": "2026-10-09T22:25:11.383Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
