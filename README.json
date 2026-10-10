@@ -1515,7 +1515,7 @@
                 "open_issues": 35,
                 "owner": "tls-attacker",
                 "repo": "TLS-Attacker",
-                "stars": 879,
+                "stars": 880,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -2715,7 +2715,7 @@
                 "open_issues": 9,
                 "owner": "FuzzAnything",
                 "repo": "Hopper",
-                "stars": 267,
+                "stars": 268,
                 "topics": [
                   "afl",
                   "api-testing",
@@ -2852,7 +2852,7 @@
                 "open_issues": 131,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2652,
+                "stars": 2654,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3042,7 +3042,7 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-09T16:27:31Z",
-                "open_issues": 631,
+                "open_issues": 632,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6344,
@@ -3174,7 +3174,7 @@
                 "open_issues": 14,
                 "owner": "Battelle",
                 "repo": "afl-unicorn",
-                "stars": 619,
+                "stars": 620,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-09T22:25:11.383Z",
+    "last_updated": "2026-10-10T21:19:29.714Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
