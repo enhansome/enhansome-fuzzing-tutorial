@@ -287,7 +287,7 @@
                 "open_issues": 6,
                 "owner": "ChatAFLndss",
                 "repo": "ChatAFL",
-                "stars": 401,
+                "stars": 400,
                 "topics": [
                   "fuzzing",
                   "fuzzing-testing",
@@ -433,7 +433,7 @@
                 "open_issues": 74,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2351,
+                "stars": 2350,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -761,7 +761,7 @@
                 "open_issues": 0,
                 "owner": "SysSec-KAIST",
                 "repo": "LLFuzz",
-                "stars": 60,
+                "stars": 61,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3042,10 +3042,10 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-09T16:27:31Z",
-                "open_issues": 632,
+                "open_issues": 633,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6344,
+                "stars": 6346,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3101,7 +3101,7 @@
                 "open_issues": 170,
                 "owner": "googleprojectzero",
                 "repo": "winafl",
-                "stars": 2607,
+                "stars": 2608,
                 "topics": [
                   "afl",
                   "fuzzing",
@@ -3147,7 +3147,7 @@
                 "open_issues": 0,
                 "owner": "hfiref0x",
                 "repo": "NtCall64",
-                "stars": 642,
+                "stars": 643,
                 "topics": [
                   "brute-force-attacks",
                   "c",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-10T21:19:29.714Z",
+    "last_updated": "2026-10-11T21:38:47.957Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
@@ -3644,7 +3644,7 @@
       "open_issues": 0,
       "owner": "secnotes",
       "repo": "fuzzing-tutorial",
-      "stars": 405,
+      "stars": 404,
       "topics": [
         "awesome",
         "awesome-list",
