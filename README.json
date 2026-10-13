@@ -433,7 +433,7 @@
                 "open_issues": 74,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2350,
+                "stars": 2351,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -553,7 +553,7 @@
                 "open_issues": 19,
                 "owner": "FirmWire",
                 "repo": "FirmWire",
-                "stars": 887,
+                "stars": 888,
                 "topics": [
                   "baseband",
                   "emulation",
@@ -1153,7 +1153,7 @@
                 "open_issues": 2,
                 "owner": "HexHive",
                 "repo": "GLeeFuzz",
-                "stars": 46,
+                "stars": 47,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1684,7 +1684,7 @@
                 "language": "Java",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-03T19:34:17Z",
-                "open_issues": 51,
+                "open_issues": 53,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
                 "stars": 1260,
@@ -1773,7 +1773,7 @@
                 "language": "Rust",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-09T14:22:51Z",
-                "open_issues": 135,
+                "open_issues": 136,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 160,
@@ -2715,7 +2715,7 @@
                 "open_issues": 9,
                 "owner": "FuzzAnything",
                 "repo": "Hopper",
-                "stars": 268,
+                "stars": 269,
                 "topics": [
                   "afl",
                   "api-testing",
@@ -3041,8 +3041,8 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-09T16:27:31Z",
-                "open_issues": 633,
+                "last_commit": "2026-10-12T12:48:42Z",
+                "open_issues": 638,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6346,
@@ -3101,7 +3101,7 @@
                 "open_issues": 170,
                 "owner": "googleprojectzero",
                 "repo": "winafl",
-                "stars": 2608,
+                "stars": 2610,
                 "topics": [
                   "afl",
                   "fuzzing",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-11T21:38:47.957Z",
+    "last_updated": "2026-10-13T00:18:40.625Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
@@ -3644,7 +3644,7 @@
       "open_issues": 0,
       "owner": "secnotes",
       "repo": "fuzzing-tutorial",
-      "stars": 404,
+      "stars": 405,
       "topics": [
         "awesome",
         "awesome-list",
