@@ -1265,7 +1265,7 @@
                 "open_issues": 66,
                 "owner": "google",
                 "repo": "AFL",
-                "stars": 4198,
+                "stars": 4200,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1512,7 +1512,7 @@
                 "language": "Java",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-01T12:59:17Z",
-                "open_issues": 36,
+                "open_issues": 37,
                 "owner": "tls-attacker",
                 "repo": "TLS-Attacker",
                 "stars": 880,
@@ -1536,7 +1536,7 @@
                 "open_issues": 15,
                 "owner": "Matheus-Garbelini",
                 "repo": "sweyntooth_bluetooth_low_energy_attacks",
-                "stars": 337,
+                "stars": 338,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1772,7 +1772,7 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-14T11:18:34Z",
+                "last_commit": "2026-10-15T09:51:07Z",
                 "open_issues": 136,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
@@ -3041,11 +3041,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-14T12:49:12Z",
-                "open_issues": 635,
+                "last_commit": "2026-10-15T13:36:58Z",
+                "open_issues": 637,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6352,
+                "stars": 6354,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3101,7 +3101,7 @@
                 "open_issues": 170,
                 "owner": "googleprojectzero",
                 "repo": "winafl",
-                "stars": 2612,
+                "stars": 2613,
                 "topics": [
                   "afl",
                   "fuzzing",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-14T21:22:50.151Z",
+    "last_updated": "2026-10-15T21:04:32.427Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
