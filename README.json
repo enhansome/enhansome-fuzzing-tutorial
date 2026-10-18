@@ -1265,7 +1265,7 @@
                 "open_issues": 66,
                 "owner": "google",
                 "repo": "AFL",
-                "stars": 4200,
+                "stars": 4199,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1687,7 +1687,7 @@
                 "open_issues": 54,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
-                "stars": 1262,
+                "stars": 1260,
                 "topics": [
                   "clojure",
                   "fuzzer",
@@ -2715,7 +2715,7 @@
                 "open_issues": 9,
                 "owner": "FuzzAnything",
                 "repo": "Hopper",
-                "stars": 271,
+                "stars": 272,
                 "topics": [
                   "afl",
                   "api-testing",
@@ -3042,10 +3042,10 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-16T14:02:43Z",
-                "open_issues": 638,
+                "open_issues": 639,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6355,
+                "stars": 6357,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3076,7 +3076,7 @@
                 "open_issues": 31,
                 "owner": "google",
                 "repo": "honggfuzz",
-                "stars": 3398,
+                "stars": 3399,
                 "topics": [
                   "c",
                   "fuzzing",
@@ -3147,7 +3147,7 @@
                 "open_issues": 0,
                 "owner": "hfiref0x",
                 "repo": "NtCall64",
-                "stars": 644,
+                "stars": 645,
                 "topics": [
                   "brute-force-attacks",
                   "c",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-17T20:18:19.956Z",
+    "last_updated": "2026-10-18T20:17:57.259Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",

@@ -212,7 +212,7 @@
 
 ### 2026
 
-* [Jazzer: Coverage-Guided Fuzzing for Semantic Vulnerabilities in the Java Ecosystem, 2026](https://ieeexplore.ieee.org/document/11573447) - 谷歌 OSS-Fuzz 中 Java 生态的主力 Fuzzer Jazzer 论文化，除内存错误外还检测 **SSRF、路径遍历、反序列化等语义类漏洞**，[Jazzer 已开源](https://github.com/CodeIntelligenceTesting/jazzer) ⭐ 1,262 | 🐛 54 | 🌐 Java | 📅 2026-10-14。
+* [Jazzer: Coverage-Guided Fuzzing for Semantic Vulnerabilities in the Java Ecosystem, 2026](https://ieeexplore.ieee.org/document/11573447) - 谷歌 OSS-Fuzz 中 Java 生态的主力 Fuzzer Jazzer 论文化，除内存错误外还检测 **SSRF、路径遍历、反序列化等语义类漏洞**，[Jazzer 已开源](https://github.com/CodeIntelligenceTesting/jazzer) ⭐ 1,260 | 🐛 54 | 🌐 Java | 📅 2026-10-14。
 * [Batch Me If You Can: Coverage-guided RPKI Fuzzing at Scale, 2026](https://ieeexplore.ieee.org/document/11573494) - 针对 RPKI（资源公钥基础设施，互联网 BGP 路由安全的基础）实现的**大规模覆盖引导 Fuzzing**，工具 CAT 吞吐量提升 66 倍，发现 21 个未知漏洞（8 个 CVE，最高 CVSS 9.8）。
 * [Camveil: Unveiling Security Camera Vulnerabilities through Multi-Protocol Coordinated Fuzzing, 2026](https://ieeexplore.ieee.org/document/11573550) - 针对监控摄像头的 **多协议协同 Fuzz** 工具，同一设备的多个协议（如 ONVIF、RTSP 等）实现存在关联交互，跨协议协同测试可挖掘单协议 Fuzz 难以发现的漏洞。
 * [deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses, 2026](https://ieeexplore.ieee.org/document/11573565) - 针对 **Rust 生态**的内存安全漏洞挖掘，利用大模型增强/合成 harness，对 unsafe 代码依赖及 Rust-C 混合库进行 Fuzz。
@@ -333,7 +333,7 @@
 
 ### 2023
 
-* [HOPPER: Interpretative Fuzzing for Libraries, 2023](https://dl.acm.org/doi/10.1145/3576915.3616610) - 一项比较有意思的研究，一种新的 API Fuzz 工具，不需要像开发那样对 API 的用法了如指掌，而只需要知道 Hopper 如何使用。目前的局限性是只针对 C 而非 C++ 语言编写的库，[Hopper 开源地址](https://github.com/FuzzAnything/Hopper) ⭐ 271 | 🐛 9 | 🌐 Rust | 📅 2026-06-05，[腾讯安全大数据实验室](http://www.baidu.com/link?url=aWqSg8WuLS7zTXIhjBtwYRtDkRYa9FBRmZWPvPgPJ6x5cZJO7SHTqM_YAqot7DF1LdMA6fwn0IJGpbWxnGHsfglRNqwnqNY5tH1I_LyyH0Gt78Po_-Jbb0O2e0dXJH7pyLfzX4YfzOgNJNNEcFS6AbdYK4AP_wRnMMHAXgZiv9zHGFa84udhi8xZfIY5pvkJnOP3Wi7-uzNkugatATRZ6K)。
+* [HOPPER: Interpretative Fuzzing for Libraries, 2023](https://dl.acm.org/doi/10.1145/3576915.3616610) - 一项比较有意思的研究，一种新的 API Fuzz 工具，不需要像开发那样对 API 的用法了如指掌，而只需要知道 Hopper 如何使用。目前的局限性是只针对 C 而非 C++ 语言编写的库，[Hopper 开源地址](https://github.com/FuzzAnything/Hopper) ⭐ 272 | 🐛 9 | 🌐 Rust | 📅 2026-06-05，[腾讯安全大数据实验室](http://www.baidu.com/link?url=aWqSg8WuLS7zTXIhjBtwYRtDkRYa9FBRmZWPvPgPJ6x5cZJO7SHTqM_YAqot7DF1LdMA6fwn0IJGpbWxnGHsfglRNqwnqNY5tH1I_LyyH0Gt78Po_-Jbb0O2e0dXJH7pyLfzX4YfzOgNJNNEcFS6AbdYK4AP_wRnMMHAXgZiv9zHGFa84udhi8xZfIY5pvkJnOP3Wi7-uzNkugatATRZ6K)。
 * [NestFuzz: Enhancing Fuzzing with Comprehensive Understanding of Input Processing Logic, 2023](https://dl.acm.org/doi/10.1145/3576915.3623103) - 专门针对开源工具进行 Fuzz 的工具 [NestFuzz](https://github.com/fdu-sec/NestFuzz) ⭐ 167 | 🐛 6 | 🌐 C++ | 📅 2024-10-11，仍然是基于 AFL 改进的工具，提出了一种新颖的数据结构，即输入处理树，它可以表示输入格式的整体结构。在 Fuzz 测试的第二阶段，NestFuzz 设计了一种级联依赖性感知突变策略。基于已识别的依赖关系，每当 NestFuzz 改变（字段或结构级别）输入时，它都会级联改变其他受影响的字段或子结构以维持结构有效性。
 * [Greybox Fuzzing of Distributed Systems, 2023](https://mengrj.github.io/files/CCS23.pdf) - 针对分布式系统（如 Redis）的灰盒 Fuzz 工具，[已开源](https://github.com/dsFuzz/mallory) ⭐ 60 | 🐛 4 | 🌐 Clojure | 📅 2023-12-05，环境使用 Docker，可以自己构建。
 * [SyzDirect: Directed Greybox Fuzzing for Linux Kernel, 2023](https://dl.acm.org/doi/10.1145/3576915.3623146) - 基于 Syzkaller 的改进，[SyzDirect](https://github.com/seclab-fudan/SyzDirect) ⭐ 41 | 🐛 11 | 📅 2024-05-31。
@@ -374,11 +374,11 @@
 
 ### 二进制
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,355 | 🐛 638 | 🌐 Go | 📅 2026-10-16：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
-* [HonggFuzz](https://github.com/google/honggFuzz) ⭐ 3,398 | 🐛 31 | 🌐 C | 📅 2026-09-25：同样是谷歌开发的一个类似于 afl 的工具，只是 honggFuzz 基于反馈驱动，多线程和多进程，Fuzz 速度相比于 afl 有一个质的飞跃。
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,357 | 🐛 639 | 🌐 Go | 📅 2026-10-16：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
+* [HonggFuzz](https://github.com/google/honggFuzz) ⭐ 3,399 | 🐛 31 | 🌐 C | 📅 2026-09-25：同样是谷歌开发的一个类似于 afl 的工具，只是 honggFuzz 基于反馈驱动，多线程和多进程，Fuzz 速度相比于 afl 有一个质的飞跃。
 * [winafl](https://github.com/googleprojectzero/winafl) ⭐ 2,614 | 🐛 170 | 🌐 C | 📅 2026-03-13：afl 的一个分支项目，将 afl 用于Windows 平台。
 * [trinity](https://github.com/kernelslacker/trinity) ⭐ 910 | 🐛 1 | 🌐 C | 📅 2026-10-06：Linux system call Fuzzer，对于 **Linux 系统调用**的 Fuzz 测试工具。
-* [NtCall64](https://github.com/hfiref0x/NtCall64) ⭐ 644 | 🐛 0 | 🌐 C | 📅 2026-09-12：Windows NT x64 syscall Fuzzer，基于 NtCall 的 **Windows 系统调用** Fuzz 测试工具。
+* [NtCall64](https://github.com/hfiref0x/NtCall64) ⭐ 645 | 🐛 0 | 🌐 C | 📅 2026-09-12：Windows NT x64 syscall Fuzzer，基于 NtCall 的 **Windows 系统调用** Fuzz 测试工具。
 * [afl-unicorn: Fuzzing The 'UnFuzzable' ](https://www.youtube.com/watch?v=OheODvF0884)： [Battelle](https://www.battelle.org/cyber) 在  **ShmooCon 2018** 上发布的一个工具，已经有大佬将演讲视频添加[中文字幕](https://www.bilibili.com/video/av83051615/)并上传到 B 站上。该[工具](https://github.com/Battelle/afl-unicorn) ⭐ 620 | 🐛 14 | 🌐 C | 📅 2023-06-18 弥补了 afl 的不足，可以对任意二进制代码片段进行 Fuzz，作为一个完全使用**黑盒进行 Fuzz** 的工具，afl-unicorn 也保留了 afl 原有的代码覆盖率统计，根据反馈对种子进行变异，从而提高代码覆盖。
 * [frida-Fuzzer](https://github.com/andreafioraldi/frida-Fuzzer) ⚠️ Archived： Frida-Fuzzer 是一款针对 API 的内存 Fuzz 测试框架，该工具的设计和开发灵感来源于 afl/afl++，Frida-Fuzzer 的当前版本支持在 GNU/Linux x86\_64 和 Android x86——64 平台上运行。
 * [kDriver-Fuzzer](https://github.com/k0keoyo/kDriver-Fuzzer) ⭐ 482 | 🐛 0 | 🌐 C | 📅 2018-03-31：基于 ioctlbf 框架编写的驱动漏洞挖掘工具 kDriver Fuzzer，**驱动 Fuzzer**。
@@ -390,7 +390,7 @@
 ### API/协议
 
 * [domato](https://github.com/googleprojectzero/domato) ⭐ 1,786 | 🐛 3 | 🌐 Python | 📅 2024-11-26 ：googleprojectzero 开发的一个专门用于浏览器的黑盒 Fuzz 工具，用法简单，通过让浏览器访问生成各种随机的前端页面，观察浏览器的状态。
-* [Sulley](https://github.com/OpenRCE/sulley) ⭐ 1,452 | 🐛 56 | 🌐 Python | 📅 2020-12-29/[BooFuzz](https://github.com/jtpereyda/booFuzz) ⭐ 2,364 | 🐛 101 | 🌐 Python | 📅 2026-09-21：Sulley 是一个 Fuzz 测试框架。主要用于协议的 Fuzz，如今已经不再维护。 [BooFuzz](https://github.com/jtpereyda/booFuzz) ⭐ 2,364 | 🐛 101 | 🌐 Python | 📅 2026-09-21 是古老的 [Sulley](https://github.com/OpenRCE/sulley) ⭐ 1,452 | 🐛 56 | 🌐 Python | 📅 2020-12-29  Fuzz 测试框架的分支和后续版本。除了大量错误修复外，booFuzz 扩展更多新特性。
+* [Sulley](https://github.com/OpenRCE/sulley) ⭐ 1,452 | 🐛 56 | 🌐 Python | 📅 2020-12-29/[BooFuzz](https://github.com/jtpereyda/booFuzz) ⭐ 2,365 | 🐛 101 | 🌐 Python | 📅 2026-09-21：Sulley 是一个 Fuzz 测试框架。主要用于协议的 Fuzz，如今已经不再维护。 [BooFuzz](https://github.com/jtpereyda/booFuzz) ⭐ 2,365 | 🐛 101 | 🌐 Python | 📅 2026-09-21 是古老的 [Sulley](https://github.com/OpenRCE/sulley) ⭐ 1,452 | 🐛 56 | 🌐 Python | 📅 2020-12-29  Fuzz 测试框架的分支和后续版本。除了大量错误修复外，booFuzz 扩展更多新特性。
 * [Fuzzowski](https://github.com/nccgroup/Fuzzowski) ⭐ 795 | 🐛 13 | 🌐 Python | 📅 2024-01-29：基于 booFuzz 的网络协议 Fuzz 测试工具，基于 sulley 的数据变异。
 * [Peach](https://github.com/MozillaSecurity/peach) ⚠️ Archived：Peach 是 Michael  团队开发的一个 Fuzz 测试框架，最初为开源软件，后续部分核心测试套**商用**发布。Peach 专注于文件格式的 Fuzz，同时针对各种协议的 Fuzz 也十分友好。
 * [API-Fuzzer](https://github.com/Fuzzapi/API-Fuzzer) ⭐ 409 | 🐛 2 | 🌐 Ruby | 📅 2017-07-16：使用常见的渗透测试技术和已知漏洞对一些网络 **API** 请求进行 Fuzz。
@@ -467,4 +467,4 @@
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-17._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-18._
