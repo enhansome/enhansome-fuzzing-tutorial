@@ -433,7 +433,7 @@
                 "open_issues": 74,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2358,
+                "stars": 2359,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1286,7 +1286,7 @@
                 "open_issues": 32,
                 "owner": "Matheus-Garbelini",
                 "repo": "braktooth_esp32_bluetooth_classic_attacks",
-                "stars": 592,
+                "stars": 593,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1511,8 +1511,8 @@
                 "id": 56690117,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-19T10:44:44Z",
-                "open_issues": 39,
+                "last_commit": "2026-10-20T17:32:40Z",
+                "open_issues": 40,
                 "owner": "tls-attacker",
                 "repo": "TLS-Attacker",
                 "stars": 880,
@@ -1687,7 +1687,7 @@
                 "open_issues": 54,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
-                "stars": 1260,
+                "stars": 1261,
                 "topics": [
                   "clojure",
                   "fuzzer",
@@ -1772,8 +1772,8 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-19T13:59:16Z",
-                "open_issues": 136,
+                "last_commit": "2026-10-20T15:38:33Z",
+                "open_issues": 138,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 160,
@@ -2183,7 +2183,7 @@
                 "open_issues": 33,
                 "owner": "HexHive",
                 "repo": "retrowrite",
-                "stars": 751,
+                "stars": 752,
                 "topics": [
                   "aarch64",
                   "assembly",
@@ -2416,7 +2416,7 @@
                 "open_issues": 1,
                 "owner": "Rigorous-Software-Engineering",
                 "repo": "circuzz",
-                "stars": 14,
+                "stars": 15,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3041,11 +3041,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-19T18:36:58Z",
-                "open_issues": 635,
+                "last_commit": "2026-10-20T12:42:09Z",
+                "open_issues": 634,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6358,
+                "stars": 6359,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3101,7 +3101,7 @@
                 "open_issues": 170,
                 "owner": "googleprojectzero",
                 "repo": "winafl",
-                "stars": 2614,
+                "stars": 2615,
                 "topics": [
                   "afl",
                   "fuzzing",
@@ -3147,7 +3147,7 @@
                 "open_issues": 0,
                 "owner": "hfiref0x",
                 "repo": "NtCall64",
-                "stars": 645,
+                "stars": 646,
                 "topics": [
                   "brute-force-attacks",
                   "c",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-19T22:07:16.850Z",
+    "last_updated": "2026-10-20T21:23:04.976Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
