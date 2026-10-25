@@ -433,7 +433,7 @@
                 "open_issues": 74,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2358,
+                "stars": 2360,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1286,7 +1286,7 @@
                 "open_issues": 32,
                 "owner": "Matheus-Garbelini",
                 "repo": "braktooth_esp32_bluetooth_classic_attacks",
-                "stars": 594,
+                "stars": 595,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1515,7 +1515,7 @@
                 "open_issues": 40,
                 "owner": "tls-attacker",
                 "repo": "TLS-Attacker",
-                "stars": 881,
+                "stars": 882,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1683,11 +1683,11 @@
                 "id": 333867901,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-24T05:45:27Z",
+                "last_commit": "2026-10-25T05:27:00Z",
                 "open_issues": 54,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
-                "stars": 1261,
+                "stars": 1262,
                 "topics": [
                   "clojure",
                   "fuzzer",
@@ -2183,7 +2183,7 @@
                 "open_issues": 33,
                 "owner": "HexHive",
                 "repo": "retrowrite",
-                "stars": 754,
+                "stars": 755,
                 "topics": [
                   "aarch64",
                   "assembly",
@@ -2849,10 +2849,10 @@
                 "language": "Rust",
                 "license": "NOASSERTION",
                 "last_commit": "2026-10-19T18:16:30Z",
-                "open_issues": 130,
+                "open_issues": 131,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2666,
+                "stars": 2667,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3045,7 +3045,7 @@
                 "open_issues": 643,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6373,
+                "stars": 6377,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3076,7 +3076,7 @@
                 "open_issues": 31,
                 "owner": "google",
                 "repo": "honggfuzz",
-                "stars": 3401,
+                "stars": 3403,
                 "topics": [
                   "c",
                   "fuzzing",
@@ -3122,7 +3122,7 @@
                 "id": 6600033,
                 "language": "C",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-24T06:30:37Z",
+                "last_commit": "2026-10-24T20:41:18Z",
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
@@ -3147,7 +3147,7 @@
                 "open_issues": 0,
                 "owner": "hfiref0x",
                 "repo": "NtCall64",
-                "stars": 647,
+                "stars": 646,
                 "topics": [
                   "brute-force-attacks",
                   "c",
@@ -3491,7 +3491,7 @@
                 "open_issues": 1,
                 "owner": "MCUSec",
                 "repo": "uEmu",
-                "stars": 152,
+                "stars": 153,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-24T20:26:22.057Z",
+    "last_updated": "2026-10-25T20:33:28.339Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
