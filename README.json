@@ -154,7 +154,7 @@
                 "open_issues": 1,
                 "owner": "sslab-gatech",
                 "repo": "MALintent",
-                "stars": 37,
+                "stars": 38,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1683,7 +1683,7 @@
                 "id": 333867901,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-25T05:27:00Z",
+                "last_commit": "2026-10-26T15:15:17Z",
                 "open_issues": 54,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
@@ -2848,11 +2848,11 @@
                 "id": 306484908,
                 "language": "Rust",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-19T18:16:30Z",
+                "last_commit": "2026-10-26T05:06:21Z",
                 "open_issues": 131,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2667,
+                "stars": 2669,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3041,11 +3041,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-23T10:03:36Z",
-                "open_issues": 643,
+                "last_commit": "2026-10-26T10:11:30Z",
+                "open_issues": 640,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6377,
+                "stars": 6378,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3076,7 +3076,7 @@
                 "open_issues": 31,
                 "owner": "google",
                 "repo": "honggfuzz",
-                "stars": 3403,
+                "stars": 3405,
                 "topics": [
                   "c",
                   "fuzzing",
@@ -3122,7 +3122,7 @@
                 "id": 6600033,
                 "language": "C",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-24T20:41:18Z",
+                "last_commit": "2026-10-26T19:17:20Z",
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-25T20:33:28.339Z",
+    "last_updated": "2026-10-26T22:25:40.658Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
