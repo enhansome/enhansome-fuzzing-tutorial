@@ -433,7 +433,7 @@
                 "open_issues": 74,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2365,
+                "stars": 2370,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -553,7 +553,7 @@
                 "open_issues": 19,
                 "owner": "FirmWire",
                 "repo": "FirmWire",
-                "stars": 891,
+                "stars": 892,
                 "topics": [
                   "baseband",
                   "emulation",
@@ -1286,7 +1286,7 @@
                 "open_issues": 32,
                 "owner": "Matheus-Garbelini",
                 "repo": "braktooth_esp32_bluetooth_classic_attacks",
-                "stars": 595,
+                "stars": 596,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1627,7 +1627,7 @@
                 "open_issues": 8,
                 "owner": "sslab-gatech",
                 "repo": "qsym",
-                "stars": 655,
+                "stars": 654,
                 "topics": [
                   "binary",
                   "concolic-execution",
@@ -1683,11 +1683,11 @@
                 "id": 333867901,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-27T04:15:01Z",
+                "last_commit": "2026-10-28T08:49:55Z",
                 "open_issues": 54,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
-                "stars": 1262,
+                "stars": 1261,
                 "topics": [
                   "clojure",
                   "fuzzer",
@@ -1772,8 +1772,8 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-27T18:44:23Z",
-                "open_issues": 142,
+                "last_commit": "2026-10-28T17:06:23Z",
+                "open_issues": 143,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 161,
@@ -2248,7 +2248,7 @@
                 "open_issues": 12,
                 "owner": "Dongdongshe",
                 "repo": "neuzz",
-                "stars": 408,
+                "stars": 407,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -2852,7 +2852,7 @@
                 "open_issues": 131,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2670,
+                "stars": 2671,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3041,11 +3041,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-27T09:45:17Z",
-                "open_issues": 641,
+                "last_commit": "2026-10-28T12:44:46Z",
+                "open_issues": 644,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6380,
+                "stars": 6381,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3122,7 +3122,7 @@
                 "id": 6600033,
                 "language": "C",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-27T01:53:31Z",
+                "last_commit": "2026-10-28T15:37:21Z",
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-27T21:56:35.939Z",
+    "last_updated": "2026-10-28T22:20:29.714Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
