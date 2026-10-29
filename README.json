@@ -433,7 +433,7 @@
                 "open_issues": 74,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2370,
+                "stars": 2372,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -553,7 +553,7 @@
                 "open_issues": 19,
                 "owner": "FirmWire",
                 "repo": "FirmWire",
-                "stars": 892,
+                "stars": 893,
                 "topics": [
                   "baseband",
                   "emulation",
@@ -698,7 +698,7 @@
                 "open_issues": 0,
                 "owner": "iromise",
                 "repo": "fans",
-                "stars": 265,
+                "stars": 266,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1578,7 +1578,7 @@
                 "open_issues": 0,
                 "owner": "iromise",
                 "repo": "fans",
-                "stars": 265,
+                "stars": 266,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1687,7 +1687,7 @@
                 "open_issues": 54,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
-                "stars": 1261,
+                "stars": 1262,
                 "topics": [
                   "clojure",
                   "fuzzer",
@@ -1772,8 +1772,8 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-28T17:06:23Z",
-                "open_issues": 143,
+                "last_commit": "2026-10-29T16:24:31Z",
+                "open_issues": 144,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 161,
@@ -3041,11 +3041,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-28T12:44:46Z",
-                "open_issues": 644,
+                "last_commit": "2026-10-29T16:39:45Z",
+                "open_issues": 643,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6381,
+                "stars": 6383,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3101,7 +3101,7 @@
                 "open_issues": 170,
                 "owner": "googleprojectzero",
                 "repo": "winafl",
-                "stars": 2619,
+                "stars": 2621,
                 "topics": [
                   "afl",
                   "fuzzing",
@@ -3122,7 +3122,7 @@
                 "id": 6600033,
                 "language": "C",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-28T15:37:21Z",
+                "last_commit": "2026-10-29T20:47:39Z",
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-28T22:20:29.714Z",
+    "last_updated": "2026-10-29T22:33:34.390Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
