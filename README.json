@@ -429,7 +429,7 @@
                 "id": 176764231,
                 "language": "Swift",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-27T17:16:59Z",
+                "last_commit": "2026-10-30T17:49:49Z",
                 "open_issues": 74,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
@@ -550,10 +550,10 @@
                 "language": "Python",
                 "license": "BSD-3-Clause",
                 "last_commit": "2026-08-20T11:02:19Z",
-                "open_issues": 19,
+                "open_issues": 20,
                 "owner": "FirmWire",
                 "repo": "FirmWire",
-                "stars": 893,
+                "stars": 895,
                 "topics": [
                   "baseband",
                   "emulation",
@@ -1265,7 +1265,7 @@
                 "open_issues": 66,
                 "owner": "google",
                 "repo": "AFL",
-                "stars": 4201,
+                "stars": 4202,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1307,7 +1307,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 389,
+                "stars": 390,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -1536,7 +1536,7 @@
                 "open_issues": 15,
                 "owner": "Matheus-Garbelini",
                 "repo": "sweyntooth_bluetooth_low_energy_attacks",
-                "stars": 339,
+                "stars": 338,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1687,7 +1687,7 @@
                 "open_issues": 54,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
-                "stars": 1262,
+                "stars": 1263,
                 "topics": [
                   "clojure",
                   "fuzzer",
@@ -1772,8 +1772,8 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-29T16:24:31Z",
-                "open_issues": 144,
+                "last_commit": "2026-10-30T18:33:47Z",
+                "open_issues": 142,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 161,
@@ -3041,11 +3041,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-29T16:39:45Z",
-                "open_issues": 643,
+                "last_commit": "2026-10-30T10:01:23Z",
+                "open_issues": 645,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6383,
+                "stars": 6385,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3122,7 +3122,7 @@
                 "id": 6600033,
                 "language": "C",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-29T20:47:39Z",
+                "last_commit": "2026-10-29T22:50:17Z",
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
@@ -3321,7 +3321,7 @@
                 "open_issues": 3,
                 "owner": "googleprojectzero",
                 "repo": "domato",
-                "stars": 1786,
+                "stars": 1785,
                 "topics": [
                   "dom",
                   "fuzzing",
@@ -3465,7 +3465,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 389,
+                "stars": 390,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-29T22:33:34.390Z",
+    "last_updated": "2026-10-30T22:01:55.838Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
