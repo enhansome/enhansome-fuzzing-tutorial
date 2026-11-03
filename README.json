@@ -1265,7 +1265,7 @@
                 "open_issues": 66,
                 "owner": "google",
                 "repo": "AFL",
-                "stars": 4202,
+                "stars": 4203,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1307,7 +1307,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 391,
+                "stars": 392,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -1772,8 +1772,8 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-02T10:42:23Z",
-                "open_issues": 134,
+                "last_commit": "2026-11-03T15:24:03Z",
+                "open_issues": 135,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 161,
@@ -2134,7 +2134,7 @@
                 "open_issues": 2,
                 "owner": "compsec-snu",
                 "repo": "difuzz-rtl",
-                "stars": 101,
+                "stars": 102,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3041,11 +3041,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-02T13:58:40Z",
-                "open_issues": 648,
+                "last_commit": "2026-11-03T15:30:22Z",
+                "open_issues": 646,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6386,
+                "stars": 6387,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3076,7 +3076,7 @@
                 "open_issues": 31,
                 "owner": "google",
                 "repo": "honggfuzz",
-                "stars": 3408,
+                "stars": 3409,
                 "topics": [
                   "c",
                   "fuzzing",
@@ -3465,7 +3465,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 391,
+                "stars": 392,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-03T00:43:29.573Z",
+    "last_updated": "2026-11-03T23:00:03.471Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
