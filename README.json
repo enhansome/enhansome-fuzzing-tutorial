@@ -287,7 +287,7 @@
                 "open_issues": 6,
                 "owner": "ChatAFLndss",
                 "repo": "ChatAFL",
-                "stars": 400,
+                "stars": 399,
                 "topics": [
                   "fuzzing",
                   "fuzzing-testing",
@@ -454,7 +454,7 @@
                 "open_issues": 0,
                 "owner": "conffuzz",
                 "repo": "conffuzz",
-                "stars": 48,
+                "stars": 49,
                 "topics": [
                   "compartment-interface-vulnerabilities",
                   "compartmentalization",
@@ -761,7 +761,7 @@
                 "open_issues": 0,
                 "owner": "SysSec-KAIST",
                 "repo": "LLFuzz",
-                "stars": 61,
+                "stars": 62,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -915,7 +915,7 @@
                 "open_issues": 0,
                 "owner": "MultiFuzz",
                 "repo": "MultiFuzz",
-                "stars": 44,
+                "stars": 43,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1286,7 +1286,7 @@
                 "open_issues": 32,
                 "owner": "Matheus-Garbelini",
                 "repo": "braktooth_esp32_bluetooth_classic_attacks",
-                "stars": 596,
+                "stars": 597,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1687,7 +1687,7 @@
                 "open_issues": 54,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
-                "stars": 1266,
+                "stars": 1267,
                 "topics": [
                   "clojure",
                   "fuzzer",
@@ -2290,7 +2290,7 @@
                 "open_issues": 6,
                 "owner": "HexHive",
                 "repo": "T-Fuzz",
-                "stars": 253,
+                "stars": 252,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -2852,7 +2852,7 @@
                 "open_issues": 137,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2675,
+                "stars": 2676,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3041,11 +3041,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-03T15:30:22Z",
+                "last_commit": "2026-11-04T15:34:45Z",
                 "open_issues": 646,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6387,
+                "stars": 6388,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3122,7 +3122,7 @@
                 "id": 6600033,
                 "language": "C",
                 "license": "NOASSERTION",
-                "last_commit": "2026-11-02T22:10:16Z",
+                "last_commit": "2026-11-04T19:31:38Z",
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
@@ -3367,7 +3367,7 @@
                 "open_issues": 13,
                 "owner": "nccgroup",
                 "repo": "fuzzowski",
-                "stars": 794,
+                "stars": 793,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3554,7 +3554,7 @@
                 "open_issues": 0,
                 "owner": "MultiFuzz",
                 "repo": "MultiFuzz",
-                "stars": 44,
+                "stars": 43,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-03T23:00:03.471Z",
+    "last_updated": "2026-11-04T23:23:29.349Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
