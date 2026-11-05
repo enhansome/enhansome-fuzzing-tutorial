@@ -1265,7 +1265,7 @@
                 "open_issues": 66,
                 "owner": "google",
                 "repo": "AFL",
-                "stars": 4203,
+                "stars": 4204,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1687,7 +1687,7 @@
                 "open_issues": 54,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
-                "stars": 1267,
+                "stars": 1268,
                 "topics": [
                   "clojure",
                   "fuzzer",
@@ -2465,7 +2465,7 @@
                 "open_issues": 3,
                 "owner": "GJDuck",
                 "repo": "EnvFuzz",
-                "stars": 398,
+                "stars": 397,
                 "topics": [
                   "binary",
                   "e9patch",
@@ -2852,7 +2852,7 @@
                 "open_issues": 137,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2676,
+                "stars": 2675,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3041,11 +3041,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-04T15:34:45Z",
-                "open_issues": 646,
+                "last_commit": "2026-11-05T11:48:11Z",
+                "open_issues": 647,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6388,
+                "stars": 6390,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3101,7 +3101,7 @@
                 "open_issues": 170,
                 "owner": "googleprojectzero",
                 "repo": "winafl",
-                "stars": 2622,
+                "stars": 2623,
                 "topics": [
                   "afl",
                   "fuzzing",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-04T23:23:29.349Z",
+    "last_updated": "2026-11-05T23:25:38.029Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",

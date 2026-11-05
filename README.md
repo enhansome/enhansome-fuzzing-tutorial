@@ -212,7 +212,7 @@
 
 ### 2026
 
-* [Jazzer: Coverage-Guided Fuzzing for Semantic Vulnerabilities in the Java Ecosystem, 2026](https://ieeexplore.ieee.org/document/11573447) - 谷歌 OSS-Fuzz 中 Java 生态的主力 Fuzzer Jazzer 论文化，除内存错误外还检测 **SSRF、路径遍历、反序列化等语义类漏洞**，[Jazzer 已开源](https://github.com/CodeIntelligenceTesting/jazzer) ⭐ 1,267 | 🐛 54 | 🌐 Java | 📅 2026-10-28。
+* [Jazzer: Coverage-Guided Fuzzing for Semantic Vulnerabilities in the Java Ecosystem, 2026](https://ieeexplore.ieee.org/document/11573447) - 谷歌 OSS-Fuzz 中 Java 生态的主力 Fuzzer Jazzer 论文化，除内存错误外还检测 **SSRF、路径遍历、反序列化等语义类漏洞**，[Jazzer 已开源](https://github.com/CodeIntelligenceTesting/jazzer) ⭐ 1,268 | 🐛 54 | 🌐 Java | 📅 2026-10-28。
 * [Batch Me If You Can: Coverage-guided RPKI Fuzzing at Scale, 2026](https://ieeexplore.ieee.org/document/11573494) - 针对 RPKI（资源公钥基础设施，互联网 BGP 路由安全的基础）实现的**大规模覆盖引导 Fuzzing**，工具 CAT 吞吐量提升 66 倍，发现 21 个未知漏洞（8 个 CVE，最高 CVSS 9.8）。
 * [Camveil: Unveiling Security Camera Vulnerabilities through Multi-Protocol Coordinated Fuzzing, 2026](https://ieeexplore.ieee.org/document/11573550) - 针对监控摄像头的 **多协议协同 Fuzz** 工具，同一设备的多个协议（如 ONVIF、RTSP 等）实现存在关联交互，跨协议协同测试可挖掘单协议 Fuzz 难以发现的漏洞。
 * [deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses, 2026](https://ieeexplore.ieee.org/document/11573565) - 针对 **Rust 生态**的内存安全漏洞挖掘，利用大模型增强/合成 harness，对 unsafe 代码依赖及 Rust-C 混合库进行 Fuzz。
@@ -311,7 +311,7 @@
 
 ### 2024
 
-* [Program Environment Fuzzing, 2024](https://dl.acm.org/doi/10.1145/3658644.3690229) - 论文将程序运行所需要的环境都视为外部入口，进行 Fuzz 测试，对整个交互过程进行全面覆盖，包括网络服务器、图形界面应用、编译器等在内的任何 Linux 用户模式软件，[EnvFuzz](https://github.com/GJDuck/EnvFuzz) ⭐ 398 | 🐛 3 | 🌐 C++ | 📅 2025-01-31 已开源，几个月前曾尝试过这个工具，可以实现一键 Fuzz，但是分析崩溃需要耗费大量时间。
+* [Program Environment Fuzzing, 2024](https://dl.acm.org/doi/10.1145/3658644.3690229) - 论文将程序运行所需要的环境都视为外部入口，进行 Fuzz 测试，对整个交互过程进行全面覆盖，包括网络服务器、图形界面应用、编译器等在内的任何 Linux 用户模式软件，[EnvFuzz](https://github.com/GJDuck/EnvFuzz) ⭐ 397 | 🐛 3 | 🌐 C++ | 📅 2025-01-31 已开源，几个月前曾尝试过这个工具，可以实现一键 Fuzz，但是分析崩溃需要耗费大量时间。
 * [ProphetFuzz: Fully Automated Prediction and Fuzzing of High-Risk Option Combinations with Only Documentation via Large Language Model, 2024](https://dl.acm.org/doi/10.1145/3658644.3690231) - 提出了一种基于大型语言模型（LLM）的全自动工具 ProphetFuzz，用于预测应用程序的高风险选项组合并进行 Fuzz 测试。[ProphetFuzz](https://github.com/NASP-THU/ProphetFuzz) ⭐ 100 | 🐛 2 | 🌐 Roff | 📅 2026-02-10 已开源。
 * [DarthShader: Fuzzing WebGPU Shader Translators & Compilers, 2024](https://dl.acm.org/doi/10.1145/3658644.3690209) - 针对 Web GPU 着色器翻译器和编译器的 Fuzz 测试项目，[darthshader](https://github.com/wgslFuzz/darthshader) ⭐ 75 | 🐛 16 | 🌐 C | 📅 2026-09-18 已开源，开箱即用。
 * [FOX: Coverage-guided Fuzzing as Online Stochastic Control, 2024](https://dl.acm.org/doi/10.1145/3643659.3648562) - 提高覆盖引导的边缘覆盖率算法，当前算法已在 AFL++ 上实现，已[开源](https://github.com/FOX-Fuzz/FOX) ⭐ 62 | 🐛 4 | 🌐 C | 📅 2024-11-07，这种针对 AFL 算法改进的论文近些年层出不穷，有些还是值得一看。
@@ -345,7 +345,7 @@
 
 ### 2022 ⤵
 
-* [LibAFL: A Framework to Build Modular and Reusable Fuzzers, 2022](https://dl.acm.org/doi/10.1145/3548606.3560602) - **LibAFL**，这是一个构建模块化和可重用模糊器的框架，来自于谷歌的个人研究者，已开源 **[LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,676 | 🐛 137 | 🌐 Rust | 📅 2026-11-02**。
+* [LibAFL: A Framework to Build Modular and Reusable Fuzzers, 2022](https://dl.acm.org/doi/10.1145/3548606.3560602) - **LibAFL**，这是一个构建模块化和可重用模糊器的框架，来自于谷歌的个人研究者，已开源 **[LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,675 | 🐛 137 | 🌐 Rust | 📅 2026-11-02**。
 * [WINNIE : Fuzzing Windows Applications with Harness Synthesis and Fast Cloning, 2021](https://www.ndss-symposium.org/ndss-paper/winnie-Fuzzing-windows-applications-with-harness-synthesis-and-fast-cloning/) - 利用合成和快速克隆对 **Windows 应用程序**进行 Fuzz 测试，作者构建了一个端到端 [WINNIE](https://github.com/sslab-gatech/winnie) ⭐ 575 | 🐛 15 | 🌐 C | 📅 2022-11-28 系统，包含两个组件：可从二进制文件中自动合成工具的生成器，以及一个高效的 Windows forkserver。 对比工具： WinAFL 。
 * [DIFUZE: Interface Aware Fuzzing for Kernel Drivers, 2017](https://acmccs.github.io/papers/p2123-corinaA.pdf) - 作者提出的一个 seed 生成方案。通过**优化种子生成**，同样也可以达到提高 Fuzzing 效率的效果。经过验证，[DIFUZE](https://github.com/ucsb-seclab/difuze) ⭐ 386 | 🐛 7 | 🌐 C++ | 📅 2022-04-30 相较于现有的 Fuzzer 在 ioctl() 接口上，确实存在着明显的优势。这也是显然的，DIFUZE 相较于其他的工具在 Fuzzing这样一个需要超大信息量的接口上提供了足够的信息，支撑它挖掘出大于其他工具几个数量级的信息量。
 * [DIFUZE: Interface Aware Fuzzing for Kernel Drivers, 2017](https://acmccs.github.io/papers/p2123-corinaA.pdf) - 作者设计并完成了**针对用户态与内核驱动关键接口 ioctl() 的 Fuzzing 工具 DIFUZE**， [DIFUZE](https://github.com/ucsb-seclab/difuze) ⭐ 386 | 🐛 7 | 🌐 C++ | 📅 2022-04-30 首先对内核代码进行静态分析，完成interface 的 recovery，获取 interface 的关键信息，并基于这些有效的信息去生成更加合理的 Fuzzing 输入，得到一个更好的 Fuzzing 效果。
@@ -374,9 +374,9 @@
 
 ### 二进制
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,388 | 🐛 646 | 🌐 Go | 📅 2026-11-04：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,390 | 🐛 647 | 🌐 Go | 📅 2026-11-05：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
 * [HonggFuzz](https://github.com/google/honggFuzz) ⭐ 3,409 | 🐛 31 | 🌐 C | 📅 2026-09-25：同样是谷歌开发的一个类似于 afl 的工具，只是 honggFuzz 基于反馈驱动，多线程和多进程，Fuzz 速度相比于 afl 有一个质的飞跃。
-* [winafl](https://github.com/googleprojectzero/winafl) ⭐ 2,622 | 🐛 170 | 🌐 C | 📅 2026-03-13：afl 的一个分支项目，将 afl 用于Windows 平台。
+* [winafl](https://github.com/googleprojectzero/winafl) ⭐ 2,623 | 🐛 170 | 🌐 C | 📅 2026-03-13：afl 的一个分支项目，将 afl 用于Windows 平台。
 * [trinity](https://github.com/kernelslacker/trinity) ⭐ 909 | 🐛 1 | 🌐 C | 📅 2026-11-04：Linux system call Fuzzer，对于 **Linux 系统调用**的 Fuzz 测试工具。
 * [NtCall64](https://github.com/hfiref0x/NtCall64) ⭐ 646 | 🐛 0 | 🌐 C | 📅 2026-09-12：Windows NT x64 syscall Fuzzer，基于 NtCall 的 **Windows 系统调用** Fuzz 测试工具。
 * [afl-unicorn: Fuzzing The 'UnFuzzable' ](https://www.youtube.com/watch?v=OheODvF0884)： [Battelle](https://www.battelle.org/cyber) 在  **ShmooCon 2018** 上发布的一个工具，已经有大佬将演讲视频添加[中文字幕](https://www.bilibili.com/video/av83051615/)并上传到 B 站上。该[工具](https://github.com/Battelle/afl-unicorn) ⭐ 620 | 🐛 14 | 🌐 C | 📅 2023-06-18 弥补了 afl 的不足，可以对任意二进制代码片段进行 Fuzz，作为一个完全使用**黑盒进行 Fuzz** 的工具，afl-unicorn 也保留了 afl 原有的代码覆盖率统计，根据反馈对种子进行变异，从而提高代码覆盖。
@@ -467,4 +467,4 @@
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-04._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-05._
