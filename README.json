@@ -21,7 +21,7 @@
                 "open_issues": 3,
                 "owner": "vul337",
                 "repo": "FirmAgent",
-                "stars": 93,
+                "stars": 92,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -553,7 +553,7 @@
                 "open_issues": 20,
                 "owner": "FirmWire",
                 "repo": "FirmWire",
-                "stars": 896,
+                "stars": 897,
                 "topics": [
                   "baseband",
                   "emulation",
@@ -1265,7 +1265,7 @@
                 "open_issues": 66,
                 "owner": "google",
                 "repo": "AFL",
-                "stars": 4204,
+                "stars": 4203,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1515,7 +1515,7 @@
                 "open_issues": 40,
                 "owner": "tls-attacker",
                 "repo": "TLS-Attacker",
-                "stars": 882,
+                "stars": 881,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -2084,7 +2084,7 @@
                 "open_issues": 6,
                 "owner": "SoftSec-KAIST",
                 "repo": "NTFuzz",
-                "stars": 114,
+                "stars": 115,
                 "topics": [
                   "b2r2",
                   "binary-analysis",
@@ -2715,7 +2715,7 @@
                 "open_issues": 9,
                 "owner": "FuzzAnything",
                 "repo": "Hopper",
-                "stars": 274,
+                "stars": 275,
                 "topics": [
                   "afl",
                   "api-testing",
@@ -2803,7 +2803,7 @@
                 "open_issues": 11,
                 "owner": "seclab-fudan",
                 "repo": "SyzDirect",
-                "stars": 41,
+                "stars": 42,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -2852,7 +2852,7 @@
                 "open_issues": 137,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2675,
+                "stars": 2676,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3042,10 +3042,10 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-11-05T11:48:11Z",
-                "open_issues": 647,
+                "open_issues": 650,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6390,
+                "stars": 6393,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3101,7 +3101,7 @@
                 "open_issues": 170,
                 "owner": "googleprojectzero",
                 "repo": "winafl",
-                "stars": 2623,
+                "stars": 2624,
                 "topics": [
                   "afl",
                   "fuzzing",
@@ -3122,7 +3122,7 @@
                 "id": 6600033,
                 "language": "C",
                 "license": "NOASSERTION",
-                "last_commit": "2026-11-04T19:31:38Z",
+                "last_commit": "2026-11-06T19:22:25Z",
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-05T23:25:38.029Z",
+    "last_updated": "2026-11-06T22:51:28.743Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
