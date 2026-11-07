@@ -433,7 +433,7 @@
                 "open_issues": 75,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2377,
+                "stars": 2379,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -553,7 +553,7 @@
                 "open_issues": 20,
                 "owner": "FirmWire",
                 "repo": "FirmWire",
-                "stars": 897,
+                "stars": 896,
                 "topics": [
                   "baseband",
                   "emulation",
@@ -1265,7 +1265,7 @@
                 "open_issues": 66,
                 "owner": "google",
                 "repo": "AFL",
-                "stars": 4203,
+                "stars": 4204,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1511,7 +1511,7 @@
                 "id": 56690117,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-23T17:32:43Z",
+                "last_commit": "2026-11-07T10:40:08Z",
                 "open_issues": 40,
                 "owner": "tls-attacker",
                 "repo": "TLS-Attacker",
@@ -2849,10 +2849,10 @@
                 "language": "Rust",
                 "license": "NOASSERTION",
                 "last_commit": "2026-11-02T11:24:33Z",
-                "open_issues": 137,
+                "open_issues": 138,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2676,
+                "stars": 2677,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3045,7 +3045,7 @@
                 "open_issues": 650,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6393,
+                "stars": 6395,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3076,7 +3076,7 @@
                 "open_issues": 31,
                 "owner": "google",
                 "repo": "honggfuzz",
-                "stars": 3409,
+                "stars": 3410,
                 "topics": [
                   "c",
                   "fuzzing",
@@ -3122,7 +3122,7 @@
                 "id": 6600033,
                 "language": "C",
                 "license": "NOASSERTION",
-                "last_commit": "2026-11-06T19:22:25Z",
+                "last_commit": "2026-11-07T05:12:19Z",
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
@@ -3147,7 +3147,7 @@
                 "open_issues": 0,
                 "owner": "hfiref0x",
                 "repo": "NtCall64",
-                "stars": 646,
+                "stars": 645,
                 "topics": [
                   "brute-force-attacks",
                   "c",
@@ -3321,7 +3321,7 @@
                 "open_issues": 3,
                 "owner": "googleprojectzero",
                 "repo": "domato",
-                "stars": 1785,
+                "stars": 1786,
                 "topics": [
                   "dom",
                   "fuzzing",
@@ -3409,7 +3409,7 @@
                 "open_issues": 2,
                 "owner": "Fuzzapi",
                 "repo": "API-fuzzer",
-                "stars": 409,
+                "stars": 408,
                 "topics": [
                   "gem",
                   "ruby",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-06T22:51:28.743Z",
+    "last_updated": "2026-11-07T21:36:00.284Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
