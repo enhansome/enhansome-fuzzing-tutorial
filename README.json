@@ -433,7 +433,7 @@
                 "open_issues": 75,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2380,
+                "stars": 2382,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -782,7 +782,7 @@
                 "open_issues": 0,
                 "owner": "comsec-group",
                 "repo": "encarsia",
-                "stars": 36,
+                "stars": 37,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1511,7 +1511,7 @@
                 "id": 56690117,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-07T10:40:08Z",
+                "last_commit": "2026-11-09T17:32:32Z",
                 "open_issues": 40,
                 "owner": "tls-attacker",
                 "repo": "TLS-Attacker",
@@ -1683,8 +1683,8 @@
                 "id": 333867901,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-08T12:05:41Z",
-                "open_issues": 54,
+                "last_commit": "2026-11-09T11:48:28Z",
+                "open_issues": 53,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
                 "stars": 1268,
@@ -1772,7 +1772,7 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-03T15:24:03Z",
+                "last_commit": "2026-11-09T15:38:20Z",
                 "open_issues": 135,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
@@ -1916,7 +1916,7 @@
                 "open_issues": 11,
                 "owner": "cuhk-seclab",
                 "repo": "SelectFuzz",
-                "stars": 73,
+                "stars": 74,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -2416,7 +2416,7 @@
                 "open_issues": 1,
                 "owner": "Rigorous-Software-Engineering",
                 "repo": "circuzz",
-                "stars": 15,
+                "stars": 16,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -2910,7 +2910,7 @@
                 "open_issues": 7,
                 "owner": "ucsb-seclab",
                 "repo": "difuze",
-                "stars": 386,
+                "stars": 387,
                 "topics": [
                   "android",
                   "fuzzing",
@@ -2936,7 +2936,7 @@
                 "open_issues": 7,
                 "owner": "ucsb-seclab",
                 "repo": "difuze",
-                "stars": 386,
+                "stars": 387,
                 "topics": [
                   "android",
                   "fuzzing",
@@ -3041,11 +3041,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-05T11:48:11Z",
-                "open_issues": 651,
+                "last_commit": "2026-11-09T17:28:24Z",
+                "open_issues": 649,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6397,
+                "stars": 6399,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3122,11 +3122,11 @@
                 "id": 6600033,
                 "language": "C",
                 "license": "NOASSERTION",
-                "last_commit": "2026-11-07T05:12:19Z",
+                "last_commit": "2026-11-09T22:39:38Z",
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
-                "stars": 909,
+                "stars": 910,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3147,7 +3147,7 @@
                 "open_issues": 0,
                 "owner": "hfiref0x",
                 "repo": "NtCall64",
-                "stars": 644,
+                "stars": 645,
                 "topics": [
                   "brute-force-attacks",
                   "c",
@@ -3346,7 +3346,7 @@
                 "open_issues": 56,
                 "owner": "OpenRCE",
                 "repo": "sulley",
-                "stars": 1454,
+                "stars": 1455,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3491,7 +3491,7 @@
                 "open_issues": 1,
                 "owner": "MCUSec",
                 "repo": "uEmu",
-                "stars": 153,
+                "stars": 154,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-08T21:50:09.056Z",
+    "last_updated": "2026-11-10T01:17:45.731Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
