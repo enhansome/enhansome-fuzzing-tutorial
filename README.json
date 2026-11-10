@@ -287,7 +287,7 @@
                 "open_issues": 6,
                 "owner": "ChatAFLndss",
                 "repo": "ChatAFL",
-                "stars": 399,
+                "stars": 401,
                 "topics": [
                   "fuzzing",
                   "fuzzing-testing",
@@ -433,7 +433,7 @@
                 "open_issues": 75,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2382,
+                "stars": 2384,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -553,7 +553,7 @@
                 "open_issues": 20,
                 "owner": "FirmWire",
                 "repo": "FirmWire",
-                "stars": 896,
+                "stars": 897,
                 "topics": [
                   "baseband",
                   "emulation",
@@ -589,7 +589,7 @@
                 "open_issues": 15,
                 "owner": "sslab-gatech",
                 "repo": "winnie",
-                "stars": 575,
+                "stars": 576,
                 "topics": [
                   "afl-fuzz",
                   "fuzzing",
@@ -1307,7 +1307,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 392,
+                "stars": 393,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -1515,7 +1515,7 @@
                 "open_issues": 40,
                 "owner": "tls-attacker",
                 "repo": "TLS-Attacker",
-                "stars": 880,
+                "stars": 881,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1536,7 +1536,7 @@
                 "open_issues": 15,
                 "owner": "Matheus-Garbelini",
                 "repo": "sweyntooth_bluetooth_low_energy_attacks",
-                "stars": 340,
+                "stars": 341,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1627,7 +1627,7 @@
                 "open_issues": 8,
                 "owner": "sslab-gatech",
                 "repo": "qsym",
-                "stars": 654,
+                "stars": 655,
                 "topics": [
                   "binary",
                   "concolic-execution",
@@ -1687,7 +1687,7 @@
                 "open_issues": 53,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
-                "stars": 1268,
+                "stars": 1270,
                 "topics": [
                   "clojure",
                   "fuzzer",
@@ -1772,8 +1772,8 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-09T15:38:20Z",
-                "open_issues": 135,
+                "last_commit": "2026-11-10T16:45:01Z",
+                "open_issues": 136,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 161,
@@ -2134,7 +2134,7 @@
                 "open_issues": 2,
                 "owner": "compsec-snu",
                 "repo": "difuzz-rtl",
-                "stars": 102,
+                "stars": 103,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -2219,7 +2219,7 @@
                 "open_issues": 41,
                 "owner": "AngoraFuzzer",
                 "repo": "Angora",
-                "stars": 957,
+                "stars": 958,
                 "topics": [
                   "afl",
                   "data-flow-analysis",
@@ -2248,7 +2248,7 @@
                 "open_issues": 12,
                 "owner": "Dongdongshe",
                 "repo": "neuzz",
-                "stars": 407,
+                "stars": 408,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -2269,7 +2269,7 @@
                 "open_issues": 9,
                 "owner": "compsec-snu",
                 "repo": "razzer",
-                "stars": 377,
+                "stars": 378,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -2465,7 +2465,7 @@
                 "open_issues": 3,
                 "owner": "GJDuck",
                 "repo": "EnvFuzz",
-                "stars": 397,
+                "stars": 398,
                 "topics": [
                   "binary",
                   "e9patch",
@@ -2852,7 +2852,7 @@
                 "open_issues": 138,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2678,
+                "stars": 2679,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -2884,7 +2884,7 @@
                 "open_issues": 15,
                 "owner": "sslab-gatech",
                 "repo": "winnie",
-                "stars": 575,
+                "stars": 576,
                 "topics": [
                   "afl-fuzz",
                   "fuzzing",
@@ -2910,7 +2910,7 @@
                 "open_issues": 7,
                 "owner": "ucsb-seclab",
                 "repo": "difuze",
-                "stars": 387,
+                "stars": 388,
                 "topics": [
                   "android",
                   "fuzzing",
@@ -2936,7 +2936,7 @@
                 "open_issues": 7,
                 "owner": "ucsb-seclab",
                 "repo": "difuze",
-                "stars": 387,
+                "stars": 388,
                 "topics": [
                   "android",
                   "fuzzing",
@@ -3017,7 +3017,7 @@
                 "open_issues": 14,
                 "owner": "samhocevar",
                 "repo": "zzuf",
-                "stars": 449,
+                "stars": 450,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3041,11 +3041,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-09T17:28:24Z",
-                "open_issues": 649,
+                "last_commit": "2026-11-10T10:35:27Z",
+                "open_issues": 650,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6399,
+                "stars": 6404,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3122,11 +3122,11 @@
                 "id": 6600033,
                 "language": "C",
                 "license": "NOASSERTION",
-                "last_commit": "2026-11-09T22:39:38Z",
+                "last_commit": "2026-11-10T22:29:12Z",
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
-                "stars": 910,
+                "stars": 911,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3147,7 +3147,7 @@
                 "open_issues": 0,
                 "owner": "hfiref0x",
                 "repo": "NtCall64",
-                "stars": 645,
+                "stars": 646,
                 "topics": [
                   "brute-force-attacks",
                   "c",
@@ -3201,7 +3201,7 @@
                 "open_issues": 10,
                 "owner": "andreafioraldi",
                 "repo": "frida-fuzzer",
-                "stars": 576,
+                "stars": 577,
                 "topics": [
                   "afl",
                   "api",
@@ -3248,7 +3248,7 @@
                 "open_issues": 4,
                 "owner": "fgsect",
                 "repo": "unicorefuzz",
-                "stars": 306,
+                "stars": 307,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3367,7 +3367,7 @@
                 "open_issues": 13,
                 "owner": "nccgroup",
                 "repo": "fuzzowski",
-                "stars": 793,
+                "stars": 794,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3388,7 +3388,7 @@
                 "open_issues": 4,
                 "owner": "MozillaSecurity",
                 "repo": "peach",
-                "stars": 419,
+                "stars": 420,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3409,7 +3409,7 @@
                 "open_issues": 2,
                 "owner": "Fuzzapi",
                 "repo": "API-fuzzer",
-                "stars": 408,
+                "stars": 409,
                 "topics": [
                   "gem",
                   "ruby",
@@ -3444,7 +3444,7 @@
                 "open_issues": 45,
                 "owner": "zyw-200",
                 "repo": "FirmAFL",
-                "stars": 463,
+                "stars": 464,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3465,7 +3465,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 392,
+                "stars": 393,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-10T01:17:45.731Z",
+    "last_updated": "2026-11-10T22:57:58.742Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
@@ -3644,7 +3644,7 @@
       "open_issues": 0,
       "owner": "secnotes",
       "repo": "fuzzing-tutorial",
-      "stars": 405,
+      "stars": 406,
       "topics": [
         "awesome",
         "awesome-list",
