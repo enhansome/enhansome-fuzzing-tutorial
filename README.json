@@ -21,7 +21,7 @@
                 "open_issues": 3,
                 "owner": "vul337",
                 "repo": "FirmAgent",
-                "stars": 93,
+                "stars": 94,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -433,7 +433,7 @@
                 "open_issues": 75,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2385,
+                "stars": 2387,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -553,7 +553,7 @@
                 "open_issues": 20,
                 "owner": "FirmWire",
                 "repo": "FirmWire",
-                "stars": 897,
+                "stars": 898,
                 "topics": [
                   "baseband",
                   "emulation",
@@ -1265,7 +1265,7 @@
                 "open_issues": 66,
                 "owner": "google",
                 "repo": "AFL",
-                "stars": 4204,
+                "stars": 4203,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1286,7 +1286,7 @@
                 "open_issues": 32,
                 "owner": "Matheus-Garbelini",
                 "repo": "braktooth_esp32_bluetooth_classic_attacks",
-                "stars": 597,
+                "stars": 598,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1515,7 +1515,7 @@
                 "open_issues": 40,
                 "owner": "tls-attacker",
                 "repo": "TLS-Attacker",
-                "stars": 881,
+                "stars": 882,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1536,7 +1536,7 @@
                 "open_issues": 15,
                 "owner": "Matheus-Garbelini",
                 "repo": "sweyntooth_bluetooth_low_energy_attacks",
-                "stars": 341,
+                "stars": 342,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1683,11 +1683,11 @@
                 "id": 333867901,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-09T11:48:28Z",
+                "last_commit": "2026-11-12T23:04:11Z",
                 "open_issues": 53,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
-                "stars": 1271,
+                "stars": 1272,
                 "topics": [
                   "clojure",
                   "fuzzer",
@@ -1772,11 +1772,11 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-11T14:12:36Z",
-                "open_issues": 137,
+                "last_commit": "2026-11-12T18:41:27Z",
+                "open_issues": 138,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
-                "stars": 161,
+                "stars": 162,
                 "topics": [
                   "fuzzer",
                   "fuzzing",
@@ -2496,7 +2496,7 @@
                 "open_issues": 2,
                 "owner": "NASP-THU",
                 "repo": "ProphetFuzz",
-                "stars": 100,
+                "stars": 101,
                 "topics": [
                   "fuzzing"
                 ]
@@ -2852,7 +2852,7 @@
                 "open_issues": 138,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2679,
+                "stars": 2680,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3041,11 +3041,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-11T14:04:05Z",
+                "last_commit": "2026-11-12T16:16:55Z",
                 "open_issues": 653,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6408,
+                "stars": 6409,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-12T00:13:41.669Z",
+    "last_updated": "2026-11-12T23:20:04.224Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
