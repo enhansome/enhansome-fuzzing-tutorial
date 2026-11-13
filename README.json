@@ -1307,7 +1307,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 393,
+                "stars": 394,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -1772,7 +1772,7 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-12T18:41:27Z",
+                "last_commit": "2026-11-13T16:35:25Z",
                 "open_issues": 138,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
@@ -2852,7 +2852,7 @@
                 "open_issues": 138,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2680,
+                "stars": 2683,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3041,11 +3041,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-12T16:16:55Z",
+                "last_commit": "2026-11-13T14:17:12Z",
                 "open_issues": 653,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6409,
+                "stars": 6411,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3201,7 +3201,7 @@
                 "open_issues": 10,
                 "owner": "andreafioraldi",
                 "repo": "frida-fuzzer",
-                "stars": 577,
+                "stars": 578,
                 "topics": [
                   "afl",
                   "api",
@@ -3321,7 +3321,7 @@
                 "open_issues": 3,
                 "owner": "googleprojectzero",
                 "repo": "domato",
-                "stars": 1787,
+                "stars": 1786,
                 "topics": [
                   "dom",
                   "fuzzing",
@@ -3465,7 +3465,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 393,
+                "stars": 394,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-12T23:20:04.224Z",
+    "last_updated": "2026-11-13T23:22:31.565Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
