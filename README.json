@@ -553,7 +553,7 @@
                 "open_issues": 20,
                 "owner": "FirmWire",
                 "repo": "FirmWire",
-                "stars": 898,
+                "stars": 899,
                 "topics": [
                   "baseband",
                   "emulation",
@@ -1265,7 +1265,7 @@
                 "open_issues": 66,
                 "owner": "google",
                 "repo": "AFL",
-                "stars": 4203,
+                "stars": 4204,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1307,7 +1307,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 394,
+                "stars": 395,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -1772,8 +1772,8 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-13T16:35:25Z",
-                "open_issues": 138,
+                "last_commit": "2026-11-15T16:28:06Z",
+                "open_issues": 139,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 162,
@@ -2852,7 +2852,7 @@
                 "open_issues": 139,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2684,
+                "stars": 2685,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3042,7 +3042,7 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-11-14T03:01:03Z",
-                "open_issues": 655,
+                "open_issues": 658,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6413,
@@ -3076,7 +3076,7 @@
                 "open_issues": 32,
                 "owner": "google",
                 "repo": "honggfuzz",
-                "stars": 3413,
+                "stars": 3414,
                 "topics": [
                   "c",
                   "fuzzing",
@@ -3101,7 +3101,7 @@
                 "open_issues": 170,
                 "owner": "googleprojectzero",
                 "repo": "winafl",
-                "stars": 2626,
+                "stars": 2627,
                 "topics": [
                   "afl",
                   "fuzzing",
@@ -3465,7 +3465,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 394,
+                "stars": 395,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-14T22:06:20.605Z",
+    "last_updated": "2026-11-15T22:36:32.499Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
