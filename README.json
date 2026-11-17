@@ -429,11 +429,11 @@
                 "id": 176764231,
                 "language": "Swift",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-11T09:56:05Z",
+                "last_commit": "2026-11-16T14:48:39Z",
                 "open_issues": 75,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2388,
+                "stars": 2390,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1265,7 +1265,7 @@
                 "open_issues": 66,
                 "owner": "google",
                 "repo": "AFL",
-                "stars": 4204,
+                "stars": 4203,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1307,7 +1307,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 395,
+                "stars": 396,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -1684,7 +1684,7 @@
                 "language": "Java",
                 "license": "Apache-2.0",
                 "last_commit": "2026-11-12T23:04:11Z",
-                "open_issues": 53,
+                "open_issues": 54,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
                 "stars": 1272,
@@ -1772,8 +1772,8 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-15T16:28:06Z",
-                "open_issues": 139,
+                "last_commit": "2026-11-16T16:13:57Z",
+                "open_issues": 136,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 162,
@@ -2803,7 +2803,7 @@
                 "open_issues": 11,
                 "owner": "seclab-fudan",
                 "repo": "SyzDirect",
-                "stars": 42,
+                "stars": 43,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -2848,11 +2848,11 @@
                 "id": 306484908,
                 "language": "Rust",
                 "license": "NOASSERTION",
-                "last_commit": "2026-11-02T11:24:33Z",
-                "open_issues": 139,
+                "last_commit": "2026-11-16T05:18:29Z",
+                "open_issues": 137,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2685,
+                "stars": 2686,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3041,11 +3041,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-14T03:01:03Z",
-                "open_issues": 658,
+                "last_commit": "2026-11-16T15:57:40Z",
+                "open_issues": 655,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6413,
+                "stars": 6415,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3076,7 +3076,7 @@
                 "open_issues": 32,
                 "owner": "google",
                 "repo": "honggfuzz",
-                "stars": 3414,
+                "stars": 3415,
                 "topics": [
                   "c",
                   "fuzzing",
@@ -3465,7 +3465,7 @@
                 "open_issues": 15,
                 "owner": "fuzzware-fuzzer",
                 "repo": "fuzzware",
-                "stars": 395,
+                "stars": 396,
                 "topics": [
                   "embedded",
                   "embedded-systems",
@@ -3632,7 +3632,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-15T22:36:32.499Z",
+    "last_updated": "2026-11-17T01:43:43.501Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
