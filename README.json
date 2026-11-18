@@ -21,7 +21,7 @@
                 "open_issues": 3,
                 "owner": "vul337",
                 "repo": "FirmAgent",
-                "stars": 94,
+                "stars": 95,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -126,7 +126,7 @@
                 "open_issues": 0,
                 "owner": "yangting111",
                 "repo": "BSFuzz",
-                "stars": 4,
+                "stars": 6,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -433,7 +433,7 @@
                 "open_issues": 75,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2390,
+                "stars": 2391,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -680,6 +680,55 @@
     {
       "description": null,
       "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "CombiSan: Unifying Software Sanitizers for Comprehensive Fuzzing, 2026",
+              "description": "一个统一 ASan/MSan/UBSan 的 Fuzz 优化型 sanitizer，用统一的 shadow memory 同时跟踪每个字节的可寻址性与初始化状态，并将问题分析推迟到测试用例执行完毕，避免不同 sanitizer 的 bug 相互掩盖；在 OSS-Fuzz 每日测试的 10 个程序中发现 81 个新 bug，平均比串行运行 ASan+UBSan 和 MSan 快 1.7 倍，CombiSan 已开源。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 1145857467,
+                "language": "LLVM",
+                "license": "NOASSERTION",
+                "last_commit": "2026-02-23T10:38:48Z",
+                "open_issues": 0,
+                "owner": "vusec",
+                "repo": "combisan",
+                "stars": 15,
+                "topics": []
+              },
+              "first_seen": "2026-11-18T00:43:15.921Z"
+            },
+            {
+              "node_type": "item",
+              "title": "FirmReBugger: A Benchmark Framework for Monolithic Firmware Fuzzers, 2026",
+              "description": "一个单片（Monolithic）固件 Fuzzer 的基准评估框架（类似固件版 FuzzBench），提出用 C 语法表达式描述漏洞的 bug oracle 与解释器，自动区分 detected/triggered/reached 等状态，并配套含 313 个 bug oracle 的 FirmBench 真实二进制基准集，耗时 10 CPU 年复现评估了 9 个 SOTA 固件 Fuzzer，FirmReBugger 已开源。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "A benchmark framework for monolithic firmware fuzzers.",
+                "homepage": null,
+                "id": 1118127710,
+                "language": "TypeScript",
+                "license": null,
+                "last_commit": "2026-11-08T05:19:17Z",
+                "open_issues": 0,
+                "owner": "FirmReBugger",
+                "repo": "FirmReBugger",
+                "stars": 14,
+                "topics": []
+              },
+              "first_seen": "2026-11-18T00:43:15.921Z"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "2026"
+        },
         {
           "children": [
             {
@@ -1286,7 +1335,7 @@
                 "open_issues": 32,
                 "owner": "Matheus-Garbelini",
                 "repo": "braktooth_esp32_bluetooth_classic_attacks",
-                "stars": 598,
+                "stars": 599,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1536,7 +1585,7 @@
                 "open_issues": 15,
                 "owner": "Matheus-Garbelini",
                 "repo": "sweyntooth_bluetooth_low_energy_attacks",
-                "stars": 342,
+                "stars": 343,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1683,8 +1732,8 @@
                 "id": 333867901,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-12T23:04:11Z",
-                "open_issues": 54,
+                "last_commit": "2026-11-17T03:04:11Z",
+                "open_issues": 53,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
                 "stars": 1272,
@@ -1772,7 +1821,7 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-16T16:13:57Z",
+                "last_commit": "2026-11-17T20:21:18Z",
                 "open_issues": 136,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
@@ -2852,7 +2901,7 @@
                 "open_issues": 137,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2686,
+                "stars": 2687,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3041,8 +3090,8 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-16T15:57:40Z",
-                "open_issues": 655,
+                "last_commit": "2026-11-17T17:49:45Z",
+                "open_issues": 654,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6415,
@@ -3076,7 +3125,7 @@
                 "open_issues": 32,
                 "owner": "google",
                 "repo": "honggfuzz",
-                "stars": 3415,
+                "stars": 3414,
                 "topics": [
                   "c",
                   "fuzzing",
@@ -3122,7 +3171,7 @@
                 "id": 6600033,
                 "language": "C",
                 "license": "NOASSERTION",
-                "last_commit": "2026-11-11T21:05:32Z",
+                "last_commit": "2026-11-18T00:00:02Z",
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
@@ -3632,7 +3681,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-17T01:43:43.501Z",
+    "last_updated": "2026-11-18T00:43:15.921Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
@@ -3640,7 +3689,7 @@
       "id": 349086106,
       "language": "Python",
       "license": "CC-BY-SA-4.0",
-      "last_commit": "2026-09-10T10:51:52Z",
+      "last_commit": "2026-11-17T12:05:37Z",
       "open_issues": 0,
       "owner": "secnotes",
       "repo": "fuzzing-tutorial",
@@ -3654,7 +3703,7 @@
         "security"
       ]
     },
-    "original_repository_sha": "482daba1e83bc2e7208925faeb21408e70d5646c",
+    "original_repository_sha": "8742bf07d19872000af127f00a895ee4f013e914",
     "enhanced_repository": "enhansome/enhansome-fuzzing-tutorial",
     "enhanced_repository_description": null,
     "title": "Awesome Recent Papers/Blogs/Tools Related to Fuzzing with stars"
