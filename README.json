@@ -433,7 +433,7 @@
                 "open_issues": 75,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2391,
+                "stars": 2393,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -915,7 +915,7 @@
                 "open_issues": 0,
                 "owner": "Nova-xiao",
                 "repo": "SPFuzz",
-                "stars": 3,
+                "stars": 4,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1564,7 +1564,7 @@
                 "open_issues": 40,
                 "owner": "tls-attacker",
                 "repo": "TLS-Attacker",
-                "stars": 882,
+                "stars": 883,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1732,11 +1732,11 @@
                 "id": 333867901,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-17T03:04:11Z",
+                "last_commit": "2026-11-18T16:27:11Z",
                 "open_issues": 53,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
-                "stars": 1272,
+                "stars": 1273,
                 "topics": [
                   "clojure",
                   "fuzzer",
@@ -1821,8 +1821,8 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-17T20:21:18Z",
-                "open_issues": 136,
+                "last_commit": "2026-11-18T16:43:47Z",
+                "open_issues": 138,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 162,
@@ -2486,7 +2486,7 @@
                 "open_issues": 0,
                 "owner": "yibo2000",
                 "repo": "RVISmith",
-                "stars": 10,
+                "stars": 11,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -2901,7 +2901,7 @@
                 "open_issues": 137,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2687,
+                "stars": 2688,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3090,11 +3090,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-17T17:49:45Z",
-                "open_issues": 654,
+                "last_commit": "2026-11-18T14:10:11Z",
+                "open_issues": 658,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6415,
+                "stars": 6416,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3125,7 +3125,7 @@
                 "open_issues": 32,
                 "owner": "google",
                 "repo": "honggfuzz",
-                "stars": 3414,
+                "stars": 3416,
                 "topics": [
                   "c",
                   "fuzzing",
@@ -3150,7 +3150,7 @@
                 "open_issues": 170,
                 "owner": "googleprojectzero",
                 "repo": "winafl",
-                "stars": 2627,
+                "stars": 2629,
                 "topics": [
                   "afl",
                   "fuzzing",
@@ -3171,7 +3171,7 @@
                 "id": 6600033,
                 "language": "C",
                 "license": "NOASSERTION",
-                "last_commit": "2026-11-18T00:00:02Z",
+                "last_commit": "2026-11-18T16:22:36Z",
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
@@ -3370,7 +3370,7 @@
                 "open_issues": 3,
                 "owner": "googleprojectzero",
                 "repo": "domato",
-                "stars": 1786,
+                "stars": 1787,
                 "topics": [
                   "dom",
                   "fuzzing",
@@ -3681,7 +3681,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-18T00:43:15.921Z",
+    "last_updated": "2026-11-19T00:00:31.360Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
