@@ -1314,7 +1314,7 @@
                 "open_issues": 66,
                 "owner": "google",
                 "repo": "AFL",
-                "stars": 4202,
+                "stars": 4203,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1564,7 +1564,7 @@
                 "open_issues": 40,
                 "owner": "tls-attacker",
                 "repo": "TLS-Attacker",
-                "stars": 882,
+                "stars": 883,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1585,7 +1585,7 @@
                 "open_issues": 15,
                 "owner": "Matheus-Garbelini",
                 "repo": "sweyntooth_bluetooth_low_energy_attacks",
-                "stars": 343,
+                "stars": 344,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1732,7 +1732,7 @@
                 "id": 333867901,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-18T16:27:11Z",
+                "last_commit": "2026-11-20T05:58:37Z",
                 "open_issues": 53,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
@@ -2898,7 +2898,7 @@
                 "language": "Rust",
                 "license": "NOASSERTION",
                 "last_commit": "2026-11-16T05:18:29Z",
-                "open_issues": 137,
+                "open_issues": 139,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
                 "stars": 2689,
@@ -3090,11 +3090,11 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-19T22:20:32Z",
-                "open_issues": 654,
+                "last_commit": "2026-11-20T18:18:30Z",
+                "open_issues": 657,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6416,
+                "stars": 6420,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3171,11 +3171,11 @@
                 "id": 6600033,
                 "language": "C",
                 "license": "NOASSERTION",
-                "last_commit": "2026-11-19T18:13:36Z",
+                "last_commit": "2026-11-20T21:07:04Z",
                 "open_issues": 1,
                 "owner": "kernelslacker",
                 "repo": "trinity",
-                "stars": 910,
+                "stars": 909,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3681,7 +3681,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-20T00:23:59.866Z",
+    "last_updated": "2026-11-20T23:46:16.044Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
