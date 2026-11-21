@@ -21,7 +21,7 @@
                 "open_issues": 3,
                 "owner": "vul337",
                 "repo": "FirmAgent",
-                "stars": 95,
+                "stars": 96,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -433,7 +433,7 @@
                 "open_issues": 75,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2393,
+                "stars": 2394,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1736,7 +1736,7 @@
                 "open_issues": 53,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
-                "stars": 1272,
+                "stars": 1273,
                 "topics": [
                   "clojure",
                   "fuzzer",
@@ -2901,7 +2901,7 @@
                 "open_issues": 139,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2689,
+                "stars": 2688,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3091,7 +3091,7 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-11-20T18:18:30Z",
-                "open_issues": 657,
+                "open_issues": 658,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6420,
@@ -3150,7 +3150,7 @@
                 "open_issues": 170,
                 "owner": "googleprojectzero",
                 "repo": "winafl",
-                "stars": 2628,
+                "stars": 2629,
                 "topics": [
                   "afl",
                   "fuzzing",
@@ -3681,7 +3681,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-20T23:46:16.044Z",
+    "last_updated": "2026-11-21T22:53:47.924Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
