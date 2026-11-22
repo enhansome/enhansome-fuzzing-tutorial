@@ -70,27 +70,6 @@
             },
             {
               "node_type": "item",
-              "title": "HyperMirage: Direct State Manipulation in Hybrid Virtual CPU Fuzzing, 2026",
-              "description": "针对虚拟机监视器（hypervisor）CPU 仿真接口的 Fuzz 工具，提出\"直接状态操纵\"自动变异 fuzzing 所消费的 VM 状态，免去手工构造种子的繁琐，在 Xen/KVM 中发现 11 个已确认 bug，HyperMirage 已开源。",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Source code for the HyperMirage prototype published at NDSS 2026.",
-                "homepage": null,
-                "id": 1040800800,
-                "language": null,
-                "license": null,
-                "last_commit": "2026-04-19T11:44:27Z",
-                "open_issues": 0,
-                "owner": "tum-itsec",
-                "repo": "hypermirage",
-                "stars": 8,
-                "topics": []
-              },
-              "first_seen": "2026-08-29T01:32:57.477Z"
-            },
-            {
-              "node_type": "item",
               "title": "RTCON: Context-Adaptive Function-Level Fuzzing for RTOS Kernels, 2026",
               "description": "针对实时操作系统（RTOS）内核的函数级 Fuzz 工具，在 Fuzz 过程中自适应地生成函数上下文，可对内核中任意目标函数进行测试，发现 27 个 bug（25 个新漏洞），崩溃分类精度达 92.7%，RTCON 已开源。",
               "children": [],
@@ -105,6 +84,27 @@
                 "open_issues": 0,
                 "owner": "kaist-hacking",
                 "repo": "RTCON",
+                "stars": 9,
+                "topics": []
+              },
+              "first_seen": "2026-08-29T01:32:57.477Z"
+            },
+            {
+              "node_type": "item",
+              "title": "HyperMirage: Direct State Manipulation in Hybrid Virtual CPU Fuzzing, 2026",
+              "description": "针对虚拟机监视器（hypervisor）CPU 仿真接口的 Fuzz 工具，提出\"直接状态操纵\"自动变异 fuzzing 所消费的 VM 状态，免去手工构造种子的繁琐，在 Xen/KVM 中发现 11 个已确认 bug，HyperMirage 已开源。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Source code for the HyperMirage prototype published at NDSS 2026.",
+                "homepage": null,
+                "id": 1040800800,
+                "language": null,
+                "license": null,
+                "last_commit": "2026-04-19T11:44:27Z",
+                "open_issues": 0,
+                "owner": "tum-itsec",
+                "repo": "hypermirage",
                 "stars": 8,
                 "topics": []
               },
@@ -433,7 +433,7 @@
                 "open_issues": 75,
                 "owner": "googleprojectzero",
                 "repo": "fuzzilli",
-                "stars": 2394,
+                "stars": 2395,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -615,7 +615,7 @@
                 "open_issues": 0,
                 "owner": "favocado",
                 "repo": "Favocado",
-                "stars": 84,
+                "stars": 85,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1093,7 +1093,7 @@
                 "id": 601996981,
                 "language": "Python",
                 "license": null,
-                "last_commit": "2023-08-31T09:07:37Z",
+                "last_commit": "2026-11-22T06:48:46Z",
                 "open_issues": 0,
                 "owner": "vul337",
                 "repo": "KextFuzz",
@@ -2897,7 +2897,7 @@
                 "id": 306484908,
                 "language": "Rust",
                 "license": "NOASSERTION",
-                "last_commit": "2026-11-16T05:18:29Z",
+                "last_commit": "2026-11-22T15:36:45Z",
                 "open_issues": 139,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
@@ -3011,7 +3011,7 @@
                 "open_issues": 0,
                 "owner": "favocado",
                 "repo": "Favocado",
-                "stars": 84,
+                "stars": 85,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -3091,10 +3091,10 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-11-20T18:18:30Z",
-                "open_issues": 658,
+                "open_issues": 659,
                 "owner": "google",
                 "repo": "syzkaller",
-                "stars": 6420,
+                "stars": 6421,
                 "topics": [
                   "fuzz-testing",
                   "fuzzer",
@@ -3681,7 +3681,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-21T22:53:47.924Z",
+    "last_updated": "2026-11-22T23:23:48.502Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
