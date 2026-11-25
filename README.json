@@ -21,7 +21,7 @@
                 "open_issues": 3,
                 "owner": "vul337",
                 "repo": "FirmAgent",
-                "stars": 96,
+                "stars": 97,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -684,6 +684,27 @@
           "children": [
             {
               "node_type": "item",
+              "title": "FirmReBugger: A Benchmark Framework for Monolithic Firmware Fuzzers, 2026",
+              "description": "一个单片（Monolithic）固件 Fuzzer 的基准评估框架（类似固件版 FuzzBench），提出用 C 语法表达式描述漏洞的 bug oracle 与解释器，自动区分 detected/triggered/reached 等状态，并配套含 313 个 bug oracle 的 FirmBench 真实二进制基准集，耗时 10 CPU 年复现评估了 9 个 SOTA 固件 Fuzzer，FirmReBugger 已开源。",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "A benchmark framework for monolithic firmware fuzzers.",
+                "homepage": null,
+                "id": 1118127710,
+                "language": "TypeScript",
+                "license": null,
+                "last_commit": "2026-11-08T05:19:17Z",
+                "open_issues": 0,
+                "owner": "FirmReBugger",
+                "repo": "FirmReBugger",
+                "stars": 15,
+                "topics": []
+              },
+              "first_seen": "2026-11-18T00:43:15.921Z"
+            },
+            {
+              "node_type": "item",
               "title": "CombiSan: Unifying Software Sanitizers for Comprehensive Fuzzing, 2026",
               "description": "一个统一 ASan/MSan/UBSan 的 Fuzz 优化型 sanitizer，用统一的 shadow memory 同时跟踪每个字节的可寻址性与初始化状态，并将问题分析推迟到测试用例执行完毕，避免不同 sanitizer 的 bug 相互掩盖；在 OSS-Fuzz 每日测试的 10 个程序中发现 81 个新 bug，平均比串行运行 ASan+UBSan 和 MSan 快 1.7 倍，CombiSan 已开源。",
               "children": [],
@@ -699,27 +720,6 @@
                 "owner": "vusec",
                 "repo": "combisan",
                 "stars": 15,
-                "topics": []
-              },
-              "first_seen": "2026-11-18T00:43:15.921Z"
-            },
-            {
-              "node_type": "item",
-              "title": "FirmReBugger: A Benchmark Framework for Monolithic Firmware Fuzzers, 2026",
-              "description": "一个单片（Monolithic）固件 Fuzzer 的基准评估框架（类似固件版 FuzzBench），提出用 C 语法表达式描述漏洞的 bug oracle 与解释器，自动区分 detected/triggered/reached 等状态，并配套含 313 个 bug oracle 的 FirmBench 真实二进制基准集，耗时 10 CPU 年复现评估了 9 个 SOTA 固件 Fuzzer，FirmReBugger 已开源。",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "A benchmark framework for monolithic firmware fuzzers.",
-                "homepage": null,
-                "id": 1118127710,
-                "language": "TypeScript",
-                "license": null,
-                "last_commit": "2026-11-08T05:19:17Z",
-                "open_issues": 0,
-                "owner": "FirmReBugger",
-                "repo": "FirmReBugger",
-                "stars": 14,
                 "topics": []
               },
               "first_seen": "2026-11-18T00:43:15.921Z"
@@ -747,7 +747,7 @@
                 "open_issues": 0,
                 "owner": "iromise",
                 "repo": "fans",
-                "stars": 266,
+                "stars": 267,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1564,7 +1564,7 @@
                 "open_issues": 40,
                 "owner": "tls-attacker",
                 "repo": "TLS-Attacker",
-                "stars": 883,
+                "stars": 882,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1585,7 +1585,7 @@
                 "open_issues": 15,
                 "owner": "Matheus-Garbelini",
                 "repo": "sweyntooth_bluetooth_low_energy_attacks",
-                "stars": 344,
+                "stars": 345,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1627,7 +1627,7 @@
                 "open_issues": 0,
                 "owner": "iromise",
                 "repo": "fans",
-                "stars": 266,
+                "stars": 267,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1821,8 +1821,8 @@
                 "id": 412007186,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-23T20:39:30Z",
-                "open_issues": 138,
+                "last_commit": "2026-11-24T16:06:07Z",
+                "open_issues": 139,
                 "owner": "tlspuffin",
                 "repo": "tlspuffin",
                 "stars": 162,
@@ -2901,7 +2901,7 @@
                 "open_issues": 140,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2688,
+                "stars": 2691,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3090,8 +3090,8 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-23T15:13:38Z",
-                "open_issues": 662,
+                "last_commit": "2026-11-24T17:20:31Z",
+                "open_issues": 666,
                 "owner": "google",
                 "repo": "syzkaller",
                 "stars": 6424,
@@ -3150,7 +3150,7 @@
                 "open_issues": 170,
                 "owner": "googleprojectzero",
                 "repo": "winafl",
-                "stars": 2629,
+                "stars": 2630,
                 "topics": [
                   "afl",
                   "fuzzing",
@@ -3681,7 +3681,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-24T03:53:04.266Z",
+    "last_updated": "2026-11-25T02:00:20.956Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
