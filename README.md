@@ -31,7 +31,7 @@
 
 ### 2026
 
-* [FirmAgent: Leveraging Fuzzing to Assist LLM Agents with IoT Firmware Vulnerability Discovery, 2026](https://www.ndss-symposium.org/ndss-paper/firmagent-leveraging-fuzzing-to-assist-llm-agents-with-iot-firmware-vulnerability-discovery/) - 针对 IoT 固件的混合方案 FirmAgent，先用 Fuzz 收集运行时输入点（污点源）并重建潜在漏洞路径，再由大模型智能体辅助推理发现漏洞，作者团队为清华大学张超组（vul337），[FirmAgent 已开源](https://github.com/vul337/FirmAgent) ⭐ 97 | 🐛 3 | 🌐 C | 📅 2026-09-03，[看雪解读](https://bbs.kanxue.com/thread-291020.htm)。
+* [FirmAgent: Leveraging Fuzzing to Assist LLM Agents with IoT Firmware Vulnerability Discovery, 2026](https://www.ndss-symposium.org/ndss-paper/firmagent-leveraging-fuzzing-to-assist-llm-agents-with-iot-firmware-vulnerability-discovery/) - 针对 IoT 固件的混合方案 FirmAgent，先用 Fuzz 收集运行时输入点（污点源）并重建潜在漏洞路径，再由大模型智能体辅助推理发现漏洞，作者团队为清华大学张超组（vul337），[FirmAgent 已开源](https://github.com/vul337/FirmAgent) ⭐ 98 | 🐛 3 | 🌐 C | 📅 2026-09-03，[看雪解读](https://bbs.kanxue.com/thread-291020.htm)。
 * [SYSYPHUZZ: the Pressure of More Coverage, 2026](https://www.ndss-symposium.org/ndss-paper/sysyphuzz-the-pressure-of-more-coverage/) - 一个内核 Fuzz 工具，通过施加"覆盖率压力"有针对性地探索传统 Fuzzer 难以触达的欠测试代码区域，提升内核漏洞挖掘效果，来自 EPFL HexHive 团队，[Sysyphuzz 已开源](https://github.com/HexHive/Sysyphuzz) ⭐ 28 | 🐛 0 | 🌐 Python | 📅 2025-11-12。
 * [ADGFUZZ: Assignment Dependency-Guided Fuzzing for Robotic Vehicles, 2026](https://www.ndss-symposium.org/ndss-paper/adgfuzz-assignment-dependency-guided-fuzzing-for-robotic-vehicles/) - 针对机器车辆（Robotic Vehicle）控制软件的 Fuzz 框架，通过分析源码中赋值语句之间的依赖关系，专门挖掘赋值语句相关漏洞，作者已报告 16 个确认修复的 bug，[ADGFuzz 已开源](https://github.com/wyunc/ADGFuzz) ⭐ 9 | 🐛 0 | 🌐 Python | 📅 2026-01-04。
 * [RTCON: Context-Adaptive Function-Level Fuzzing for RTOS Kernels, 2026](https://www.ndss-symposium.org/ndss-paper/rtcon-context-adaptive-function-level-fuzzing-for-rtos-kernels/) - 针对实时操作系统（RTOS）内核的函数级 Fuzz 工具，在 Fuzz 过程中自适应地生成函数上下文，可对内核中任意目标函数进行测试，发现 27 个 bug（25 个新漏洞），崩溃分类精度达 92.7%，[RTCON 已开源](https://github.com/kaist-hacking/RTCON) ⭐ 9 | 🐛 0 | 🌐 C++ | 📅 2026-08-21。
@@ -219,7 +219,7 @@
 
 ### 2026
 
-* [Jazzer: Coverage-Guided Fuzzing for Semantic Vulnerabilities in the Java Ecosystem, 2026](https://ieeexplore.ieee.org/document/11573447) - 谷歌 OSS-Fuzz 中 Java 生态的主力 Fuzzer Jazzer 论文化，除内存错误外还检测 **SSRF、路径遍历、反序列化等语义类漏洞**，[Jazzer 已开源](https://github.com/CodeIntelligenceTesting/jazzer) ⭐ 1,275 | 🐛 55 | 🌐 Java | 📅 2026-11-20。
+* [Jazzer: Coverage-Guided Fuzzing for Semantic Vulnerabilities in the Java Ecosystem, 2026](https://ieeexplore.ieee.org/document/11573447) - 谷歌 OSS-Fuzz 中 Java 生态的主力 Fuzzer Jazzer 论文化，除内存错误外还检测 **SSRF、路径遍历、反序列化等语义类漏洞**，[Jazzer 已开源](https://github.com/CodeIntelligenceTesting/jazzer) ⭐ 1,276 | 🐛 55 | 🌐 Java | 📅 2026-11-27。
 * [Batch Me If You Can: Coverage-guided RPKI Fuzzing at Scale, 2026](https://ieeexplore.ieee.org/document/11573494) - 针对 RPKI（资源公钥基础设施，互联网 BGP 路由安全的基础）实现的**大规模覆盖引导 Fuzzing**，工具 CAT 吞吐量提升 66 倍，发现 21 个未知漏洞（8 个 CVE，最高 CVSS 9.8）。
 * [Camveil: Unveiling Security Camera Vulnerabilities through Multi-Protocol Coordinated Fuzzing, 2026](https://ieeexplore.ieee.org/document/11573550) - 针对监控摄像头的 **多协议协同 Fuzz** 工具，同一设备的多个协议（如 ONVIF、RTSP 等）实现存在关联交互，跨协议协同测试可挖掘单协议 Fuzz 难以发现的漏洞。
 * [deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses, 2026](https://ieeexplore.ieee.org/document/11573565) - 针对 **Rust 生态**的内存安全漏洞挖掘，利用大模型增强/合成 harness，对 unsafe 代码依赖及 Rust-C 混合库进行 Fuzz。
@@ -284,7 +284,7 @@
 
 ### 2020
 
-* [RetroWrite: Statically Instrumenting COTS Binaries for Fuzzing and Sanitization, 2020](https://www.semanticscholar.org/paper/RetroWrite%3A-Statically-Instrumenting-COTS-Binaries-Dinesh-Burow/845cafb153b0e4b9943c6d9b6a7e42c14845a0d6) - 开发了一种**二进制重写工具 retrowrite** 用于支持 AFL 和 ASAN，并证明它可以在保持精度的同时达到编译器级的性能。使用 retrowriter 重写用于覆盖引导的二进制文件在性能上与编译器检测的二进制文件相同，性能比基于 defaultQEMU 的检测高出 4.5 倍。该工具已开源：<https://github.com/HexHive/retrowrite/，同时限制非常多，比如目标二进制只能是> ⭐ 754 | 🐛 33 | 🌐 Python | 📅 2025-04-26 x86\_64 架构，必须包含符号表等。
+* [RetroWrite: Statically Instrumenting COTS Binaries for Fuzzing and Sanitization, 2020](https://www.semanticscholar.org/paper/RetroWrite%3A-Statically-Instrumenting-COTS-Binaries-Dinesh-Burow/845cafb153b0e4b9943c6d9b6a7e42c14845a0d6) - 开发了一种**二进制重写工具 retrowrite** 用于支持 AFL 和 ASAN，并证明它可以在保持精度的同时达到编译器级的性能。使用 retrowriter 重写用于覆盖引导的二进制文件在性能上与编译器检测的二进制文件相同，性能比基于 defaultQEMU 的检测高出 4.5 倍。该工具已开源：<https://github.com/HexHive/retrowrite/，同时限制非常多，比如目标二进制只能是> ⭐ 755 | 🐛 33 | 🌐 Python | 📅 2025-04-26 x86\_64 架构，必须包含符号表等。
 * [IJON: Exploring Deep State Spaces via Fuzzing, 2020](https://www.syssec.ruhr-uni-bochum.de/media/emma/veroeffentlichungen/2020/02/27/IJON-Oakland20.pdf) - 通过改造 AFL 探测程序的空间状态，发现更多程序行为，并拿游戏"超级玛丽"来作演示。 作者对超级玛丽作了修改，使所有的键盘命令都可以从标准输入中读取，并且马里奥只能不停地向右跑，只要停下来就死掉，这个设计主要是为节省时间。
 * [Krace: Data Race Fuzzing for Kernel File Systems, 2020](https://www.cc.gatech.edu/~mxu80/pubs/xu:krace.pdf) - 介绍了 KRACE，一个端到端的模糊框架，它将并发方面引入基于覆盖引导的文件系统 Fuzzing 中。
 * [Pangolin:Incremental Hybrid Fuzzing with Polyhedral Path Abstraction, 2020](https://qingkaishi.github.io/public_pdfs/SP2020.pdf) - 混合 fuzing 结合了符号执行与 Fuzz 测试的优点，已经逐渐成为基于覆盖引导的 Fuzzing 技术的重要发展方向之一。尽管在实现高覆盖率方面取得了巨大进展，但众所周知，混合模糊仍然存在效率问题。  将约束求解后对信息重用起来，是有可能实现 Constrained Mutation 和 Guided Constraint Solving，从而**提升混合 Fuzz 效率**。
@@ -352,7 +352,7 @@
 
 ### 2022 ⤵
 
-* [LibAFL: A Framework to Build Modular and Reusable Fuzzers, 2022](https://dl.acm.org/doi/10.1145/3548606.3560602) - **LibAFL**，这是一个构建模块化和可重用模糊器的框架，来自于谷歌的个人研究者，已开源 **[LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,694 | 🐛 140 | 🌐 Rust | 📅 2026-11-22**。
+* [LibAFL: A Framework to Build Modular and Reusable Fuzzers, 2022](https://dl.acm.org/doi/10.1145/3548606.3560602) - **LibAFL**，这是一个构建模块化和可重用模糊器的框架，来自于谷歌的个人研究者，已开源 **[LibAFL](https://github.com/AFLplusplus/LibAFL) ⭐ 2,695 | 🐛 140 | 🌐 Rust | 📅 2026-11-22**。
 * [WINNIE : Fuzzing Windows Applications with Harness Synthesis and Fast Cloning, 2021](https://www.ndss-symposium.org/ndss-paper/winnie-Fuzzing-windows-applications-with-harness-synthesis-and-fast-cloning/) - 利用合成和快速克隆对 **Windows 应用程序**进行 Fuzz 测试，作者构建了一个端到端 [WINNIE](https://github.com/sslab-gatech/winnie) ⭐ 575 | 🐛 15 | 🌐 C | 📅 2022-11-28 系统，包含两个组件：可从二进制文件中自动合成工具的生成器，以及一个高效的 Windows forkserver。 对比工具： WinAFL 。
 * [DIFUZE: Interface Aware Fuzzing for Kernel Drivers, 2017](https://acmccs.github.io/papers/p2123-corinaA.pdf) - 作者提出的一个 seed 生成方案。通过**优化种子生成**，同样也可以达到提高 Fuzzing 效率的效果。经过验证，[DIFUZE](https://github.com/ucsb-seclab/difuze) ⭐ 387 | 🐛 7 | 🌐 C++ | 📅 2022-04-30 相较于现有的 Fuzzer 在 ioctl() 接口上，确实存在着明显的优势。这也是显然的，DIFUZE 相较于其他的工具在 Fuzzing这样一个需要超大信息量的接口上提供了足够的信息，支撑它挖掘出大于其他工具几个数量级的信息量。
 * [DIFUZE: Interface Aware Fuzzing for Kernel Drivers, 2017](https://acmccs.github.io/papers/p2123-corinaA.pdf) - 作者设计并完成了**针对用户态与内核驱动关键接口 ioctl() 的 Fuzzing 工具 DIFUZE**， [DIFUZE](https://github.com/ucsb-seclab/difuze) ⭐ 387 | 🐛 7 | 🌐 C++ | 📅 2022-04-30 首先对内核代码进行静态分析，完成interface 的 recovery，获取 interface 的关键信息，并基于这些有效的信息去生成更加合理的 Fuzzing 输入，得到一个更好的 Fuzzing 效果。
@@ -381,7 +381,7 @@
 
 ### 二进制
 
-* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,425 | 🐛 658 | 🌐 Go | 📅 2026-11-26：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
+* [syzkaller](https://github.com/google/syzkaller) ⭐ 6,425 | 🐛 658 | 🌐 Go | 📅 2026-11-27：优秀的**内核 Fuzz** 工具，可以针对各种**驱动接口**进行 Fuzzing。
 * [HonggFuzz](https://github.com/google/honggFuzz) ⭐ 3,417 | 🐛 32 | 🌐 C | 📅 2026-09-25：同样是谷歌开发的一个类似于 afl 的工具，只是 honggFuzz 基于反馈驱动，多线程和多进程，Fuzz 速度相比于 afl 有一个质的飞跃。
 * [winafl](https://github.com/googleprojectzero/winafl) ⭐ 2,629 | 🐛 170 | 🌐 C | 📅 2026-03-13：afl 的一个分支项目，将 afl 用于Windows 平台。
 * [trinity](https://github.com/kernelslacker/trinity) ⭐ 909 | 🐛 1 | 🌐 C | 📅 2026-11-20：Linux system call Fuzzer，对于 **Linux 系统调用**的 Fuzz 测试工具。
@@ -474,4 +474,4 @@
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-27._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-28._

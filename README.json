@@ -21,7 +21,7 @@
                 "open_issues": 3,
                 "owner": "vul337",
                 "repo": "FirmAgent",
-                "stars": 97,
+                "stars": 98,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:32:57.477Z"
@@ -1732,11 +1732,11 @@
                 "id": 333867901,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-20T05:58:37Z",
+                "last_commit": "2026-11-27T02:59:41Z",
                 "open_issues": 55,
                 "owner": "CodeIntelligenceTesting",
                 "repo": "jazzer",
-                "stars": 1275,
+                "stars": 1276,
                 "topics": [
                   "clojure",
                   "fuzzer",
@@ -2232,7 +2232,7 @@
                 "open_issues": 33,
                 "owner": "HexHive",
                 "repo": "retrowrite",
-                "stars": 754,
+                "stars": 755,
                 "topics": [
                   "aarch64",
                   "assembly",
@@ -2901,7 +2901,7 @@
                 "open_issues": 140,
                 "owner": "AFLplusplus",
                 "repo": "LibAFL",
-                "stars": 2694,
+                "stars": 2695,
                 "topics": [
                   "afl",
                   "afl-fuzz",
@@ -3090,7 +3090,7 @@
                 "id": 44087204,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-26T13:51:51Z",
+                "last_commit": "2026-11-27T18:39:29Z",
                 "open_issues": 658,
                 "owner": "google",
                 "repo": "syzkaller",
@@ -3681,7 +3681,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-27T01:33:55.393Z",
+    "last_updated": "2026-11-28T01:14:42.384Z",
     "original_repository_info": {
       "archived": false,
       "description": "Curated list of classic fuzzing books, papers about fuzzing at information security top conferences over the years, commonly used fuzzing tools, and resources that can help us use fuzzer easily. ",
@@ -3693,7 +3693,7 @@
       "open_issues": 0,
       "owner": "secnotes",
       "repo": "fuzzing-tutorial",
-      "stars": 405,
+      "stars": 406,
       "topics": [
         "awesome",
         "awesome-list",
